@@ -276,7 +276,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 {
                     if (MainV2.comPort.BaseStream == null || !MainV2.comPort.BaseStream.IsOpen)
                     {
-                        CustomMessageBox.Show("You are not connected", Strings.ERROR);
+                        CustomMessageBox.Show(Strings.YouAreNotConnected, Strings.ERROR);
                         return;
                     }
 
@@ -316,7 +316,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 {
                     if (MainV2.comPort.BaseStream == null || !MainV2.comPort.BaseStream.IsOpen)
                     {
-                        CustomMessageBox.Show("Your are not connected", Strings.ERROR);
+                        CustomMessageBox.Show(Strings.YourAreNotConnected, Strings.ERROR);
                         return;
                     }
 
@@ -364,29 +364,29 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
 
             if (error > 0)
-                CustomMessageBox.Show("Not all parameters successfully saved.", "Saved");
+                CustomMessageBox.Show(Strings.NotAllParametersSuccessfullySaved, "Saved");
             else if (temp.Count>0)
                 CustomMessageBox.Show($"{temp.Count} parameters successfully saved.", "Saved");
             else
-                CustomMessageBox.Show("No parameters were changed.", "No changes");
+                CustomMessageBox.Show(Strings.NoParametersWereChanged, "No changes");
 
             //Check if reboot is required
             if (reboot)
             {
-               CustomMessageBox.Show("Reboot is required for some parameters to take effect.", "Reboot Required");
+               CustomMessageBox.Show(Strings.RebootIsRequiredForSomeParameters, "Reboot Required");
             }
 
             if (MainV2.comPort.MAV.param.TotalReceived != MainV2.comPort.MAV.param.TotalReported )
             {
                 if (MainV2.comPort.MAV.cs.armed)
                 {
-                    CustomMessageBox.Show("The number of available parameters changed, until full param refresh is done, some parameters will not be available.", "Params");
+                    CustomMessageBox.Show(Strings.TheNumberOfAvailableParametersChanged, "Params");
                     //Hack the number of reported params to keep params list available
                     MainV2.comPort.MAV.param.TotalReported = MainV2.comPort.MAV.param.TotalReceived;
                 }
                 else
                 {
-                    CustomMessageBox.Show("The number of available parameters changed. A full param refresh will be done to show all params.", "Params");
+                    CustomMessageBox.Show(Strings.TheNumberOfAvailableParametersChanged2, "Params");
                     //Click on refresh button
                     BUT_rerequestparams_Click(BUT_rerequestparams, null);
                 }
@@ -961,7 +961,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 ThemeManager.ApplyThemeTo(paramCompareForm);
                 if (paramCompareForm.ShowDialog() == DialogResult.OK)
                 {
-                    CustomMessageBox.Show("Loaded parameters, please make sure you write them!", "Loaded");
+                    CustomMessageBox.Show(Strings.LoadedParametersPleaseMakeSureYou, "Loaded");
                 }
 
                 // no activate the user needs to click write.
@@ -980,7 +980,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private void BUT_reset_params_Click(object sender, EventArgs e)
         {
             if (
-                CustomMessageBox.Show("Reset all parameters to default\nAre you sure!!", "Reset",
+                CustomMessageBox.Show(Strings.ResetAllParametersToDefaultAre, "Reset",
                     MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
             {
                 try
@@ -992,7 +992,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
 
                     CustomMessageBox.Show(
-                        "Your board is now rebooting, You will be required to reconnect to the autopilot.");
+                        Strings.YourBoardIsNowRebootingYou);
                 }
                 catch (Exception ex)
                 {
@@ -1098,11 +1098,11 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Invalid command");
+                CustomMessageBox.Show(Strings.InvalidCommand);
                 return;
             }
 
-            CustomMessageBox.Show("Parameters committed to non-volatile memory");
+            CustomMessageBox.Show(Strings.ParametersCommittedToNonVolatileMemory);
             return;
         }
 

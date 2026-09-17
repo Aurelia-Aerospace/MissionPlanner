@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="BUT_Accept.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ángulo [grados]</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Altitud</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Resolución</value>
+  </data>
+  <data name="chk_includeland.Text" xml:space="preserve">
+    <value>Añadir un punto de referencia terrestre</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Velocidad [m/s]</value>
+  </data>
+  <data name="CHK_includetakeoff.Text" xml:space="preserve">
+    <value>Añadir punto de referencia de despegue</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Misión</value>
+  </data>
+  <data name="chk_footprints.Text" xml:space="preserve">
+    <value>Huellas</value>
+  </data>
+  <data name="chk_internals.Text" xml:space="preserve">
+    <value>Componentes internos</value>
+  </data>
+  <data name="chk_grid.Text" xml:space="preserve">
+    <value>Cuadrícula</value>
+  </data>
+  <data name="chk_markers.Text" xml:space="preserve">
+    <value>Marcadores</value>
+  </data>
+  <data name="chk_boundary.Text" xml:space="preserve">
+    <value>Límite</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Pantalla</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Foto cada (aprox.):</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Duración estimada del vuelo:</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Distancia entre líneas:</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Huella:</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>N.º de tiras:</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Distancia entre imágenes: </value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="RAD_camdirectionport.Text" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="RAD_camdirectionland.Text" xml:space="preserve">
+    <value>Paisaje</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Cámara</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tiempo máximo de vuelo (min)</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Velocidad máxima (m/s)</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Velocidad mínima (m/s)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Aeronaves</value>
+  </data>
+  <data name="LBL_topdock.Text" xml:space="preserve">
+    <value>Haz clic y arrastra un rectángulo sobre la zona que quieras medir</value>
+  </data>
+  <data name="toolStripButtonpan.Text" xml:space="preserve">
+    <value>Sartén</value>
+  </data>
+  <data name="toolStripButtonbox.Text" xml:space="preserve">
+    <value>Caja</value>
+  </data>
+  <data name="toolStripButtonmovebox.Text" xml:space="preserve">
+    <value>Mover caja</value>
+  </data>
+  <data name="toolStripButtoneditbox.Text" xml:space="preserve">
+    <value>Cuadro de edición</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Encuesta (Gridv2)</value>
+  </data>
+</root>

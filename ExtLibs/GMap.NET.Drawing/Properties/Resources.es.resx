@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="CreateTileDb" xml:space="preserve">
+    <value>CREATE TABLE IF NOT EXISTS Tiles (id INTEGER NOT NULL PRIMARY KEY, X INTEGER NOT NULL, Y INTEGER NOT NULL, Zoom INTEGER NOT NULL, Type UNSIGNED INTEGER NOT NULL, CacheTime DATETIME);
+CREATE INDEX IF NOT EXISTS IndexOfTiles ON Tiles (X, Y, Zoom, Type);
+
+CREATE TABLE IF NOT EXISTS TilesData (id INTEGER NOT NULL PRIMARY KEY CONSTRAINT fk_Tiles_id REFERENCES Tiles(id) ON DELETE CASCADE, Tile BLOB NULL);
+
+-- Clave externa que impide la inserción
+CREATE TRIGGER fki_TilesData_id_Tiles_id
+BEFORE INSERT ON [TilesData]
+FOR EACH ROW BEGIN
+  SELECT RAISE(ROLLBACK, 'la inserción en la tabla "TilesData" incumple la restricción de clave externa "fki_TilesData_id_Tiles_id"')
+  WHERE (SELECT id FROM Tiles WHERE id = NEW.id) IS NULL;
+END;
+
+-- Clave externa que impide la actualización
+CREATE TRIGGER fku_TilesData_id_Tiles_id
+BEFORE UPDATE ON [TilesData] 
+FOR EACH ROW BEGIN
+    SELECT RAISE(ROLLBACK, 'la actualización en la tabla "TilesData" incumple la restricción de clave externa "fku_TilesData_id_Tiles_id"')
+ WHERE (SELECT id FROM Tiles WHERE id = NEW.id) IS NULL;
+END;
+
+-- Eliminación en cascada
+CREATE TRIGGER fkdc_TilesData_id_Tiles_id
+BEFORE DELETE ON Tiles
+FOR EACH ROW BEGIN 
+ DELETE FROM TilesData WHERE TilesData.id = OLD.id;
+END;</value>
+  </data>
+</root>

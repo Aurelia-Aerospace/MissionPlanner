@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Velocidad de variación</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Crucero</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Aceleración 0-100 %</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Proporción</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Crucero</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Velocidad aerodinámica (m/s)</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Paso mínimo</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Pitch Max</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Bank Max</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Ángulos de navegación</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>De P a T</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Mezcla del timón</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Otras mezclas</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>INT_MAX</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Energía/PID alternativo</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>INT_MAX</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label71.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label72.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>PID de navegación, inclinación y altitud</value>
+  </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value>INT_MAX</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label67.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label68.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Ángulo de navegación, paso, AS, PID</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>Integrador Max</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>Amortiguación</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Integral</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>Giro 2 balanceo</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Servo de guiñada</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>INT_MAX</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Servo de paso PID</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>INT_MAX</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Servo Roll PID</value>
+  </data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve">
+    <value>Escribir parámetros</value>
+  </data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve">
+    <value>Actualizar parámetros</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Amortiguación</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Control L1 - Control de giro</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Velocidad de hundimiento máxima (m/s)</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Constante de tiempo</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Amortiguación de la altura del tono</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Min de hundimiento (m/s)</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Ascenso máximo (m/s)</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>TECS</value>
+  </data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve">
+    <value>Actualizar pantalla</value>
+  </data>
+</root>

@@ -204,7 +204,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
 
             CustomMessageBox.Show(
-                "Ensure your transmitter is on and receiver is powered and connected\nEnsure your motor does not have power/no props!!!");
+                Strings.EnsureYourTransmitterIsOnAnd);
 
             var oldrc = MainV2.comPort.MAV.cs.raterc;
             var oldatt = MainV2.comPort.MAV.cs.rateattitude;
@@ -227,7 +227,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             BUT_Calibrateradio.Text = Strings.Click_when_Done;
 
             CustomMessageBox.Show(
-                "Click OK and move all RC sticks and switches to their\nextreme positions so the red bars hit the limits.");
+                Strings.ClickOkAndMoveAllRc);
 
             run = true;
 
@@ -324,11 +324,11 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Bad channel 1 input, canceling");
+                CustomMessageBox.Show(Strings.BadChannel1InputCanceling);
                 return;
             }
 
-            CustomMessageBox.Show("Ensure all your sticks are centered and throttle is down, and click ok to continue");
+            CustomMessageBox.Show(Strings.EnsureAllYourSticksAreCentered);
 
             MainV2.comPort.MAV.cs.UpdateCurrentSettings(currentStateBindingSource.UpdateDataSource(MainV2.comPort.MAV.cs), true, MainV2.comPort);
 
@@ -459,11 +459,11 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 try
                 {
                     MainV2.comPort.setParam((byte)MainV2.comPort.sysidcurrent, (byte)MainV2.comPort.compidcurrent, "SWITCH_ENABLE", 0);
-                    CustomMessageBox.Show("Disabled Dip Switchs");
+                    CustomMessageBox.Show(Strings.DisabledDipSwitchs);
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Error Disableing Dip Switch");
+                    CustomMessageBox.Show(Strings.ErrorDisableingDipSwitch);
                 }
             }
         }

@@ -331,7 +331,7 @@ namespace MissionPlanner.GCSViews
             }
             catch
             {
-                CustomMessageBox.Show("Please fix your default alt value");
+                CustomMessageBox.Show(Strings.PleaseFixYourDefaultAltValue);
                 TXT_DefaultAlt.Text = (50 * CurrentState.multiplieralt).ToString("0");
             }
         }
@@ -613,7 +613,7 @@ namespace MissionPlanner.GCSViews
                 else
                 {
                     if (
-                        CustomMessageBox.Show("This will clear your existing points, Continue?", "Confirm",
+                        CustomMessageBox.Show(Strings.ThisWillClearYourExistingPoints, "Confirm",
                             MessageBoxButtons.OKCancel) != (int) DialogResult.OK)
                     {
                         return;
@@ -647,7 +647,7 @@ namespace MissionPlanner.GCSViews
             if ((altmode) CMB_altmode.SelectedValue == altmode.Absolute)
             {
                 if ((int) DialogResult.No ==
-                    CustomMessageBox.Show("Absolute Alt is selected are you sure?", "Alt Mode",
+                    CustomMessageBox.Show(Strings.AbsoluteAltIsSelectedAreYou, "Alt Mode",
                         MessageBoxButtons.YesNo))
                 {
                     CMB_altmode.SelectedValue = (int) altmode.Relative;
@@ -666,7 +666,7 @@ namespace MissionPlanner.GCSViews
             }
             catch
             {
-                CustomMessageBox.Show("Your home location is invalid", Strings.ERROR);
+                CustomMessageBox.Show(Strings.YourHomeLocationIsInvalid, Strings.ERROR);
                 return;
             }
 
@@ -680,7 +680,7 @@ namespace MissionPlanner.GCSViews
                     {
                         if (!double.TryParse(Commands[b, a].Value.ToString(), out answer))
                         {
-                            CustomMessageBox.Show("There are errors in your mission");
+                            CustomMessageBox.Show(Strings.ThereAreErrorsInYourMission);
                             return;
                         }
                     }
@@ -846,7 +846,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Failed to get fence point", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.FailedToGetFencePoint, Strings.ERROR);
                 }
 
                 return;
@@ -854,13 +854,13 @@ namespace MissionPlanner.GCSViews
 
             if (MainV2.comPort.MAV.param["FENCE_ACTION"] == null || MainV2.comPort.MAV.param["FENCE_TOTAL"] == null)
             {
-                CustomMessageBox.Show("Not Supported");
+                CustomMessageBox.Show(Strings.NotSupported);
                 return;
             }
 
             if (int.Parse(MainV2.comPort.MAV.param["FENCE_TOTAL"].ToString()) <= 1)
             {
-                CustomMessageBox.Show("Nothing to download");
+                CustomMessageBox.Show(Strings.NothingToDownload);
                 return;
             }
 
@@ -940,7 +940,7 @@ namespace MissionPlanner.GCSViews
 
             if (int.Parse(MainV2.comPort.MAV.param["RALLY_TOTAL"].ToString()) < 1)
             {
-                CustomMessageBox.Show("Rally points - Nothing to download");
+                CustomMessageBox.Show(Strings.RallyPointsNothingToDownload);
                 return;
             }
 
@@ -963,7 +963,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Failed to get rally point", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.FailedToGetRallyPoint, Strings.ERROR);
                     return;
                 }
             }
@@ -1115,7 +1115,7 @@ namespace MissionPlanner.GCSViews
         {
             if (selectedrow > Commands.RowCount)
             {
-                CustomMessageBox.Show("Invalid coord, How did you do this?");
+                CustomMessageBox.Show(Strings.InvalidCoordHowDidYouDo);
                 return;
             }
 
@@ -1174,7 +1174,7 @@ namespace MissionPlanner.GCSViews
 
                     if (pass == false)
                     {
-                        CustomMessageBox.Show("You must have a home altitude");
+                        CustomMessageBox.Show(Strings.YouMustHaveAHomeAltitude);
                         string homealt = "100";
                         if (DialogResult.Cancel == InputBox.Show("Home Alt", "Home Altitude", ref homealt))
                             return;
@@ -1184,7 +1184,7 @@ namespace MissionPlanner.GCSViews
                     int results1;
                     if (!int.TryParse(TXT_DefaultAlt.Text, out results1))
                     {
-                        CustomMessageBox.Show("Your default alt is not valid");
+                        CustomMessageBox.Show(Strings.YourDefaultAltIsNotValid);
                         return;
                     }
 
@@ -1242,7 +1242,7 @@ namespace MissionPlanner.GCSViews
                 }
                 else
                 {
-                    CustomMessageBox.Show("Invalid Home or wp Alt");
+                    CustomMessageBox.Show(Strings.InvalidHomeOrWpAlt);
                     cell.Style.BackColor = Color.Red;
                 }
             }
@@ -1834,7 +1834,7 @@ namespace MissionPlanner.GCSViews
                         }
                         catch
                         {
-                            CustomMessageBox.Show("Error opening File", Strings.ERROR);
+                            CustomMessageBox.Show(Strings.ErrorOpeningFile, Strings.ERROR);
                             return;
                         }
                     }
@@ -1909,7 +1909,7 @@ namespace MissionPlanner.GCSViews
 
             if ((MAVLink.MAV_MISSION_TYPE) cmb_missiontype.SelectedValue != MAVLink.MAV_MISSION_TYPE.MISSION)
             {
-                CustomMessageBox.Show("Only available for missions");
+                CustomMessageBox.Show(Strings.OnlyAvailableForMissions);
                 return;
             }
 
@@ -2001,7 +2001,7 @@ namespace MissionPlanner.GCSViews
 
             if (polygon.Count == 0)
             {
-                CustomMessageBox.Show("Please define a polygon!");
+                CustomMessageBox.Show(Strings.PleaseDefineAPolygon);
                 return 0;
             }
 
@@ -2131,7 +2131,7 @@ namespace MissionPlanner.GCSViews
             }
             catch
             {
-                CustomMessageBox.Show("Failed to set FENCE_ENABLE");
+                CustomMessageBox.Show(Strings.FailedToSetFenceEnable);
                 return;
             }
 
@@ -2142,7 +2142,7 @@ namespace MissionPlanner.GCSViews
             }
             catch
             {
-                CustomMessageBox.Show("Failed to set FENCE_ACTION");
+                CustomMessageBox.Show(Strings.FailedToSetFenceAction);
                 return;
             }
 
@@ -2153,7 +2153,7 @@ namespace MissionPlanner.GCSViews
             }
             catch
             {
-                CustomMessageBox.Show("Failed to set FENCE_TOTAL");
+                CustomMessageBox.Show(Strings.FailedToSetFenceTotal);
                 return;
             }
 
@@ -2249,7 +2249,7 @@ namespace MissionPlanner.GCSViews
             catch (Exception ex)
             {
                 log.Error(ex);
-                CustomMessageBox.Show("Map change failed. try zooming out first.");
+                CustomMessageBox.Show(Strings.MapChangeFailedTryZoomingOut);
             }
         }
 
@@ -2295,7 +2295,7 @@ namespace MissionPlanner.GCSViews
             }
             catch (Exception)
             {
-                CustomMessageBox.Show("Row error");
+                CustomMessageBox.Show(Strings.RowError);
             }
         }
 
@@ -2327,7 +2327,7 @@ namespace MissionPlanner.GCSViews
                 catch (Exception ex)
                 {
                     log.Error(ex);
-                    CustomMessageBox.Show("Invalid Lat/Long, please fix", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.InvalidLatLongPleaseFix, Strings.ERROR);
                 }
             }
 
@@ -2895,25 +2895,25 @@ namespace MissionPlanner.GCSViews
             int altstep = 5;
             if (!int.TryParse(RadiusIn, out Radius))
             {
-                CustomMessageBox.Show("Bad Radius");
+                CustomMessageBox.Show(Strings.BadRadius);
                 return;
             }
 
             if (!int.TryParse(minaltin, out minalt))
             {
-                CustomMessageBox.Show("Bad min alt");
+                CustomMessageBox.Show(Strings.BadMinAlt);
                 return;
             }
 
             if (!int.TryParse(maxaltin, out maxalt))
             {
-                CustomMessageBox.Show("Bad maxalt");
+                CustomMessageBox.Show(Strings.BadMaxalt);
                 return;
             }
 
             if (!int.TryParse(altstepin, out altstep))
             {
-                CustomMessageBox.Show("Bad alt step");
+                CustomMessageBox.Show(Strings.BadAltStep);
                 return;
             }
 
@@ -3003,19 +3003,19 @@ namespace MissionPlanner.GCSViews
 
             if (!int.TryParse(Pointsin, out Points))
             {
-                CustomMessageBox.Show("Bad Point value");
+                CustomMessageBox.Show(Strings.BadPointValue);
                 return;
             }
 
             if (!int.TryParse(Directionin, out Direction))
             {
-                CustomMessageBox.Show("Bad Direction value");
+                CustomMessageBox.Show(Strings.BadDirectionValue);
                 return;
             }
 
             if (!int.TryParse(startanglein, out startangle))
             {
-                CustomMessageBox.Show("Bad start angle value");
+                CustomMessageBox.Show(Strings.BadStartAngleValue);
                 return;
             }
 
@@ -3143,7 +3143,7 @@ namespace MissionPlanner.GCSViews
                     catch (Exception ex)
                     {
                         log.Error(ex);
-                        CustomMessageBox.Show("error selecting wp, please try again.");
+                        CustomMessageBox.Show(Strings.ErrorSelectingWpPleaseTryAgain);
                     }
                 }
                 else if (int.TryParse(CurentRectMarker.InnerMarker.Tag.ToString().Replace("grid", ""), out no))
@@ -3157,7 +3157,7 @@ namespace MissionPlanner.GCSViews
                     catch (Exception ex)
                     {
                         log.Error(ex);
-                        CustomMessageBox.Show("Remove point Failed. Please try again.");
+                        CustomMessageBox.Show(Strings.RemovePointFailedPleaseTryAgain);
                     }
                 }
             }
@@ -3640,7 +3640,7 @@ namespace MissionPlanner.GCSViews
                 }
             }
             redrawPolygonSurvey(currentWaypoints);
-            if (CustomMessageBox.Show("Clear current waypoints?", "Confirm",
+            if (CustomMessageBox.Show(Strings.ClearCurrentWaypoints, "Confirm",
                                        MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
             {
                 clearMissionToolStripMenuItem_Click(null, null);  // perhaps not best practice to directly call "click" events
@@ -3735,19 +3735,19 @@ namespace MissionPlanner.GCSViews
 
             if (drawnpolygon == null)
             {
-                CustomMessageBox.Show("No polygon to upload");
+                CustomMessageBox.Show(Strings.NoPolygonToUpload);
                 return;
             }
 
             if (geofenceoverlay.Markers.Count == 0)
             {
-                CustomMessageBox.Show("No return location set");
+                CustomMessageBox.Show(Strings.NoReturnLocationSet);
                 return;
             }
 
             if (drawnpolygon.Points.Count == 0)
             {
-                CustomMessageBox.Show("No polygon drawn");
+                CustomMessageBox.Show(Strings.NoPolygonDrawn);
                 return;
             }
 
@@ -3760,7 +3760,7 @@ namespace MissionPlanner.GCSViews
                 !pnpoly(plll.ToArray(), geofenceoverlay.Markers[0].Position.Lat,
                     geofenceoverlay.Markers[0].Position.Lng))
             {
-                CustomMessageBox.Show("Your return location is outside the polygon");
+                CustomMessageBox.Show(Strings.YourReturnLocationIsOutsideThe);
                 return;
             }
 
@@ -3778,7 +3778,7 @@ namespace MissionPlanner.GCSViews
 
                 if (!int.TryParse(minalts, out minalt))
                 {
-                    CustomMessageBox.Show("Bad Min Alt");
+                    CustomMessageBox.Show(Strings.BadMinAlt2);
                     return;
                 }
             }
@@ -3794,7 +3794,7 @@ namespace MissionPlanner.GCSViews
 
                 if (!int.TryParse(maxalts, out maxalt))
                 {
-                    CustomMessageBox.Show("Bad Max Alt");
+                    CustomMessageBox.Show(Strings.BadMaxAlt);
                     return;
                 }
             }
@@ -3811,7 +3811,7 @@ namespace MissionPlanner.GCSViews
             catch (Exception ex)
             {
                 log.Error(ex);
-                CustomMessageBox.Show("Failed to set min/max fence alt");
+                CustomMessageBox.Show(Strings.FailedToSetMinMaxFence);
                 return;
             }
 
@@ -3864,7 +3864,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Failed to restore FENCE_ACTION");
+                    CustomMessageBox.Show(Strings.FailedToRestoreFenceAction);
                     return;
                 }
 
@@ -4065,7 +4065,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("SPLINE_WAYPOINT command not supported.");
+                    CustomMessageBox.Show(Strings.SplineWaypointCommandNotSupported);
                     Commands.Rows.RemoveAt(selectedrow);
                     return;
                 }
@@ -4088,7 +4088,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Invalid insert position", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.InvalidInsertPosition, Strings.ERROR);
                     return;
                 }
 
@@ -4305,7 +4305,7 @@ namespace MissionPlanner.GCSViews
             else
             {
                 CustomMessageBox.Show(
-                    "If you're at the field, connect to your APM and wait for GPS lock. Then click 'Home Location' link to set home to your location");
+                    Strings.IfYouReAtTheField);
             }
         }
 
@@ -5042,7 +5042,7 @@ namespace MissionPlanner.GCSViews
             RectLatLng area = MainMap.SelectedArea;
             if (area.IsEmpty)
             {
-                var res = CustomMessageBox.Show("No ripp area defined, ripp displayed on screen?", "Rip",
+                var res = CustomMessageBox.Show(Strings.NoRippAreaDefinedRippDisplayed, "Rip",
                     MessageBoxButtons.YesNo);
                 if (res == (int) DialogResult.Yes)
                 {
@@ -5109,7 +5109,7 @@ namespace MissionPlanner.GCSViews
             }
             else
             {
-                CustomMessageBox.Show("Select map area holding ALT", "GMap.NET", MessageBoxButtons.OK,
+                CustomMessageBox.Show(Strings.SelectMapAreaHoldingAlt, "GMap.NET", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
             }
         }
@@ -5426,7 +5426,7 @@ namespace MissionPlanner.GCSViews
                     {
                         if (cellhome.Value.ToString() != TXT_homelat.Text && cellhome.Value.ToString() != "0")
                         {
-                            var dr = CustomMessageBox.Show("Reset Home to loaded coords", "Reset Home Coords",
+                            var dr = CustomMessageBox.Show(Strings.ResetHomeToLoadedCoords, "Reset Home Coords",
                                 MessageBoxButtons.YesNo);
 
                             if (dr == (int) DialogResult.Yes)
@@ -5709,7 +5709,7 @@ namespace MissionPlanner.GCSViews
                     }
                     catch
                     {
-                        CustomMessageBox.Show("Failed to write fence file");
+                        CustomMessageBox.Show(Strings.FailedToWriteFenceFile);
                     }
                 }
             }
@@ -5732,7 +5732,7 @@ namespace MissionPlanner.GCSViews
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Failed to save rally point", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.FailedToSaveRallyPoint, Strings.ERROR);
                     return;
                 }
             }
@@ -5742,7 +5742,7 @@ namespace MissionPlanner.GCSViews
         {
             if (geofenceoverlay.Markers.Count == 0)
             {
-                CustomMessageBox.Show("Please set a return location");
+                CustomMessageBox.Show(Strings.PleaseSetAReturnLocation);
                 return;
             }
 
@@ -5803,7 +5803,7 @@ namespace MissionPlanner.GCSViews
         {
             if (rallypointoverlay.Markers.Count == 0)
             {
-                CustomMessageBox.Show("Please set some rally points");
+                CustomMessageBox.Show(Strings.PleaseSetSomeRallyPoints);
                 return;
             }
             /*
@@ -5839,7 +5839,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
                     }
                     catch
                     {
-                        CustomMessageBox.Show("Failed to write rally file");
+                        CustomMessageBox.Show(Strings.FailedToWriteRallyFile);
                     }
                 }
             }
@@ -6558,7 +6558,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
 
             if (!int.TryParse(alt, out alti))
             {
-                MessageBox.Show("Bad Alt");
+                MessageBox.Show(Strings.BadAlt);
                 return;
             }
 
@@ -6586,7 +6586,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
 
                     if (!int.TryParse(top, out topi))
                     {
-                        MessageBox.Show("Bad Takeoff pitch");
+                        MessageBox.Show(Strings.BadTakeoffPitch);
                         return;
                     }
                 }
@@ -6785,7 +6785,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
         public void TXT_homelat_Enter(object sender, EventArgs e)
         {
             if (!sethome)
-                CustomMessageBox.Show("Click on the Map to set Home ");
+                CustomMessageBox.Show(Strings.ClickOnTheMapToSet);
             sethome = true;
 
         }
@@ -6863,7 +6863,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
 
             if (isNumber > (127 * CurrentState.multiplierdist))
             {
-                //CustomMessageBox.Show("The value can only be between 0 and 127 m");
+                //CustomMessageBox.Show(Strings.TheValueCanOnlyBeBetween);
                 //TXT_WPRad.Text = (127 * CurrentState.multiplierdist).ToString();
             }
 
@@ -7032,7 +7032,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
                 if (L10N.ConfigLang.IsChildOf(CultureInfo.GetCultureInfo("zh-Hans")))
                 {
                     CustomMessageBox.Show(
-                        "亲爱的中国用户，为保证地图使用正常，已为您将默认地图自动切换到具有中国特色的【谷歌中国卫星地图】！\r\n与默认【谷歌卫星地图】的区别：使用.cn服务器，加入火星坐标修正\r\n如果您所在的地区仍然无法使用，天书同时推荐必应或高德地图，其它地图由于没有加入坐标修正功能，为确保飞行安全，请谨慎选择",
+                        Strings.RCnR,
                         "默认地图已被切换");
 
                     try
@@ -7983,7 +7983,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
             bool bPngCapable = false;
             XmlNodeList getMapElements = xCapabilitesResponse.SelectNodes("//GetMap", nsmgr);
             if (getMapElements.Count != 1)
-                CustomMessageBox.Show("Invalid WMS Server response: Invalid number of GetMap elements.");
+                CustomMessageBox.Show(Strings.InvalidWmsServerResponseInvalidNumber);
             else
             {
                 XmlNode getMapNode = getMapElements.Item(0);
@@ -8001,7 +8001,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
 
             if (!bPngCapable)
             {
-                CustomMessageBox.Show("Invalid WMS Server response: Server unable to return PNG images.");
+                CustomMessageBox.Show(Strings.InvalidWmsServerResponseServerUnable);
                 return;
             }
 
@@ -8022,7 +8022,7 @@ Column 1: Field type (RALLY is the only one at the moment -- may have RALLY_LAND
             if (!bEpsgCapable)
             {
                 CustomMessageBox.Show(
-                    "Invalid WMS Server response: Server unable to return EPSG:4326 / WGS84 compatible images.");
+                    Strings.InvalidWmsServerResponseServerUnable2);
                 return;
             }
 

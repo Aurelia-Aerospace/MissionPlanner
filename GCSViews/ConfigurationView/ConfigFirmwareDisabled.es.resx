@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>No es posible cargar un nuevo firmware mientras se está conectado a través de MAVLink. 
+
+Pulsa el botón «Desconectar», situado en la esquina superior derecha, para finalizar la sesión actual de MAVLink y acceder a la pantalla de carga del firmware.</value>
+  </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve">
+    <value>Actualización del gestor de arranque</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Actualiza el gestor de arranque de tu dispositivo a la última versión disponible.</value>
+  </data>
+</root>

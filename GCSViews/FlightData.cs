@@ -806,7 +806,7 @@ namespace MissionPlanner.GCSViews
             }
             else
             {
-                CustomMessageBox.Show("Please select a valid script", "Bad Script");
+                CustomMessageBox.Show(Strings.PleaseSelectAValidScript, "Bad Script");
             }
         }
 
@@ -1348,7 +1348,7 @@ namespace MissionPlanner.GCSViews
                     }
                     else
                     {
-                        CustomMessageBox.Show("Bad input file");
+                        CustomMessageBox.Show(Strings.BadInputFile);
                     }
 
                     if (!String.IsNullOrEmpty(newlogfile))
@@ -1633,7 +1633,7 @@ namespace MissionPlanner.GCSViews
         {
             if (MainV2.comPort.MAV.cs.failsafe)
             {
-                if (CustomMessageBox.Show("You are in failsafe, are you sure?", "Failsafe", MessageBoxButtons.YesNo) !=
+                if (CustomMessageBox.Show(Strings.YouAreInFailsafeAreYou, "Failsafe", MessageBoxButtons.YesNo) !=
                     (int) DialogResult.Yes)
                 {
                     return;
@@ -2233,7 +2233,7 @@ namespace MissionPlanner.GCSViews
                 }
                 else
                 {
-                    CustomMessageBox.Show("Max 20 at a time.");
+                    CustomMessageBox.Show(Strings.Max20AtATime);
                     ((CheckBox) sender).Checked = false;
                 }
 
@@ -2874,7 +2874,7 @@ namespace MissionPlanner.GCSViews
             int intalt = (int) (100 * CurrentState.multiplieralt);
             if (!int.TryParse(alt, out intalt))
             {
-                CustomMessageBox.Show("Bad Alt");
+                CustomMessageBox.Show(Strings.BadAlt);
                 return;
             }
 
@@ -4448,7 +4448,7 @@ namespace MissionPlanner.GCSViews
         {
             if (!MainV2.comPort.BaseStream.IsOpen)
             {
-                CustomMessageBox.Show("Please Connect First");
+                CustomMessageBox.Show(Strings.PleaseConnectFirst);
                 return;
             }
 
@@ -4465,7 +4465,7 @@ namespace MissionPlanner.GCSViews
 
             if (MouseDownStart.Lat == 0.0 || MouseDownStart.Lng == 0.0)
             {
-                CustomMessageBox.Show("Bad Lat/Long");
+                CustomMessageBox.Show(Strings.BadLatLong);
                 return;
             }
 
@@ -4590,7 +4590,7 @@ namespace MissionPlanner.GCSViews
         {
             stopRecordToolStripMenuItem_Click(sender, e);
 
-            CustomMessageBox.Show("Output avi will be saved to the log folder");
+            CustomMessageBox.Show(Strings.OutputAviWillBeSavedTo);
 
             aviwriter = new AviWriter();
             try
@@ -4731,7 +4731,7 @@ namespace MissionPlanner.GCSViews
 
             if (alt.currenttype != srtm.tiletype.valid)
             {
-                CustomMessageBox.Show("No SRTM data for this area", Strings.ERROR);
+                CustomMessageBox.Show(Strings.NoSrtmDataForThisArea, Strings.ERROR);
                 return;
             }
 
@@ -4800,7 +4800,7 @@ namespace MissionPlanner.GCSViews
                     }
 
                     if (CustomMessageBox.Show(
-                            "This will reset the onboard home position (effects RTL etc). Are you Sure?",
+                            Strings.ThisWillResetTheOnboardHome,
                             "Are you sure?", CustomMessageBox.MessageBoxButtons.OKCancel) ==
                         CustomMessageBox.DialogResult.OK)
                     {
@@ -6065,7 +6065,7 @@ namespace MissionPlanner.GCSViews
 
             if (!int.TryParse(CellCount, out iCellCount))
             {
-                CustomMessageBox.Show("Bad Radius");
+                CustomMessageBox.Show(Strings.BadRadius);
                 return;
             }
             Settings.Instance["HUD_batterycellcount"] = iCellCount.ToString();
@@ -6292,12 +6292,12 @@ namespace MissionPlanner.GCSViews
                 {
                     updateTransponder();
                 }
-                else CustomMessageBox.Show("Timeout: Status message not received.");
+                else CustomMessageBox.Show(Strings.TimeoutStatusMessageNotReceived);
 
             }
             catch (Exception ex)
             {
-                CustomMessageBox.Show("Timeout.");
+                CustomMessageBox.Show(Strings.Timeout2);
             }
         }
 
@@ -6448,7 +6448,7 @@ namespace MissionPlanner.GCSViews
             UInt16 tag;
             if (!UInt16.TryParse(tag_str, out tag) || tag < 0 || tag > 0xFFFF)
             {
-                CustomMessageBox.Show("Invalid Tag. Must be a number from 0 to 65535");
+                CustomMessageBox.Show(Strings.InvalidTagMustBeANumber);
                 // NOTE: This is recursive to automatically re-pop up the dialog box
                 // on input error for as many times as you try to enter an invalid number.
                 jumpToTagToolStripMenuItem_Click(null, null);

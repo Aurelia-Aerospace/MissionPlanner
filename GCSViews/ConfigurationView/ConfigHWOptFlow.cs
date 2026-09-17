@@ -91,7 +91,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set FLOW_ENABLE Failed");
+                CustomMessageBox.Show(Strings.SetFlowEnableFailed);
             }
         }
 

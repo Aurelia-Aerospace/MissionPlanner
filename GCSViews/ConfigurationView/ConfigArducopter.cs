@@ -384,7 +384,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
                     if (MainV2.comPort.BaseStream == null || !MainV2.comPort.BaseStream.IsOpen)
                     {
-                        CustomMessageBox.Show("You are not connected", Strings.ERROR);
+                        CustomMessageBox.Show(Strings.YouAreNotConnected, Strings.ERROR);
                         return;
                     }
 

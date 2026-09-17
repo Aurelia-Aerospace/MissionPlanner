@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="CancelDownload" xml:space="preserve">
+    <value>Estás descargando un archivo de registro, ¿quieres cancelar la descarga?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>¿Estás seguro?</value>
+  </data>
+  <data name="CreatingKmlPrompt" xml:space="preserve">
+    <value>Creación de un archivo KML para {0}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Hecho</value>
+  </data>
+  <data name="DownloadStarting" xml:space="preserve">
+    <value>Descargando los archivos de registro en: {0}</value>
+  </data>
+  <data name="EraseComplete" xml:space="preserve">
+    <value>!!El proceso de borrado puede tardar entre 30 y 90 segundos</value>
+  </data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve">
+    <value>Error al procesar el archivo. Asegúrate de que el archivo no esté en uso.</value>
+  </data>
+  <data name="FetchingLog" xml:space="preserve">
+    <value>Recuperando el archivo de registro {0}...</value>
+  </data>
+  <data name="FetchingLogfileList" xml:space="preserve">
+    <value>Obteniendo la lista de archivos de registro...</value>
+  </data>
+  <data name="LogDirectoryError" xml:space="preserve">
+    <value>No se ha podido crear el directorio de archivos de registro: {0}</value>
+  </data>
+  <data name="NoLogsFound" xml:space="preserve">
+    <value>No hay registros que descargar</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Por favor, conecta tu dron</value>
+  </data>
+  <data name="NothingSelected" xml:space="preserve">
+    <value>Selecciona algunos registros marcando las casillas de la lista</value>
+  </data>
+  <data name="ProcessingLog" xml:space="preserve">
+    <value>Procesando {0}</value>
+  </data>
+  <data name="SomeLogsFound" xml:space="preserve">
+    <value>Se han encontrado {0} archivos de registro. Nota: los tamaños de los elementos son meramente orientativos.</value>
+  </data>
+  <data name="UnhandledException" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+</root>

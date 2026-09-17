@@ -401,7 +401,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set COMPASS_AUTODEC Failed");
+                CustomMessageBox.Show(Strings.SetCompassAutodecFailed);
             }
         }
 
@@ -604,7 +604,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 BUT_OBmagcalcancel.Enabled = false;
                 BUT_OBmagcalaccept.Enabled = false;
                 timer1.Stop();
-                CustomMessageBox.Show("Please reboot the autopilot");
+                CustomMessageBox.Show(Strings.PleaseRebootTheAutopilot);
             }
 
         }
@@ -633,7 +633,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 MainV2.comPort.setParam((byte)MainV2.comPort.sysidcurrent, (byte)MainV2.comPort.compidcurrent, "COMPASS_LEARN", 1);
 
                 if (
-                    CustomMessageBox.Show("is the FW version greater than APM:copter 3.01 or APM:Plane 2.74?", "",
+                    CustomMessageBox.Show(Strings.IsTheFwVersionGreaterThan, "",
                         MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
                 {
                     CMB_compass1_orient.SelectedIndex = (int)Rotation.ROTATION_NONE;
@@ -722,7 +722,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set COMPASS_LEARN Failed");
+                CustomMessageBox.Show(Strings.SetCompassLearnFailed);
             }
         }
 

@@ -117,7 +117,7 @@ namespace MissionPlanner.Controls
 
                     if (checkIDandName(i, a))
                     {
-                        CustomMessageBox.Show("Name or ID exists");
+                        CustomMessageBox.Show(Strings.NameOrIdExists);
                         return;
                     }
 

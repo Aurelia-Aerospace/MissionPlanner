@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="BadCoords" xml:space="preserve">
+    <value>Latitud/Longitud incorrectas</value>
+  </data>
+  <data name="CannotGraphField" xml:space="preserve">
+    <value>No se puede representar gráficamente este campo</value>
+  </data>
+  <data name="CommandFailed" xml:space="preserve">
+    <value>El comando no se ha ejecutado
+</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorClosingLogFile" xml:space="preserve">
+    <value>Error al cerrar los archivos de registro</value>
+  </data>
+  <data name="ErrorCommunicating" xml:space="preserve">
+    <value>Error al comunicarse con el piloto automático</value>
+  </data>
+  <data name="ErrorConnecting" xml:space="preserve">
+    <value>Error al conectarse
+</value>
+  </data>
+  <data name="ErrorFeatureNotEnabled" xml:space="preserve">
+    <value>Esta función no está activada en tu firmware.</value>
+  </data>
+  <data name="ErrorFirmwareFile" xml:space="preserve">
+    <value>Error al cargar el archivo de firmware</value>
+  </data>
+  <data name="ErrorLogList" xml:space="preserve">
+    <value>Error al recibir la lista de registros</value>
+  </data>
+  <data name="ErrorNoResponse" xml:space="preserve">
+    <value>Error: no hay respuesta del MAV</value>
+  </data>
+  <data name="ErrorNotConnected" xml:space="preserve">
+    <value>No estás conectado.</value>
+  </data>
+  <data name="ErrorReceivingParams" xml:space="preserve">
+    <value>Error al recibir la lista
+</value>
+  </data>
+  <data name="ErrorRejectedByMAV" xml:space="preserve">
+    <value>Error: comando rechazado por MAV</value>
+  </data>
+  <data name="ErrorRenameFile" xml:space="preserve">
+    <value>Error al cambiar el nombre del archivo</value>
+  </data>
+  <data name="ErrorSettingParameter" xml:space="preserve">
+    <value>Error al configurar el parámetro </value>
+  </data>
+  <data name="ErrorSetValueFailed" xml:space="preserve">
+    <value>Configuración {0} fallida</value>
+  </data>
+  <data name="InvalidAlt" xml:space="preserve">
+    <value>Texto alternativo no válido</value>
+  </data>
+  <data name="InvalidBaudRate" xml:space="preserve">
+    <value>Velocidad de transmisión no válida</value>
+  </data>
+  <data name="InvalidField" xml:space="preserve">
+    <value>Campo no válido</value>
+  </data>
+  <data name="InvalidFileName" xml:space="preserve">
+    <value>Nombre de archivo no válido</value>
+  </data>
+  <data name="InvalidNumberEntered" xml:space="preserve">
+    <value>Se ha introducido un número no válido
+</value>
+  </data>
+  <data name="InvalidPanRange" xml:space="preserve">
+    <value>Rango de pan no válido</value>
+  </data>
+  <data name="InvalidPortName" xml:space="preserve">
+    <value>Nombre de puerto no válido</value>
+  </data>
+  <data name="InvalidTiltRange" xml:space="preserve">
+    <value>Rango de inclinación no válido</value>
+  </data>
+  <data name="InvalidUpdateRate" xml:space="preserve">
+    <value>Tasa de actualización no válida</value>
+  </data>
+  <data name="NoFMTMessage" xml:space="preserve">
+    <value>No hay ningún mensaje de FMT para </value>
+  </data>
+  <data name="PleaseConnect" xml:space="preserve">
+    <value>Por favor, conéctate primero</value>
+  </data>
+  <data name="PleaseLoadValidFile" xml:space="preserve">
+    <value>Por favor, carga un archivo válido</value>
+  </data>
+  <data name="PleaseSelectCell" xml:space="preserve">
+    <value>Selecciona primero una celda, por favor</value>
+  </data>
+  <data name="SelectComport" xml:space="preserve">
+    <value>Selecciona un puerto serie, por favor</value>
+  </data>
+  <data name="WarningLogBrowseFMTMissing" xml:space="preserve">
+    <value>La función «Explorar registro» no funcionará correctamente si no hay mensajes FMT en tu registro.
+Parece que estos mensajes no aparecen en tu registro.</value>
+  </data>
+  <data name="WarningUpdateParamList" xml:space="preserve">
+    <value>Actualizar parámetros
+NO HAGAS ESTO SI ESTÁS EN VUELO
+</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Comprobación </value>
+  </data>
+  <data name="DownloadedFromInternet" xml:space="preserve">
+    <value>Descargado de Internet</value>
+  </data>
+  <data name="Getting" xml:space="preserve">
+    <value>Cómo </value>
+  </data>
+  <data name="GettingUpdatedParams" xml:space="preserve">
+    <value>Obtener los parámetros actualizados</value>
+  </data>
+  <data name="AdvancedParams" xml:space="preserve">
+    <value>Parámetros avanzados</value>
+  </data>
+  <data name="BasicTuning" xml:space="preserve">
+    <value>Ajuste básico</value>
+  </data>
+  <data name="Desc" xml:space="preserve">
+    <value>Descripción: </value>
+  </data>
+  <data name="ExtendedTuning" xml:space="preserve">
+    <value>Ajuste ampliado</value>
+  </data>
+  <data name="FlightModes" xml:space="preserve">
+    <value>Modos de vuelo</value>
+  </data>
+  <data name="FullParameterList" xml:space="preserve">
+    <value>Lista completa de parámetros</value>
+  </data>
+  <data name="FullParameterTree" xml:space="preserve">
+    <value>Árbol completo de parámetros</value>
+  </data>
+  <data name="GeoFence" xml:space="preserve">
+    <value>GeoFence</value>
+  </data>
+  <data name="StandardParams" xml:space="preserve">
+    <value>Parámetros estándar</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Unidades: {0}{1}</value>
+  </data>
+  <data name="ProgrammedOK" xml:space="preserve">
+    <value>Programado correctamente</value>
+  </data>
+  <data name="CONNECTc" xml:space="preserve">
+    <value>CONECTAR</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="DISCONNECTc" xml:space="preserve">
+    <value>DESCONECTAR</value>
+  </data>
+  <data name="Failclog" xml:space="preserve">
+    <value>No se ha podido crear el registro de la estación terrestre; no se registrará esta sesión</value>
+  </data>
+  <data name="NewFirmware" xml:space="preserve">
+    <value>Nuevo firmware</value>
+  </data>
+  <data name="NewFirmwareA" xml:space="preserve">
+    <value>Hay un nuevo firmware disponible
+</value>
+  </data>
+  <data name="Pleaseup" xml:space="preserve">
+    <value>
+Por favor, actualiza</value>
+  </data>
+  <data name="Stillmoving" xml:space="preserve">
+    <value>Tu modelo sigue en movimiento, ¿estás seguro de que quieres desconectarlo?</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Se ha agotado el tiempo de espera para el escaneo automático / No hay ningún dispositivo MAVLink conectado</value>
+  </data>
+  <data name="ConnectFailed" xml:space="preserve">
+    <value>Error al conectarse</value>
+  </data>
+  <data name="ConnectingMavlink" xml:space="preserve">
+    <value>Conexión de Mavlink</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Hecho</value>
+  </data>
+  <data name="GettingParams" xml:space="preserve">
+    <value>Obtener parámetros</value>
+  </data>
+  <data name="GettingParamsD" xml:space="preserve">
+    <value>Obteniendo parámetros...</value>
+  </data>
+  <data name="Gotparam" xml:space="preserve">
+    <value>He recibido un parámetro </value>
+  </data>
+  <data name="MavlinkConnecting" xml:space="preserve">
+    <value>Mavlink: conectando...</value>
+  </data>
+  <data name="Only1Hb" xml:space="preserve">
+    <value>Solo se ha recibido 1 «Heatbeat»</value>
+  </data>
+  <data name="Only1HbD" xml:space="preserve">
+    <value>Solo se ha leído 1 paquete de pulsación de Mavlink en este puerto. Comprueba que tu hardware esté configurado correctamente.
+Mission Planner espera a recibir 2 paquetes de pulsación válidos antes de conectarse.</value>
+  </data>
+  <data name="Trying" xml:space="preserve">
+    <value>Intentando conectarse.
+Tiempo de espera agotado en {0}</value>
+  </data>
+  <data name="CantDetectBoardVersion" xml:space="preserve">
+    <value>No se puede detectar la versión de tu placa. Comprueba el cableado.</value>
+  </data>
+  <data name="CheckPortSettingsOr" xml:space="preserve">
+    <value>¿Comprueba la configuración del puerto o si el puerto está en uso?</value>
+  </data>
+  <data name="CommunicationErrorNoConnection" xml:space="preserve">
+    <value>Error de comunicación: no hay conexión</value>
+  </data>
+  <data name="DetectedA" xml:space="preserve">
+    <value>Se ha detectado un </value>
+  </data>
+  <data name="DetectingBoardVersion" xml:space="preserve">
+    <value>Detección de la versión de la placa</value>
+  </data>
+  <data name="DownloadingFromInternet" xml:space="preserve">
+    <value>Descargas de Internet</value>
+  </data>
+  <data name="EppromChanged" xml:space="preserve">
+    <value>Se ha cambiado la EEPROM; se perderán todos tus ajustes durante la actualización.
+¿Deseas continuar?</value>
+  </data>
+  <data name="EppromFormatChanged" xml:space="preserve">
+    <value>Se ha modificado el formato de la EEPROM ({0) frente a {1})</value>
+  </data>
+  <data name="FailedDownload" xml:space="preserve">
+    <value>Error en la descarga</value>
+  </data>
+  <data name="FailedReadHEX" xml:space="preserve">
+    <value>Error al leer HEX</value>
+  </data>
+  <data name="FailedToReadHex" xml:space="preserve">
+    <value>No se ha podido leer el archivo firmware.hex:</value>
+  </data>
+  <data name="FailedUpload" xml:space="preserve">
+    <value>Error al subir el archivo</value>
+  </data>
+  <data name="GettingFWList" xml:space="preserve">
+    <value>Obtener la lista de FW</value>
+  </data>
+  <data name="GettingFWVersion" xml:space="preserve">
+    <value>Cómo obtener la versión del firmware</value>
+  </data>
+  <data name="InvalidBoardType" xml:space="preserve">
+    <value>Tipo de tabla no válido</value>
+  </data>
+  <data name="PleaseConnectAndBackupConfig" xml:space="preserve">
+    <value>Conéctate y haz una copia de seguridad de tu configuración en la pestaña «Configuración».</value>
+  </data>
+  <data name="ReadingHexFile" xml:space="preserve">
+    <value>Lectura de un archivo hexadecimal</value>
+  </data>
+  <data name="ReceivedList" xml:space="preserve">
+    <value>Lista de recibidos</value>
+  </data>
+  <data name="UploadComplete" xml:space="preserve">
+    <value>Carga completada</value>
+  </data>
+  <data name="UploadingBytesToBoard" xml:space="preserve">
+    <value>Subiendo {0} bytes a Board:</value>
+  </data>
+  <data name="VerifyComplete" xml:space="preserve">
+    <value>Verificar que está completo</value>
+  </data>
+  <data name="VerifyFirmware" xml:space="preserve">
+    <value>Comprobar el firmware</value>
+  </data>
+  <data name="UploadSucceededButVerifyFailed" xml:space="preserve">
+    <value>La carga se ha realizado correctamente, pero la verificación ha fallado: exp {0} obtuvo {1} en </value>
+  </data>
+  <data name="ReadingHex" xml:space="preserve">
+    <value>Lectura de valores hexadecimales</value>
+  </data>
+  <data name="Warningrallypointdistance" xml:space="preserve">
+    <value>Los puntos de reunión de emergencia se encuentran a una distancia superior a RALLY_LIMIT_KM</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="WarningAC32" xml:space="preserve">
+    <value>Atención: si vas a instalar AC 3.2 por primera vez, DEBES volver a realizar la calibración de la brújula.</value>
+  </data>
+  <data name="WarningAC31" xml:space="preserve">
+    <value>Atención: a partir de la versión AC 3.1, los motores girarán cuando estén armados; esto se puede configurar mediante el parámetro MOT_SPIN_ARMED.</value>
+  </data>
+  <data name="MagCalibMsg" xml:space="preserve">
+    <value>Haz clic en «Aceptar» y mueve el piloto automático por todos los ejes con un movimiento circular.</value>
+  </data>
+  <data name="MissingDataPoints" xml:space="preserve">
+    <value>Faltan algunos datos. ¿Quieres realizar la calibración de todos modos?</value>
+  </data>
+  <data name="RunAnyway" xml:space="preserve">
+    <value>ejecutar de todos modos</value>
+  </data>
+  <data name="UpdateFound" xml:space="preserve">
+    <value>Se ha encontrado una actualización
+
+¿Deseas actualizar ahora? </value>
+  </data>
+  <data name="UpdateNow" xml:space="preserve">
+    <value>Actualizar ahora</value>
+  </data>
+  <data name="RawParamWarning" xml:space="preserve">
+    <value>Advertencia sobre parámetros sin procesar</value>
+  </data>
+  <data name="RawParamWarningi" xml:space="preserve">
+    <value>No se ha comprobado que los valores de esta pantalla se encuentren dentro de los límites mínimo y máximo. Comprueba bien los datos introducidos.
+Utiliza los parámetros estándar o avanzados para garantizar una configuración segura.</value>
+  </data>
+  <data name="ShowMeAgain" xml:space="preserve">
+    <value>¿Me lo vuelves a enseñar?</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Vale</value>
+  </data>
+  <data name="LinkStats" xml:space="preserve">
+    <value>Estadísticas de enlaces</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="AreYouSureYouWantToUpload" xml:space="preserve">
+    <value>¿Estás seguro de que quieres subir el archivo? </value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaWarning" xml:space="preserve">
+    <value>Se trata de versiones beta del firmware, ¡utilízalas bajo tu propia responsabilidad!</value>
+  </data>
+  <data name="CanNotConnectToComPortAnd" xml:space="preserve">
+    <value>No se puede conectar al puerto COM ni detectar el tipo de placa</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="ErrorUploadingFirmware" xml:space="preserve">
+    <value>Error al cargar el firmware</value>
+  </data>
+  <data name="QuestionMark" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="Trunk" xml:space="preserve">
+    <value>maletero</value>
+  </data>
+  <data name="TrunkWarning" xml:space="preserve">
+    <value>Estas son las últimas versiones del firmware del maletero. ¡Úsalas bajo tu propia responsabilidad!</value>
+  </data>
+  <data name="BadGPSHealth" xml:space="preserve">
+    <value>Señal GPS defectuosa</value>
+  </data>
+  <data name="BadAirspeed" xml:space="preserve">
+    <value>Velocidad de vuelo peligrosa</value>
+  </data>
+  <data name="BadGyroHealth" xml:space="preserve">
+    <value>Mal estado del giroscopio</value>
+  </data>
+  <data name="BadAccelHealth" xml:space="preserve">
+    <value>Problemas de salud relacionados con la aceleración</value>
+  </data>
+  <data name="BadCompassHealth" xml:space="preserve">
+    <value>Bad Compass Health</value>
+  </data>
+  <data name="BadBaroHealth" xml:space="preserve">
+    <value>Mal estado de salud de Baro</value>
+  </data>
+  <data name="BadLiDARHealth" xml:space="preserve">
+    <value>Mal estado del LiDAR</value>
+  </data>
+  <data name="BadOptFlowHealth" xml:space="preserve">
+    <value>Estado deficiente de OptFlow</value>
+  </data>
+  <data name="BadorNoTerrainData" xml:space="preserve">
+    <value>Datos de terreno incorrectos o inexistentes</value>
+  </data>
+  <data name="GeofenceBreach" xml:space="preserve">
+    <value>Infracción de la zona de geolocalización</value>
+  </data>
+  <data name="BadAHRS" xml:space="preserve">
+    <value>AHRS poco saludable</value>
+  </data>
+  <data name="NORCReceiver" xml:space="preserve">
+    <value>SIN receptor RC</value>
+  </data>
+  <data name="AutoWP" xml:space="preserve">
+    <value>Auto WP</value>
+  </data>
+  <data name="EnsurePropsNotOn" xml:space="preserve">
+    <value>Asegúrate de que tus accesorios no estén en el avión o el quadcopter.</value>
+  </data>
+  <data name="FailSafe" xml:space="preserve">
+    <value>FailSafe</value>
+  </data>
+  <data name="Error_binding" xml:space="preserve">
+    <value>Error de enlace</value>
+  </data>
+  <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve">
+    <value>Pon el transmisor en modo de emparejamiento. El receptor está a la espera.</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Finalizado</value>
+  </data>
+  <data name="Click_when_Done" xml:space="preserve">
+    <value>Haz clic cuando hayas terminado</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Ahorro</value>
+  </data>
+  <data name="InvalidCert" xml:space="preserve">
+    <value>Certificado no válido</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="PleaseUnplugTheBoardAnd" xml:space="preserve">
+    <value>Desconecta la placa, pulsa «Aceptar» y vuelve a conectarla.
+Mission Planner tardará 30 segundos en detectar la placa.</value>
+  </data>
+  <data name="ThisBoardHasBeenRetired" xml:space="preserve">
+    <value>Esta placa ha quedado obsoleta; Mission Planner cargará en ella la última versión disponible (AC 3.2.1/AP 3.4.0).</value>
+  </data>
+  <data name="YouAreUsingUnsupportedHardware" xml:space="preserve">
+    <value>Estás utilizando hardware no compatible.
+Esta placa no contiene un certificado de autenticidad válido.
+Ponte en contacto con el proveedor de tu hardware para que lo certifique.</value>
+  </data>
+  <data name="NoNeedToUpload" xml:space="preserve">
+    <value>No hace falta subirlo. Ya está en el tablón.</value>
+  </data>
+  <data name="PleaseWaitForTheMusicalTones" xml:space="preserve">
+    <value>Por favor, espera a que terminen los tonos musicales antes de hacer clic en «Aceptar».</value>
+  </data>
+  <data name="ObtainFromModule" xml:space="preserve">
+    <value>Obtener desde el módulo</value>
+  </data>
+  <data name="SetHere" xml:space="preserve">
+    <value>Establecer aquí</value>
+  </data>
+  <data name="TrackerHome" xml:space="preserve">
+    <value>Página de inicio de Tracker</value>
+  </data>
+  <data name="velocity_variance" xml:space="preserve">
+    <value>varianza de la velocidad</value>
+  </data>
+  <data name="compass_variance" xml:space="preserve">
+    <value>desviación de la brújula</value>
+  </data>
+  <data name="pos_horiz_variance" xml:space="preserve">
+    <value>varianza pos-horizontal</value>
+  </data>
+  <data name="pos_vert_variance" xml:space="preserve">
+    <value>varianza de la posición vertical</value>
+  </data>
+  <data name="terrain_alt_variance" xml:space="preserve">
+    <value>varianza de la altitud del terreno</value>
+  </data>
+  <data name="ChangeThrottle" xml:space="preserve">
+    <value>Ajustar el acelerador</value>
+  </data>
+  <data name="Invalid_home_location" xml:space="preserve">
+    <value>Ubicación de origen no válida</value>
+  </data>
+  <data name="Converting_bin_to_log" xml:space="preserve">
+    <value>Conversión de bin a log</value>
+  </data>
+  <data name="UpdateNotFound" xml:space="preserve">
+    <value>No hay ninguna actualización disponible.</value>
+  </data>
+  <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve">
+    <value>No se ha podido conectar a la instancia de SITL</value>
+  </data>
+  <data name="Scanning_File" xml:space="preserve">
+    <value>Escanear un archivo</value>
+  </data>
+  <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve">
+    <value>¿Ampliar al centro o al archivo cargado?</value>
+  </data>
+  <data name="Zoom_To" xml:space="preserve">
+    <value>Acercar a</value>
+  </data>
+  <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve">
+    <value>¿Quieres cargar esto en la pantalla de datos de vuelo?</value>
+  </data>
+  <data name="Load_data" xml:space="preserve">
+    <value>Cargar datos</value>
+  </data>
+  <data name="Bad_KML_File" xml:space="preserve">
+    <value>Archivo KML incorrecto:</value>
+  </data>
+  <data name="No_valid_heartbeats_read_from_port" xml:space="preserve">
+    <value>No se han detectado pulsos válidos en el puerto</value>
+  </data>
+  <data name="Bad_Vision_Position" xml:space="preserve">
+    <value>Mala posición visual</value>
+  </data>
+  <data name="BadLogging" xml:space="preserve">
+    <value>Tala indebida</value>
+  </data>
+  <data name="ParamRefreshRequired" xml:space="preserve">
+    <value>Es necesario actualizar los parámetros. Pulsa F5.
+antiguo #{0}  nuevo #{1}</value>
+  </data>
+  <data name="Failed_to_download_the_SITL_image" xml:space="preserve">
+    <value>No se ha podido descargar la imagen SITL.</value>
+  </data>
+  <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve">
+    <value>No está disponible cuando se utiliza como aplicación de la Tienda de Windows.</value>
+  </data>
+  <data name="No_firmware_available_for_this_board" xml:space="preserve">
+    <value>¡No hay firmware disponible para esta placa!</value>
+  </data>
+  <data name="OnboardOSD" xml:space="preserve">
+    <value>OSD integrado</value>
+  </data>
+  <data name="User_Params" xml:space="preserve">
+    <value>Parámetros de usuario</value>
+  </data>
+  <data name="Planner" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="No_valid_sik_radio" xml:space="preserve">
+    <value>No hay ninguna emisora de radio SIK válida</value>
+  </data>
+  <data name="MAVFtp" xml:space="preserve">
+    <value>MAVFtp</value>
+  </data>
+  <data name="Bad_Battery" xml:space="preserve">
+    <value>Batería defectuosa</value>
+  </data>
+  <data name="Bad_Proximity" xml:space="preserve">
+    <value>Mala proximidad</value>
+  </data>
+  <data name="Bad_SatCom" xml:space="preserve">
+    <value>Malas comunicaciones por satélite</value>
+  </data>
+  <data name="Prearm_check_failed" xml:space="preserve">
+    <value>Error en la comprobación previa al armado: comprueba los mensajes</value>
+  </data>
+  <data name="Invalid_Location" xml:space="preserve">
+    <value>Ubicación no válida</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando</value>
+  </data>
+  <data name="ZeroAltWarning" xml:space="preserve">
+    <value>El punto de referencia (WP) n.º {0} tiene una altitud de cero, ¡lo que significa que no hay cambio de altitud! Si quieres que la altitud sea cero, cámbiala a 0,01 m. ¿Quieres continuar o cancelar la carga del punto de referencia?</value>
+  </data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve">
+    <value>Aviso de altitud cero</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>¡Desconectado!</value>
+  </data>
+  <data name="PleaseSelectAnOptionFirst" xml:space="preserve">
+    <value>Por favor, selecciona primero una opción</value>
+  </data>
+  <data name="LoadedParameters" xml:space="preserve">
+    <value>¡Parámetros cargados!</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Inicio de sesión realizado con éxito</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Error al iniciar sesión</value>
+  </data>
+  <data name="FailedToSave" xml:space="preserve">
+    <value>No se ha podido guardar</value>
+  </data>
+  <data name="InvalidCommand" xml:space="preserve">
+    <value>Comando no válido</value>
+  </data>
+  <data name="ParametersCommittedToNonVolatileMemory" xml:space="preserve">
+    <value>Parámetros almacenados en memoria no volátil</value>
+  </data>
+  <data name="ResetAllParametersToDefaultAre" xml:space="preserve">
+    <value>Restablecer todos los parámetros a los valores predeterminados
+¿Estás seguro?</value>
+  </data>
+  <data name="YourBoardIsNowRebootingYou" xml:space="preserve">
+    <value>Tu placa se está reiniciando ahora; tendrás que volver a conectarte al piloto automático.</value>
+  </data>
+  <data name="SomeParametersFailedToBeSaved" xml:space="preserve">
+    <value>No se han podido guardar algunos parámetros.</value>
+  </data>
+  <data name="ParametersSuccessfullySaved" xml:space="preserve">
+    <value>Los parámetros se han guardado correctamente.</value>
+  </data>
+  <data name="PleasePlanSomethingFirst" xml:space="preserve">
+    <value>Por favor, planifica algo primero</value>
+  </data>
+  <data name="ErrorGettingGeData" xml:space="preserve">
+    <value>Error al obtener los datos de GE</value>
+  </data>
+  <data name="ThisFeatureRequiresGstreamerWouldYou" xml:space="preserve">
+    <value>Esta función requiere GStreamer. ¿Quieres descargarlo e instalarlo ahora?</value>
+  </data>
+  <data name="NameOrIdExists" xml:space="preserve">
+    <value>El nombre o el número de identificación ya existe</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>No se ha podido eliminar el archivo</value>
+  </data>
+  <data name="FailedToCreateDirectory" xml:space="preserve">
+    <value>No se ha podido crear el directorio</value>
+  </data>
+  <data name="FileDoesNotExist" xml:space="preserve">
+    <value>El archivo no existe</value>
+  </data>
+  <data name="LogCanNotBeOpenedAre" xml:space="preserve">
+    <value>No se puede abrir el registro. ¿Sigues conectado?</value>
+  </data>
+  <data name="ProblemWithCaptureDeviceGrabbingFrame" xml:space="preserve">
+    <value>Problema con el dispositivo de captura: la captura del fotograma tardó más de 5 segundos.</value>
+  </data>
+  <data name="ComportOpenFailed" xml:space="preserve">
+    <value>Error al abrir Comport</value>
+  </data>
+  <data name="TakIpPortInUseIs" xml:space="preserve">
+    <value>El puerto IP de TAK está en uso. ¿Hay alguna otra aplicación en este sistema que ya lo esté utilizando?</value>
+  </data>
+  <data name="ErrorConnectingIfUsingCom0comPlease" xml:space="preserve">
+    <value>Error al conectarse
+Si utilizas com0com, cambia el nombre de los puertos a COM??</value>
+  </data>
+  <data name="YouMayNeedToSelectAnother" xml:space="preserve">
+    <value>Es posible que tengas que seleccionar otra pestaña o reiniciar para ver el resultado completo.</value>
+  </data>
+  <data name="FailedToLevel" xml:space="preserve">
+    <value>No se ha podido nivelar</value>
+  </data>
+  <data name="FailedToSimpleAccelerometerCalibration" xml:space="preserve">
+    <value>Error en la calibración básica del acelerómetro</value>
+  </data>
+  <data name="ThisIsBetaPleaseConfirmThe" xml:space="preserve">
+    <value>Esta es una versión beta; por favor, confirma el archivo de salida.</value>
+  </data>
+  <data name="YourAreNotConnected" xml:space="preserve">
+    <value>No estás conectado</value>
+  </data>
+  <data name="YouAreNotConnected" xml:space="preserve">
+    <value>No estás conectado</value>
+  </data>
+  <data name="UnableUavAirborne" xml:space="preserve">
+    <value>Imposible: el UAV está en vuelo</value>
+  </data>
+  <data name="ResetFlashToFactoryDefaults" xml:space="preserve">
+    <value>¿Restablecer el Flash a los valores predeterminados de fábrica?</value>
+  </data>
+  <data name="FailedToZeroAttitude" xml:space="preserve">
+    <value>No se ha podido establecer la actitud cero</value>
+  </data>
+  <data name="SetBattCapacityFailed" xml:space="preserve">
+    <value>Error al establecer BATT_CAPACITY</value>
+  </data>
+  <data name="SetBattMonitorBattVoltPin" xml:space="preserve">
+    <value>Error al configurar BATT_MONITOR, BATT_VOLT_PIN y BATT_CURR_PIN</value>
+  </data>
+  <data name="SetBattVoltMultFailed" xml:space="preserve">
+    <value>Error al establecer BATT_VOLT_MULT</value>
+  </data>
+  <data name="SetBattAmpPervoltFailed" xml:space="preserve">
+    <value>Error al establecer BATT_AMP_PERVOLT</value>
+  </data>
+  <data name="SetBattPinFailed" xml:space="preserve">
+    <value>Error al establecer BATT_????_PIN</value>
+  </data>
+  <data name="SetBatt2CapacityFailed" xml:space="preserve">
+    <value>Error al establecer BATT2_CAPACITY</value>
+  </data>
+  <data name="SetBatt2VoltMultFailed" xml:space="preserve">
+    <value>Error al configurar BATT2_VOLT_MULT</value>
+  </data>
+  <data name="SetBatt2AmpPervolFailed" xml:space="preserve">
+    <value>Error al configurar BATT2_AMP_PERVOL</value>
+  </data>
+  <data name="CompassmotRequiresAc32" xml:space="preserve">
+    <value>Compassmot requiere AC 3.2 o superior</value>
+  </data>
+  <data name="YouAreNotCurrentlyConnectedVia" xml:space="preserve">
+    <value>Actualmente no estás conectado a través de MVLink. Asegúrate de que el dispositivo ya se encuentre en modo SLCAN o de que este sea el puerto serie SLCAN.</value>
+  </data>
+  <data name="DoYouWantToSearchThe" xml:space="preserve">
+    <value>¿Quieres buscar en Internet alguna novedad?</value>
+  </data>
+  <data name="NoNetworkInterfacesFound" xml:space="preserve">
+    <value>No se han encontrado interfaces de red</value>
+  </data>
+  <data name="NoIpv4PropertiesFound" xml:space="preserve">
+    <value>No se han encontrado propiedades de IPv4</value>
+  </data>
+  <data name="PleaseSelectAnInterfaceType" xml:space="preserve">
+    <value>Selecciona un tipo de interfaz</value>
+  </data>
+  <data name="SetParamErrorPleaseEnsureYour" xml:space="preserve">
+    <value>Error al configurar el parámetro. Asegúrate de que tu versión sea AC3.3 o superior.</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>No disponible</value>
+  </data>
+  <data name="Solo" xml:space="preserve">
+    <value>En solitario</value>
+  </data>
+  <data name="PleaseIgnoreTheUnplugAndPlug" xml:space="preserve">
+    <value>Por favor, no desconectes y vuelvas a conectar el dispositivo al actualizar el firmware de vuelo.</value>
+  </data>
+  <data name="FailedToConnectAndSendThe" xml:space="preserve">
+    <value>No se ha podido establecer la conexión ni enviar el comando de reinicio</value>
+  </data>
+  <data name="AreYouSureYouWantTo" xml:space="preserve">
+    <value>¿Estás seguro de que quieres actualizar el gestor de arranque? Esto podría dejar tu placa inservible.</value>
+  </data>
+  <data name="AreYouSureYouWantTo2" xml:space="preserve">
+    <value>¿Estás seguro de que quieres actualizar el gestor de arranque? Esto podría dejar tu placa inservible. Por favor, espera unos 5 minutos a que finalice este proceso.</value>
+  </data>
+  <data name="UpgradedBootloader" xml:space="preserve">
+    <value>Bootloader actualizado</value>
+  </data>
+  <data name="FailedToUpgradeBootloader" xml:space="preserve">
+    <value>No se ha podido actualizar el gestor de arranque</value>
+  </data>
+  <data name="FailedToDiscoverBoardIdPlease" xml:space="preserve">
+    <value>No se ha podido detectar el identificador de la tarjeta. Vuelve a conectarla por USB e inténtalo de nuevo.</value>
+  </data>
+  <data name="FailedToDetectPortToUpload" xml:space="preserve">
+    <value>No se ha podido detectar el puerto al que realizar la carga (VID/PID desconocido o cadena de la placa)\r
+Intenta desconectar y volver a conectar, y realiza la carga mientras estés en esta pantalla</value>
+  </data>
+  <data name="DoYouWantToUploadThis" xml:space="preserve">
+    <value>¿Quieres cargarlo a través de DFU?</value>
+  </data>
+  <data name="FlashingImageTo0x08000000" xml:space="preserve">
+    <value>Actualización de la imagen a 0x08000000</value>
+  </data>
+  <data name="FailedToFindDeviceOnMavlink" xml:space="preserve">
+    <value>No se ha encontrado el dispositivo en MVLink</value>
+  </data>
+  <data name="SetCompassAutodecFailed" xml:space="preserve">
+    <value>Error al establecer COMPASS_AUTODEC</value>
+  </data>
+  <data name="PleaseRebootTheAutopilot" xml:space="preserve">
+    <value>Por favor, reinicia el piloto automático.</value>
+  </data>
+  <data name="IsTheFwVersionGreaterThan" xml:space="preserve">
+    <value>¿Es la versión de FW superior a APM:copter 3.01 o APM:Plane 2.74?</value>
+  </data>
+  <data name="SetCompassLearnFailed" xml:space="preserve">
+    <value>Error al establecer COMPASS_LEARN</value>
+  </data>
+  <data name="YourCompassConfigurationHasChangedPlease" xml:space="preserve">
+    <value>La configuración de tu brújula ha cambiado; comprueba la brújula que falta.</value>
+  </data>
+  <data name="RebootRequiredRebootNow" xml:space="preserve">
+    <value>¿Es necesario reiniciar? ¿Reiniciar ahora?</value>
+  </data>
+  <data name="RebootFailedPleaseManuallyRebootThe" xml:space="preserve">
+    <value>El reinicio ha fallado. Reinicia manualmente el hardware.</value>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>¿Reiniciar?</value>
+  </data>
+  <data name="FailedToSetOsdRates" xml:space="preserve">
+    <value>No se han podido configurar las velocidades de OSD.</value>
+  </data>
+  <data name="SetFlowEnableFailed" xml:space="preserve">
+    <value>Error al establecer FLOW_ENABLE</value>
+  </data>
+  <data name="PropSizeMustBeLargerThan" xml:space="preserve">
+    <value>El tamaño de la hélice debe ser mayor que cero.</value>
+  </data>
+  <data name="BatteryCellCountMustBeAt" xml:space="preserve">
+    <value>El número de celdas de la batería debe ser, como mínimo, 1.</value>
+  </data>
+  <data name="InitialParametersSuccesfullyUpdatedRCheck" xml:space="preserve">
+    <value>Parámetros iniciales actualizados correctamente.\r
+¡Comprueba los parámetros antes del vuelo!\r
+\r
+Tras el vuelo de prueba:\r
+  Establece ATC_THR_MIX_MAN en 0,5\r
+	Establece PSC_ACCZ_P en MOT_THST_HOVER\r
+  Establece PSC_ACCZ_I en 2*MOT_THST_HOVER\r
+\r
+¡Que disfrutes del vuelo!</value>
+  </data>
+  <data name="CommandWasDeniedByTheAutopilot" xml:space="preserve">
+    <value>El piloto automático rechazó el comando</value>
+  </data>
+  <data name="BadDefaultSystemAssociation" xml:space="preserve">
+    <value>Asociación predeterminada incorrecta del sistema</value>
+  </data>
+  <data name="ParamMotSpinArmMissing" xml:space="preserve">
+    <value>Falta el parámetro MOT_SPIN_ARM</value>
+  </data>
+  <data name="ThrottlePercentAbove20TooHigh" xml:space="preserve">
+    <value>Porcentaje de aceleración superior al 20 %, demasiado alto</value>
+  </data>
+  <data name="ParamMotSpinMinMissing" xml:space="preserve">
+    <value>Falta el parámetro MOT_SPIN_MIN</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>¿Estás seguro?</value>
+  </data>
+  <data name="NoChangesToWrite" xml:space="preserve">
+    <value>¡No hay cambios que escribir!</value>
+  </data>
+  <data name="ThisWillResetYourChangesContinue" xml:space="preserve">
+    <value>Esto restablecerá los cambios que hayas realizado. ¿Quieres continuar?</value>
+  </data>
+  <data name="FailedToGetIamstreamconfig" xml:space="preserve">
+    <value>No se ha podido obtener IAMStreamConfig</value>
+  </data>
+  <data name="PleaseRestartThePlanner" xml:space="preserve">
+    <value>Por favor, reinicia el Planner</value>
+  </data>
+  <data name="ErrorGettingParamList" xml:space="preserve">
+    <value>Error: al obtener la lista de parámetros</value>
+  </data>
+  <data name="YouNeedToRestartThePlanner" xml:space="preserve">
+    <value>Tienes que reiniciar el planificador para que los cambios surtan efecto.</value>
+  </data>
+  <data name="EnsureYourTransmitterIsOnAnd" xml:space="preserve">
+    <value>Asegúrate de que el transmisor esté encendido y de que el receptor esté conectado a la corriente y conectado
+¡Asegúrate de que el motor no reciba corriente y de que no tenga hélices!!!</value>
+  </data>
+  <data name="ClickOkAndMoveAllRc" xml:space="preserve">
+    <value>Haz clic en «Aceptar» y mueve todas las palancas y mandos del mando a distancia a sus
+posiciones extremas, de modo que las barras rojas alcancen los límites.</value>
+  </data>
+  <data name="BadChannel1InputCanceling" xml:space="preserve">
+    <value>Entrada defectuosa en el canal 1, se cancela</value>
+  </data>
+  <data name="EnsureAllYourSticksAreCentered" xml:space="preserve">
+    <value>Asegúrate de que todas las palancas estén centradas y de que el acelerador esté bajado, y haz clic en «Aceptar» para continuar.</value>
+  </data>
+  <data name="DisabledDipSwitchs" xml:space="preserve">
+    <value>Interruptores DIP desactivados</value>
+  </data>
+  <data name="ErrorDisableingDipSwitch" xml:space="preserve">
+    <value>Error al desactivar el interruptor DIP</value>
+  </data>
+  <data name="NotAllParametersSuccessfullySaved" xml:space="preserve">
+    <value>No se han guardado correctamente todos los parámetros.</value>
+  </data>
+  <data name="NoParametersWereChanged" xml:space="preserve">
+    <value>No se modificó ningún parámetro.</value>
+  </data>
+  <data name="RebootIsRequiredForSomeParameters" xml:space="preserve">
+    <value>Es necesario reiniciar el sistema para que algunos parámetros surtan efecto.</value>
+  </data>
+  <data name="TheNumberOfAvailableParametersChanged" xml:space="preserve">
+    <value>El número de parámetros disponibles ha cambiado; hasta que se complete la actualización completa de los parámetros, algunos de ellos no estarán disponibles.</value>
+  </data>
+  <data name="TheNumberOfAvailableParametersChanged2" xml:space="preserve">
+    <value>Ha cambiado el número de parámetros disponibles. Se llevará a cabo una actualización completa de los parámetros para mostrarlos todos.</value>
+  </data>
+  <data name="LoadedParametersPleaseMakeSureYou" xml:space="preserve">
+    <value>Se han cargado los parámetros, ¡asegúrate de anotarlos!</value>
+  </data>
+  <data name="PleaseRePowerToAutopilot" xml:space="preserve">
+    <value>Por favor, vuelve a activar el piloto automático</value>
+  </data>
+  <data name="ProtectYourPrivateKeyIfLost" xml:space="preserve">
+    <value>Protege tu clave privada; si la pierdes, no hay forma de recuperarla.</value>
+  </data>
+  <data name="AutomaticConfigurationOfUnicoreReceiverFailed" xml:space="preserve">
+    <value>Ha fallado la configuración automática del receptor Unicore.</value>
+  </data>
+  <data name="UnicoreFixedBasePositionIsInvalid" xml:space="preserve">
+    <value>La posición de la base fija de Unicore no es válida.</value>
+  </data>
+  <data name="AutomaticConfigurationOfSeptentrioReceiverFailed" xml:space="preserve">
+    <value>Ha fallado la configuración automática del receptor Septentrio.</value>
+  </data>
+  <data name="SeptentrioFixedBasePositionIsInvalid" xml:space="preserve">
+    <value>La posición de la base fija de Septentrio no es válida.</value>
+  </data>
+  <data name="NoValidBasePositionDeterminedBy" xml:space="preserve">
+    <value>Aún no se ha determinado ninguna posición de referencia válida mediante GPS</value>
+  </data>
+  <data name="PleaseDisconnectAndReconnectToApply" xml:space="preserve">
+    <value>Por favor, desconéctate y vuelve a conectarte para que se aplique este cambio.</value>
+  </data>
+  <data name="ConfigurationOfFixedPositionOnSeptentrio" xml:space="preserve">
+    <value>No se ha podido configurar la posición fija en el receptor Septentrio.</value>
+  </data>
+  <data name="ConfigurationOfRtcmIntervalOnSeptentrio" xml:space="preserve">
+    <value>No se ha podido configurar el intervalo RTCM en el receptor Septentrio.</value>
+  </data>
+  <data name="ErrorWritingToComPort" xml:space="preserve">
+    <value>Error al escribir en el puerto COM</value>
+  </data>
+  <data name="ThePortIsOpenContinue" xml:space="preserve">
+    <value>El puerto está abierto.
+¿Quieres continuar?</value>
+  </data>
+  <data name="SetHSwashTypeFailed" xml:space="preserve">
+    <value>Error al establecer H_SWASH_TYPE</value>
+  </data>
+  <data name="BadMinPwm" xml:space="preserve">
+    <value>PWM defectuoso</value>
+  </data>
+  <data name="BadMaxPwm" xml:space="preserve">
+    <value>PWM de Bad Max</value>
+  </data>
+  <data name="FailedToSetGyroGain" xml:space="preserve">
+    <value>No se ha podido configurar la ganancia del giroscopio</value>
+  </data>
+  <data name="SetHSvManFailed" xml:space="preserve">
+    <value>Error al establecer H_SV_MAN</value>
+  </data>
+  <data name="PleaseSelectAValidScript" xml:space="preserve">
+    <value>Selecciona un script válido, por favor</value>
+  </data>
+  <data name="BadInputFile" xml:space="preserve">
+    <value>Archivo de entrada incorrecto</value>
+  </data>
+  <data name="YouAreInFailsafeAreYou" xml:space="preserve">
+    <value>Estás en modo de seguridad, ¿estás seguro?</value>
+  </data>
+  <data name="Max20AtATime" xml:space="preserve">
+    <value>Máximo 20 a la vez.</value>
+  </data>
+  <data name="BadAlt" xml:space="preserve">
+    <value>Mal Alt</value>
+  </data>
+  <data name="PleaseConnectFirst" xml:space="preserve">
+    <value>Por favor, conéctate primero</value>
+  </data>
+  <data name="BadLatLong" xml:space="preserve">
+    <value>Coordenadas de latitud y longitud incorrectas</value>
+  </data>
+  <data name="OutputAviWillBeSavedTo" xml:space="preserve">
+    <value>El archivo AVI resultante se guardará en la carpeta «log»</value>
+  </data>
+  <data name="NoSrtmDataForThisArea" xml:space="preserve">
+    <value>No hay datos del SRTM para esta zona</value>
+  </data>
+  <data name="ThisWillResetTheOnboardHome" xml:space="preserve">
+    <value>Esto restablecerá la posición de origen integrada (afecta a RTL, etc.). ¿Estás seguro?</value>
+  </data>
+  <data name="BadRadius" xml:space="preserve">
+    <value>Radio incorrecto</value>
+  </data>
+  <data name="TimeoutStatusMessageNotReceived" xml:space="preserve">
+    <value>Tiempo de espera agotado: no se ha recibido el mensaje de estado.</value>
+  </data>
+  <data name="Timeout2" xml:space="preserve">
+    <value>Tiempo de espera.</value>
+  </data>
+  <data name="InvalidTagMustBeANumber" xml:space="preserve">
+    <value>Etiqueta no válida. Debe ser un número comprendido entre 0 y 65535.</value>
+  </data>
+  <data name="PleaseFixYourDefaultAltValue" xml:space="preserve">
+    <value>Por favor, corrige el valor predeterminado de «alt»</value>
+  </data>
+  <data name="ThisWillClearYourExistingPoints" xml:space="preserve">
+    <value>Esto borrará los puntos que tengas acumulados. ¿Quieres continuar?</value>
+  </data>
+  <data name="AbsoluteAltIsSelectedAreYou" xml:space="preserve">
+    <value>¿Está seleccionada la opción «Altitud absoluta»? ¿Estás seguro?</value>
+  </data>
+  <data name="YourHomeLocationIsInvalid" xml:space="preserve">
+    <value>La ubicación de tu domicilio no es válida</value>
+  </data>
+  <data name="ThereAreErrorsInYourMission" xml:space="preserve">
+    <value>Hay errores en tu misión</value>
+  </data>
+  <data name="FailedToGetFencePoint" xml:space="preserve">
+    <value>No se ha podido obtener el punto de referencia</value>
+  </data>
+  <data name="NotSupported" xml:space="preserve">
+    <value>No compatible</value>
+  </data>
+  <data name="NothingToDownload" xml:space="preserve">
+    <value>No hay que descargar nada</value>
+  </data>
+  <data name="RallyPointsNothingToDownload" xml:space="preserve">
+    <value>Puntos de encuentro: no hay que descargar nada</value>
+  </data>
+  <data name="FailedToGetRallyPoint" xml:space="preserve">
+    <value>No se ha podido obtener el punto de reunión</value>
+  </data>
+  <data name="InvalidCoordHowDidYouDo" xml:space="preserve">
+    <value>Coordenadas no válidas. ¿Cómo lo has hecho?</value>
+  </data>
+  <data name="YouMustHaveAHomeAltitude" xml:space="preserve">
+    <value>Debes indicar la altitud de tu domicilio</value>
+  </data>
+  <data name="YourDefaultAltIsNotValid" xml:space="preserve">
+    <value>Tu texto alternativo predeterminado no es válido</value>
+  </data>
+  <data name="InvalidHomeOrWpAlt" xml:space="preserve">
+    <value>Dirección de inicio o «wp Alt» no válida</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Error al abrir el archivo</value>
+  </data>
+  <data name="OnlyAvailableForMissions" xml:space="preserve">
+    <value>Disponible únicamente para misiones</value>
+  </data>
+  <data name="PleaseDefineAPolygon" xml:space="preserve">
+    <value>¡Por favor, define qué es un polígono!</value>
+  </data>
+  <data name="FailedToSetFenceEnable" xml:space="preserve">
+    <value>No se ha podido establecer FENCE_ENABLE</value>
+  </data>
+  <data name="FailedToSetFenceAction" xml:space="preserve">
+    <value>No se ha podido establecer FENCE_ACTION</value>
+  </data>
+  <data name="FailedToSetFenceTotal" xml:space="preserve">
+    <value>No se ha podido establecer FENCE_TOTAL</value>
+  </data>
+  <data name="MapChangeFailedTryZoomingOut" xml:space="preserve">
+    <value>No se ha podido actualizar el mapa. Intenta alejar el zoom primero.</value>
+  </data>
+  <data name="RowError" xml:space="preserve">
+    <value>Error de fila</value>
+  </data>
+  <data name="InvalidLatLongPleaseFix" xml:space="preserve">
+    <value>Coordenadas de latitud y longitud no válidas. Por favor, corrígelas.</value>
+  </data>
+  <data name="BadMinAlt" xml:space="preserve">
+    <value>Mín. malo alt</value>
+  </data>
+  <data name="BadMaxalt" xml:space="preserve">
+    <value>Maxalt malo</value>
+  </data>
+  <data name="BadAltStep" xml:space="preserve">
+    <value>Mal paso alternativo</value>
+  </data>
+  <data name="BadPointValue" xml:space="preserve">
+    <value>Valor de punto negativo</value>
+  </data>
+  <data name="BadDirectionValue" xml:space="preserve">
+    <value>Valor de «Dirección incorrecta»</value>
+  </data>
+  <data name="BadStartAngleValue" xml:space="preserve">
+    <value>Valor incorrecto del ángulo de partida</value>
+  </data>
+  <data name="ErrorSelectingWpPleaseTryAgain" xml:space="preserve">
+    <value>Se ha producido un error al seleccionar wp. Inténtalo de nuevo.</value>
+  </data>
+  <data name="RemovePointFailedPleaseTryAgain" xml:space="preserve">
+    <value>Error al eliminar el punto. Inténtalo de nuevo.</value>
+  </data>
+  <data name="ClearCurrentWaypoints" xml:space="preserve">
+    <value>¿Borrar los puntos de ruta actuales?</value>
+  </data>
+  <data name="NoPolygonToUpload" xml:space="preserve">
+    <value>No hay ningún polígono que subir</value>
+  </data>
+  <data name="NoReturnLocationSet" xml:space="preserve">
+    <value>No se ha establecido ninguna ubicación de devolución</value>
+  </data>
+  <data name="NoPolygonDrawn" xml:space="preserve">
+    <value>No se ha dibujado ningún polígono</value>
+  </data>
+  <data name="YourReturnLocationIsOutsideThe" xml:space="preserve">
+    <value>Tu lugar de regreso se encuentra fuera del polígono</value>
+  </data>
+  <data name="BadMinAlt2" xml:space="preserve">
+    <value>Mín. malo Alt</value>
+  </data>
+  <data name="BadMaxAlt" xml:space="preserve">
+    <value>Máximo permitido incorrecto</value>
+  </data>
+  <data name="FailedToSetMinMaxFence" xml:space="preserve">
+    <value>No se ha podido establecer la altitud mínima/máxima de la valla</value>
+  </data>
+  <data name="FailedToRestoreFenceAction" xml:space="preserve">
+    <value>No se ha podido restaurar FENCE_ACTION</value>
+  </data>
+  <data name="SplineWaypointCommandNotSupported" xml:space="preserve">
+    <value>El comando SPLINE_WAYPOINT no es compatible.</value>
+  </data>
+  <data name="InvalidInsertPosition" xml:space="preserve">
+    <value>Posición de inserción no válida</value>
+  </data>
+  <data name="IfYouReAtTheField" xml:space="preserve">
+    <value>Si estás en el campo, conéctate a tu APM y espera a que se fije la señal del GPS. A continuación, haz clic en el enlace «Ubicación de inicio» para establecer tu ubicación como ubicación de inicio.</value>
+  </data>
+  <data name="NoRippAreaDefinedRippDisplayed" xml:space="preserve">
+    <value>¿No se ha definido ninguna zona de ripp, pero se muestra el ripp en pantalla?</value>
+  </data>
+  <data name="SelectMapAreaHoldingAlt" xml:space="preserve">
+    <value>Selecciona una zona del mapa manteniendo pulsada la tecla ALT</value>
+  </data>
+  <data name="ResetHomeToLoadedCoords" xml:space="preserve">
+    <value>Restablecer el punto de origen a las coordenadas cargadas</value>
+  </data>
+  <data name="FailedToWriteFenceFile" xml:space="preserve">
+    <value>No se ha podido escribir el archivo de fence</value>
+  </data>
+  <data name="FailedToSaveRallyPoint" xml:space="preserve">
+    <value>No se ha podido guardar el punto de reunión</value>
+  </data>
+  <data name="PleaseSetAReturnLocation" xml:space="preserve">
+    <value>Por favor, indica un lugar de devolución</value>
+  </data>
+  <data name="PleaseSetSomeRallyPoints" xml:space="preserve">
+    <value>Por favor, fija algunos puntos de encuentro</value>
+  </data>
+  <data name="FailedToWriteRallyFile" xml:space="preserve">
+    <value>No se ha podido escribir el archivo de rally</value>
+  </data>
+  <data name="BadTakeoffPitch" xml:space="preserve">
+    <value>Mala inclinación de despegue</value>
+  </data>
+  <data name="ClickOnTheMapToSet" xml:space="preserve">
+    <value>Haz clic en el mapa para establecer tu ubicación como punto de partida</value>
+  </data>
+  <data name="TheValueCanOnlyBeBetween" xml:space="preserve">
+    <value>El valor solo puede estar comprendido entre 0 y 127 m</value>
+  </data>
+  <data name="RCnR" xml:space="preserve">
+    <value>Estimados usuarios de China: para garantizar el correcto funcionamiento del mapa, hemos cambiado automáticamente el mapa predeterminado a 【Google Maps por satélite de China】, con características propias de China. \r
+Diferencias con respecto a los «mapas satelitales de Google» predeterminados: utilizan servidores .cn e incorporan correcciones de coordenadas de Marte\r
+Si en su zona sigue sin poder utilizarlos, Tianshu recomienda también Bing Maps o Amap; en cuanto a otros mapas, dado que no incorporan la función de corrección de coordenadas, le rogamos que elija con precaución para garantizar la seguridad de los vuelos.</value>
+  </data>
+  <data name="InvalidWmsServerResponseInvalidNumber" xml:space="preserve">
+    <value>Respuesta no válida del servidor WMS: número de elementos «GetMap» no válido.</value>
+  </data>
+  <data name="InvalidWmsServerResponseServerUnable" xml:space="preserve">
+    <value>Respuesta no válida del servidor WMS: el servidor no puede devolver imágenes PNG.</value>
+  </data>
+  <data name="InvalidWmsServerResponseServerUnable2" xml:space="preserve">
+    <value>Respuesta no válida del servidor WMS: el servidor no puede devolver imágenes compatibles con EPSG:4326 / WGS84.</value>
+  </data>
+  <data name="ThisWillUpdateToMasterRelease" xml:space="preserve">
+    <value>Esto se actualizará a la versión MASTER.</value>
+  </data>
+  <data name="NoPolygonDefinedLoadAFile" xml:space="preserve">
+    <value>No hay ningún polígono definido. ¿Quieres cargar un archivo?</value>
+  </data>
+  <data name="PleaseDefineAPolygon2" xml:space="preserve">
+    <value>Por favor, define qué es un polígono.</value>
+  </data>
+  <data name="OneOfYourEntriesIsNot" xml:space="preserve">
+    <value>Una de tus entradas no es un número válido</value>
+  </data>
+  <data name="YouMustUseLandRtlTo" xml:space="preserve">
+    <value>Debes utilizar «Land/RTL» para dividir una misión.</value>
+  </data>
+  <data name="BadGrid" xml:space="preserve">
+    <value>Malla defectuosa</value>
+  </data>
+  <data name="ErrorGetingJoystickListDoYou" xml:space="preserve">
+    <value>Error al obtener la lista de joysticks: ¿tienes instalado el paquete de redistribución de DirectX?</value>
+  </data>
+  <data name="PleaseConnectAJoystick" xml:space="preserve">
+    <value>Conecta un joystick, por favor</value>
+  </data>
+  <data name="PleaseSelectAJoystick" xml:space="preserve">
+    <value>Selecciona un joystick, por favor</value>
+  </data>
+  <data name="NoSettingsToSet" xml:space="preserve">
+    <value>No hay ajustes que configurar</value>
+  </data>
+  <data name="LineDoesnTExist" xml:space="preserve">
+    <value>La línea no existe</value>
+  </data>
+  <data name="PleasePickAnotherColumnHighlightThe" xml:space="preserve">
+    <value>Por favor, elige otra columna. Resalta la celda que quieras representar en el gráfico.</value>
+  </data>
+  <data name="ThereIsToMuchBadData" xml:space="preserve">
+    <value>Hay demasiados datos erróneos: error</value>
+  </data>
+  <data name="ErrorOpeningComport" xml:space="preserve">
+    <value>Error al abrir el puerto COM»</value>
+  </data>
+  <data name="PleaseDisarmTheDroneBeforeDownloading" xml:space="preserve">
+    <value>¡Desactiva el dron antes de descargar los registros!</value>
+  </data>
+  <data name="BadOffset" xml:space="preserve">
+    <value>Desplazamiento incorrecto</value>
+  </data>
+  <data name="BadPacketname" xml:space="preserve">
+    <value>Nombre de paquete incorrecto</value>
+  </data>
+  <data name="CompileFailed" xml:space="preserve">
+    <value>Error de compilación</value>
+  </data>
+  <data name="FileSavedWithLogFile" xml:space="preserve">
+    <value>Archivo guardado junto con el archivo de registro</value>
+  </data>
+  <data name="ErrorExtractingParams" xml:space="preserve">
+    <value>Error al extraer los parámetros</value>
+  </data>
+  <data name="NoWaypointFoundInFile" xml:space="preserve">
+    <value>¡No se ha encontrado ningún punto de ruta en el archivo!</value>
+  </data>
+  <data name="FileSavedWithLogFile2" xml:space="preserve">
+    <value>¡Archivo guardado junto con el archivo de registro!</value>
+  </data>
+  <data name="LogDoesNotContainEnoughData" xml:space="preserve">
+    <value>El registro no contiene datos suficientes</value>
+  </data>
+  <data name="SettingNewOffsetsForCompass1" xml:space="preserve">
+    <value>No se han podido establecer los nuevos valores de compensación para la brújula n.º 1</value>
+  </data>
+  <data name="SettingNewOffsetsForCompass2" xml:space="preserve">
+    <value>No se han podido establecer los nuevos valores de compensación para la brújula n.º 2</value>
+  </data>
+  <data name="SettingNewOffsetsForCompass3" xml:space="preserve">
+    <value>No se han podido establecer los nuevos desplazamientos para la brújula n.º 3</value>
+  </data>
+  <data name="NoteYourAttitudeRateIs0" xml:space="preserve">
+    <value>NOTA: tu frecuencia de actitud es 0; el HUD no funcionará.
+Modifícalo en Configuración &gt; Planificador &gt; Frecuencias de telemetría</value>
+  </data>
+  <data name="BadPassword" xml:space="preserve">
+    <value>Contraseña incorrecta</value>
+  </data>
+  <data name="AVideoStreamHasBeenDetected" xml:space="preserve">
+    <value>Se ha detectado una transmisión de vídeo, pero GStreamer no está configurado ni instalado.
+¿Quieres instalarlo o configurarlo ahora?</value>
+  </data>
+  <data name="FailedToStartJoystick" xml:space="preserve">
+    <value>No se ha podido iniciar el joystick</value>
+  </data>
+  <data name="DoneMavActionStorageWrite" xml:space="preserve">
+    <value>Hecho MAV_ACTION_STORAGE_WRITE</value>
+  </data>
+  <data name="LinkOpenFailedCheckYourDefault" xml:space="preserve">
+    <value>No se ha podido abrir el enlace. Comprueba la asociación predeterminada de la página web.</value>
+  </data>
+  <data name="NoErrors" xml:space="preserve">
+    <value>Sin errores</value>
+  </data>
+  <data name="AreYouSureYouWantTo3" xml:space="preserve">
+    <value>¿Estás seguro de que quieres declarar una emergencia de identificación remota?</value>
+  </data>
+  <data name="RestartMissionPlannerToEnableDrone" xml:space="preserve">
+    <value>Reinicia Mission Planner para activar la pestaña «Drone ID». Desactiva el complemento si no lo necesitas: CTRL-P</value>
+  </data>
+  <data name="AreYouSureYouWantTo4" xml:space="preserve">
+    <value>¿Estás seguro de que quieres desactivar el Remote ID saliente?</value>
+  </data>
+  <data name="NoAreaDefinedUseAreaDisplayed" xml:space="preserve">
+    <value>¿No hay ninguna zona definida? ¿Se muestra la zona que aparece en pantalla?</value>
+  </data>
+  <data name="InvalidNumber" xml:space="preserve">
+    <value>Número no válido</value>
+  </data>
+  <data name="SpacingMustBeBetween5And" xml:space="preserve">
+    <value>La distancia debe estar comprendida entre 5 y 100 metros</value>
+  </data>
+  <data name="TerrainDatCreatedInDocumentsMission" xml:space="preserve">
+    <value>Archivo DAT de terreno creado en la carpeta «Documents/Mission Planner/TerrainDat»</value>
+  </data>
+  <data name="TheVehicleIsArmedPayloadSelection" xml:space="preserve">
+    <value>El vehículo está armado. La selección de carga útil está desactivada.</value>
+  </data>
+  <data name="TheNumberOfAvailableParametersChanged3" xml:space="preserve">
+    <value>Ha cambiado el número de parámetros disponibles. Se llevará a cabo una actualización completa de los parámetros.</value>
+  </data>
+  <data name="TraceStarted" xml:space="preserve">
+    <value>Se ha iniciado el seguimiento</value>
+  </data>
+  <data name="SerialConnectionHasBeenLost" xml:space="preserve">
+    <value>Se ha perdido la conexión en serie</value>
+  </data>
+  <data name="PleaseInstallMicrosoftDotNet4" xml:space="preserve">
+    <value>Por favor, instala Microsoft .NET 4.6.2</value>
+  </data>
+  <data name="CouldNotSendReportTypicallyDue" xml:space="preserve">
+    <value>¡No se ha podido enviar el informe! Normalmente se debe a que no hay conexión a Internet.</value>
+  </data>
+  <data name="SetCommandError" xml:space="preserve">
+    <value>Error al establecer el comando</value>
+  </data>
+  <data name="FailedToSaveParameters" xml:space="preserve">
+    <value>No se han podido guardar los parámetros</value>
+  </data>
+  <data name="FailedToEnterCommandMode" xml:space="preserve">
+    <value>No se ha podido acceder al modo de comandos</value>
+  </data>
+  <data name="TheRangesAndOptionsShownFor" xml:space="preserve">
+    <value>Es posible que los rangos y las opciones que se muestran para el módem remoto no sean exactos. Para garantizar su precisión, utiliza la misma versión de firmware tanto en el módem local como en el remoto.</value>
+  </data>
+  <data name="FailedToEnterCommandModeTry" xml:space="preserve">
+    <value>No se ha podido acceder al modo de comandos. Intenta apagar y volver a encender el módem.</value>
+  </data>
+  <data name="CouldnTCommunicateWithModemTry" xml:space="preserve">
+    <value>No se ha podido establecer comunicación con el módem. Intenta apagar y volver a encender el módem.</value>
+  </data>
+  <data name="InvalidComportOrInUse" xml:space="preserve">
+    <value>Puerto COM no válido o en uso</value>
+  </data>
+  <data name="CorruptedPacketPleasePowerCycleAnd" xml:space="preserve">
+    <value>Paquete dañado. Apaga y vuelve a encender el dispositivo e inténtalo de nuevo.\r</value>
+  </data>
+  <data name="ProgrammingFirmwareFailedTryAgain" xml:space="preserve">
+    <value>Se ha producido un error al programar el firmware. ¿Quieres volver a intentarlo?</value>
+  </data>
+  <data name="TheSelectedFirmwareIsNotCertified" xml:space="preserve">
+    <value>El firmware seleccionado no está certificado para ejecutarse en este módem. Se cancela la operación.</value>
+  </data>
+  <data name="FirmwareDoesnTSupportRssiReporting" xml:space="preserve">
+    <value>El firmware no admite la generación de informes RSSI</value>
+  </data>
+  <data name="FailedToEnterRssiReportingMode" xml:space="preserve">
+    <value>No se ha podido acceder al modo de notificación de RSSI.</value>
+  </data>
+  <data name="FailedToPutModemIntoAt" xml:space="preserve">
+    <value>No se ha podido poner el módem en modo de comandos AT.</value>
+  </data>
+  <data name="FailedToEnterAtCommandMode" xml:space="preserve">
+    <value>No se ha podido acceder al modo de comandos AT.</value>
+  </data>
+  <data name="ThisIsBetaUseAtOwn" xml:space="preserve">
+    <value>Esto es una versión beta; úsala bajo tu propia responsabilidad.</value>
+  </data>
+  <data name="CanNotMoveLeader" xml:space="preserve">
+    <value>No se puede mover al líder</value>
+  </data>
+  <data name="ThereAppearsToBeADrone" xml:space="preserve">
+    <value>Parece que hay un dron volando por ahí en este momento. ¿Estás seguro de que quieres continuar?</value>
+  </data>
+  <data name="UsernameOrPasswordInvalid" xml:space="preserve">
+    <value>El nombre de usuario o la contraseña no son válidos</value>
+  </data>
+  <data name="SuccessCheckingCredentials" xml:space="preserve">
+    <value>Se han comprobado correctamente las credenciales</value>
+  </data>
+  <data name="IsThisAApm2" xml:space="preserve">
+    <value>¿Es este un APM 2+?</value>
+  </data>
+  <data name="IsThisACubePx4Pixhawk" xml:space="preserve">
+    <value>¿Es esto un CUBE, un PX4, un PIXHAWK o un PIXRACER?</value>
+  </data>
+  <data name="IsThisAPixracer" xml:space="preserve">
+    <value>¿Es esto una PIXRACER?</value>
+  </data>
+  <data name="IsThisACube" xml:space="preserve">
+    <value>¿Es esto un CUBE?</value>
+  </data>
+  <data name="IsThisAPixhawk" xml:space="preserve">
+    <value>¿Es esto un PIXHAWK?</value>
+  </data>
+  <data name="IsThisALinuxBoard" xml:space="preserve">
+    <value>¿Es esta una placa para Linux?</value>
+  </data>
+  <data name="IsThisBebop2" xml:space="preserve">
+    <value>¿Es esto Bebop2?</value>
+  </data>
+  <data name="IsThisDisco" xml:space="preserve">
+    <value>¿Esto es disco?</value>
+  </data>
+  <data name="IsThisAPx4Pixhawk" xml:space="preserve">
+    <value>¿Es esto un PX4/PIXHAWK?</value>
+  </data>
+  <data name="MissingFirmwarehistoryTxtFile" xml:space="preserve">
+    <value>Falta el archivo «FirmwareHistory.txt»</value>
+  </data>
+  <data name="IsThisACubeblack" xml:space="preserve">
+    <value>¿Es esto un CubeBlack?</value>
+  </data>
+  <data name="UploadChibios" xml:space="preserve">
+    <value>Subir ChibiOS</value>
+  </data>
+  <data name="LostCommunicationWithTheBoard" xml:space="preserve">
+    <value>Se ha perdido la comunicación con la junta directiva.</value>
+  </data>
+  <data name="Vrbrain4DetectedPleaseUnplugThe" xml:space="preserve">
+    <value>Se ha detectado VRBRAIN 4. Desconecta la tarjeta, pulsa «Aceptar» y vuelve a conectarla.</value>
+  </data>
+  <data name="UploadCompletePleaseUnplugAndReconnect" xml:space="preserve">
+    <value>¡Carga completada! Desconecta y vuelve a conectar la placa.</value>
+  </data>
+  <data name="UploadComplete2" xml:space="preserve">
+    <value>¡Subida completada!</value>
+  </data>
+  <data name="FirmwareInstalled" xml:space="preserve">
+    <value>¡Firmware instalado!</value>
+  </data>
+  <data name="PleaseUpdateYourInstallIsCurrupt" xml:space="preserve">
+    <value>Por favor, actualízala; tu instalación está dañada.</value>
+  </data>
+  <data name="FirmwareIsToBigForA" xml:space="preserve">
+    <value>El firmware es demasiado grande para un 1280. ¡Por favor, actualiza tu hardware!</value>
+  </data>
+  <data name="1IfYouAreUpdatingYour" xml:space="preserve">
+    <value>1. Si vas a actualizar el firmware desde una versión anterior, comprueba que los parámetros sean los adecuados para la nueva versión.
+2. Asegúrate de que el acelerómetro esté calibrado tras la instalación o de que se vuelva a calibrar tras la actualización del firmware.</value>
+  </data>
+  <data name="TheHexFileLoadedIsInvalid" xml:space="preserve">
+    <value>El archivo hexadecimal cargado no es válido. Inténtalo de nuevo.</value>
+  </data>
+  <data name="TheHexFileDidNoContain" xml:space="preserve">
+    <value>El archivo hexadecimal no contenía un indicador de fin. Se interrumpe la operación.</value>
+  </data>
+  <data name="FailedToDownloadLoganalyzer" xml:space="preserve">
+    <value>No se ha podido descargar LogAnalyzer</value>
+  </data>
+  <data name="FailedToStartLoganalyzer" xml:space="preserve">
+    <value>No se ha podido iniciar LogAnalyzer</value>
+  </data>
+  <data name="ErrorGettingParameterInformation" xml:space="preserve">
+    <value>Error al obtener la información de los parámetros</value>
+  </data>
+  <data name="UseAtYourOwnRisk" xml:space="preserve">
+    <value>¡¡¡Úsalo bajo tu propia responsabilidad!!!</value>
+  </data>
+  <data name="LockupTheAutopilotThisCanCause" xml:space="preserve">
+    <value>¿??? ¿Bloquear el piloto automático??? ¡¡¡Esto puede provocar un ACCIDENTE!!!!!!</value>
+  </data>
+  <data name="ThisProcessMakeTakeASome" xml:space="preserve">
+    <value>Este proceso puede llevar algo de tiempo.</value>
+  </data>
+  <data name="TheNewApjHasBeenSaved" xml:space="preserve">
+    <value>El nuevo APJ se ha guardado junto con el APJ original.</value>
+  </data>
+</root>

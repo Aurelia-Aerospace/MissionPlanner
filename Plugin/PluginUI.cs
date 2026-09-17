@@ -141,7 +141,7 @@ namespace MissionPlanner.Controls
         {
             var msg = PluginLoader.ErrorInfo.Aggregate("", (s, pair) => s + pair.Value + "\n");
             if (msg == "")
-                CustomMessageBox.Show("No Errors", "Errors");
+                CustomMessageBox.Show(Strings.NoErrors, "Errors");
             else
                 CustomMessageBox.Show(msg, "Errors");
         }

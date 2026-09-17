@@ -22,20 +22,20 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             if (!mav.BaseStream.IsOpen)
                 return;
 
-            if (CustomMessageBox.Show("Are you sure you want to upgrade the bootloader? This can brick your board",
+            if (CustomMessageBox.Show(Strings.AreYouSureYouWantTo,
                 "BL Update", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int) DialogResult.Yes)
                 if (CustomMessageBox.Show(
-                    "Are you sure you want to upgrade the bootloader? This can brick your board, Please allow 5 mins for this process",
+                    Strings.AreYouSureYouWantTo2,
                     "BL Update", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int) DialogResult.Yes)
                     try
                     {
                         if (mav.doCommand(MAVLink.MAV_CMD.FLASH_BOOTLOADER, 0, 0, 0, 0, 290876, 0, 0))
                         {
-                            CustomMessageBox.Show("Upgraded bootloader");
+                            CustomMessageBox.Show(Strings.UpgradedBootloader);
                         }
                         else
                         {
-                            CustomMessageBox.Show("Failed to upgrade bootloader");
+                            CustomMessageBox.Show(Strings.FailedToUpgradeBootloader);
                         }
                     }
                     catch (Exception ex)

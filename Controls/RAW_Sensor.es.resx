@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Salida de servo/motor</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Radio IN</value>
+  </data>
+  <data name="tabRadio.Text" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="BUT_savecsv.Text" xml:space="preserve">
+    <value>Guardar CSV</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Nota: Se produce un retraso 
+al visualizarlo a través de Xbee
+a 50 Hz</value>
+  </data>
+  <data name="CMB_rawupdaterate.Text" xml:space="preserve">
+    <value>Velocidad de actualización</value>
+  </data>
+  <data name="chkax.Text" xml:space="preserve">
+    <value>Accel X</value>
+  </data>
+  <data name="chkay.Text" xml:space="preserve">
+    <value>Accel Y</value>
+  </data>
+  <data name="chkaz.Text" xml:space="preserve">
+    <value>Accel Z</value>
+  </data>
+  <data name="chkgx.Text" xml:space="preserve">
+    <value>Gyro X</value>
+  </data>
+  <data name="chkgy.Text" xml:space="preserve">
+    <value>Gyro Y</value>
+  </data>
+  <data name="chkgz.Text" xml:space="preserve">
+    <value>Gyro Z</value>
+  </data>
+  <data name="tabRawSensor.Text" xml:space="preserve">
+    <value>Sensor sin procesar</value>
+  </data>
+  <data name="tabOrientation.Text" xml:space="preserve">
+    <value>Datos del vuelo</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sensor RAW</value>
+  </data>
+</root>

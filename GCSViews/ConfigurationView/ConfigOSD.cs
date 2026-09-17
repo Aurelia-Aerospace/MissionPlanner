@@ -79,7 +79,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             if (MainV2.comPort.BaseStream == null || !MainV2.comPort.BaseStream.IsOpen)
             {
-                CustomMessageBox.Show("Your are not connected", Strings.ERROR);
+                CustomMessageBox.Show(Strings.YourAreNotConnected, Strings.ERROR);
                 return false;
             }
 
@@ -238,7 +238,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         private void DiscardChanges()
         {
-            if ((int)DialogResult.OK == CustomMessageBox.Show("Are you sure?", MessageBoxButtons: MessageBoxButtons.OKCancel))
+            if ((int)DialogResult.OK == CustomMessageBox.Show(Strings.AreYouSure, MessageBoxButtons: MessageBoxButtons.OKCancel))
             {
                 foreach (var p in osdSettings)
                     p.DiscardChange();
@@ -250,7 +250,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             if (!osdSettings.Any(o => o.Changed))
             {
                 if (!silent)
-                    CustomMessageBox.Show("No Changes to Write!");
+                    CustomMessageBox.Show(Strings.NoChangesToWrite);
 
                 return;
             }
@@ -302,7 +302,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private void RefreshParameters()
         {
             if (osdSettings.Any(o => o.Changed)
-                && (int)DialogResult.No == CustomMessageBox.Show("This will reset your changes. Continue?", MessageBoxButtons: MessageBoxButtons.YesNo))
+                && (int)DialogResult.No == CustomMessageBox.Show(Strings.ThisWillResetYourChangesContinue, MessageBoxButtons: MessageBoxButtons.YesNo))
                 return;
 
             if (!MainV2.comPort.BaseStream.IsOpen)

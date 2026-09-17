@@ -277,7 +277,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set H_SWASH_TYPE Failed");
+                CustomMessageBox.Show(Strings.SetHSwashTypeFailed);
             }
         }
 
@@ -327,7 +327,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Bad Min PWM");
+                CustomMessageBox.Show(Strings.BadMinPwm);
                 return;
             }
 
@@ -338,7 +338,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Bad Max PWM");
+                CustomMessageBox.Show(Strings.BadMaxPwm);
                 return;
             }
 
@@ -437,7 +437,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Failed to set Gyro Gain");
+                CustomMessageBox.Show(Strings.FailedToSetGyroGain);
             }
         }
 
@@ -504,7 +504,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set H_SV_MAN Failed");
+                CustomMessageBox.Show(Strings.SetHSvManFailed);
             }
         }
 

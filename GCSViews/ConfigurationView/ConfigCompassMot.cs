@@ -67,7 +67,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Compassmot requires AC 3.2+", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.CompassmotRequiresAc32, Strings.ERROR);
                 }
                 incompassmot = true;
             }

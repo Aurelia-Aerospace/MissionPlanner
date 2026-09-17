@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="colInternal.HeaderText" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="colEnglish.HeaderText" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve">
+    <value>Otros idiomas</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Cómo utilizarlo:
+La primera vez, si es la primera vez que lo utilizas, solo tienes que seleccionar tu idioma en la parte inferior y editarlo. Haz clic en «Guardar».
+
+Para usos posteriores, selecciona tu idioma y se cargará automáticamente el contenido disponible para ese idioma.
+
+Si te quedas a mitad de camino, haz clic en el botón «Cargar traducción».
+
+NOTA: la carga automática solo funciona después de que Michael lo haya añadido al planificador. De lo contrario, tendrás que utilizar la opción «Cargar traducción».
+</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Transductor de carga</value>
+  </data>
+  <data name="BUT_clipboard.Text" xml:space="preserve">
+    <value>Copiar al portapapeles</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Editor de idiomas</value>
+  </data>
+</root>

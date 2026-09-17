@@ -65,7 +65,7 @@ namespace MissionPlanner.Controls
 
             if (CMB_paramfiles.SelectedValue == null)
             {
-                CustomMessageBox.Show("Please select an option first");
+                CustomMessageBox.Show(Strings.PleaseSelectAnOptionFirst);
                 return;
             }
 
@@ -83,7 +83,7 @@ namespace MissionPlanner.Controls
                 ThemeManager.ApplyThemeTo(paramCompareForm);
                 if (paramCompareForm.ShowDialog() == DialogResult.OK)
                 {
-                    CustomMessageBox.Show("Loaded parameters!", "Loaded");
+                    CustomMessageBox.Show(Strings.LoadedParameters, "Loaded");
                 }
 
                 if (OnChange != null)

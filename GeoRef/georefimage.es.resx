@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Desviación en segundos</value>
+  </data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve">
+    <value>Etiquetar imágenes con geoetiquetas</value>
+  </data>
+  <data name="BUT_estoffset.Text" xml:space="preserve">
+    <value>Desviación estimada</value>
+  </data>
+  <data name="BUT_doit.Text" xml:space="preserve">
+    <value>Preprocesamiento</value>
+  </data>
+  <data name="BUT_browsedir.Text" xml:space="preserve">
+    <value>Ver fotos</value>
+  </data>
+  <data name="BUT_browselog.Text" xml:space="preserve">
+    <value>Registro de navegación</value>
+  </data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
+    <value>Ubicación KML</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve">
+    <value>Desfase temporal</value>
+  </data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
+    <value>Mensaje de CAM</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Rotación</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Campo de visión transversal</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Dir fov</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Tiempo mínimo de exposición (s) (CAM)</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Insertar imagen al final</value>
+  </data>
+  <data name="lbldrpstart.Text" xml:space="preserve">
+    <value>Insertar imagen al principio</value>
+  </data>
+  <data name="chk_usegps2.Text" xml:space="preserve">
+    <value>Utiliza GPS2</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Base de texto alternativo</value>
+  </data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
+    <value>Utilizar AMSL Alt</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Retardo del obturador (ms)</value>
+  </data>
+  <data name="chk_cammsg.Text" xml:space="preserve">
+    <value>Utilizar los mensajes de Cam</value>
+  </data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve">
+    <value>Mensaje de activación</value>
+  </data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve">
+    <value>Utiliza GPSAlt</value>
+  </data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve">
+    <value>Utiliza GPSAlt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Imágenes georreferenciadas</value>
+  </data>
+</root>

@@ -259,15 +259,15 @@ namespace MissionPlanner.Controls
             try
             {
                 if (!_can.SaveConfig(_node))
-                    CustomMessageBox.Show("Failed to save");
+                    CustomMessageBox.Show(Strings.FailedToSave);
             }
             catch
             {
-                CustomMessageBox.Show("Invalid command");
+                CustomMessageBox.Show(Strings.InvalidCommand);
                 return;
             }
 
-            CustomMessageBox.Show("Parameters committed to non-volatile memory");
+            CustomMessageBox.Show(Strings.ParametersCommittedToNonVolatileMemory);
             return;
         }
 
@@ -348,7 +348,7 @@ namespace MissionPlanner.Controls
         private void BUT_reset_params_Click(object sender, EventArgs e)
         {
             if (
-                CustomMessageBox.Show("Reset all parameters to default\nAre you sure!!", "Reset",
+                CustomMessageBox.Show(Strings.ResetAllParametersToDefaultAre, "Reset",
                     MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
             {
                 try
@@ -360,7 +360,7 @@ namespace MissionPlanner.Controls
 
 
                     CustomMessageBox.Show(
-                        "Your board is now rebooting, You will be required to reconnect to the autopilot.");
+                        Strings.YourBoardIsNowRebootingYou);
                 }
                 catch (Exception ex)
                 {
@@ -466,9 +466,9 @@ namespace MissionPlanner.Controls
             _can.SaveConfig(_node);
 
             if (failed > 0)
-                CustomMessageBox.Show("Some Parameters Failed to be saved.", "Saved");
+                CustomMessageBox.Show(Strings.SomeParametersFailedToBeSaved, "Saved");
             else
-                CustomMessageBox.Show("Parameters successfully saved.", "Saved");
+                CustomMessageBox.Show(Strings.ParametersSuccessfullySaved, "Saved");
         }
 
         private void chk_modified_CheckedChanged(object sender, EventArgs e)

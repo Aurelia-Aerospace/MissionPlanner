@@ -63,17 +63,17 @@ namespace SikRadio
                         var ATIReply = Session.ATCClient.DoQuery("ATI", true);
                         if (RFDLib.Text.Contains(ATIReply, "async"))
                         {
-                            MissionPlanner.MsgBox.CustomMessageBox.Show("Firmware doesn't support RSSI reporting");
+                            MissionPlanner.MsgBox.CustomMessageBox.Show(Strings.FirmwareDoesnTSupportRssiReporting);
                         }
                         else
                         {
-                            MissionPlanner.MsgBox.CustomMessageBox.Show("Failed to enter RSSI reporting mode.");
+                            MissionPlanner.MsgBox.CustomMessageBox.Show(Strings.FailedToEnterRssiReportingMode);
                         }
                     }
                 }
                 else
                 {
-                    MissionPlanner.MsgBox.CustomMessageBox.Show("Failed to put modem into AT command mode.");
+                    MissionPlanner.MsgBox.CustomMessageBox.Show(Strings.FailedToPutModemIntoAt);
                 }
             }
         }

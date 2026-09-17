@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AMap" xml:space="preserve">
+    <value>AMap</value>
+  </data>
+  <data name="AMapSatellite" xml:space="preserve">
+    <value>AMapSatellite</value>
+  </data>
+  <data name="BingHybridMap" xml:space="preserve">
+    <value>BingHybridMap</value>
+  </data>
+  <data name="BingMap" xml:space="preserve">
+    <value>BingMap</value>
+  </data>
+  <data name="BingSatelliteMap" xml:space="preserve">
+    <value>BingSatelliteMap</value>
+  </data>
+  <data name="GoogleChinaHybridMap" xml:space="preserve">
+    <value>Mapa híbrido de Google en China</value>
+  </data>
+  <data name="GoogleChinaMap" xml:space="preserve">
+    <value>GoogleChinaMap</value>
+  </data>
+  <data name="GoogleChinaSatelliteMap" xml:space="preserve">
+    <value>Mapa satelital de Google de China</value>
+  </data>
+  <data name="GoogleChinaTerrainMap" xml:space="preserve">
+    <value>Mapa del terreno de Google en China</value>
+  </data>
+  <data name="GoogleHybridMap" xml:space="preserve">
+    <value>GoogleHybridMap</value>
+  </data>
+  <data name="GoogleMap" xml:space="preserve">
+    <value>Google Maps</value>
+  </data>
+  <data name="GoogleSatelliteMap" xml:space="preserve">
+    <value>Mapa satelital de Google</value>
+  </data>
+  <data name="GoogleTerrainMap" xml:space="preserve">
+    <value>Google Terrain Map</value>
+  </data>
+</root>

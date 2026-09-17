@@ -36,7 +36,7 @@ namespace MissionPlanner.Joystick
             }
             catch
             {
-                CustomMessageBox.Show("Error geting joystick list: do you have the directx redist installed?");
+                CustomMessageBox.Show(Strings.ErrorGetingJoystickListDoYou);
                 this.Close();
                 return;
             }
@@ -158,7 +158,7 @@ namespace MissionPlanner.Joystick
                 //show error message if a joystick is not connected when Enable is clicked
                 if (!joy.start(CMB_joysticks.Text))
                 {
-                    CustomMessageBox.Show("Please Connect a Joystick", "No Joystick");
+                    CustomMessageBox.Show(Strings.PleaseConnectAJoystick, "No Joystick");
                     joy.Dispose();
                     return;
                 }
@@ -191,7 +191,7 @@ namespace MissionPlanner.Joystick
         {
             if (MainV2.joystick == null)
             {
-                CustomMessageBox.Show("Please select a joystick");
+                CustomMessageBox.Show(Strings.PleaseSelectAJoystick);
                 return;
             }
             MainV2.joystick.saveconfig();
@@ -479,7 +479,7 @@ namespace MissionPlanner.Joystick
                     new Joy_Button_axis((string)cmb.Tag).ShowDialog();
                     break;
                 default:
-                    CustomMessageBox.Show("No settings to set", "No settings");
+                    CustomMessageBox.Show(Strings.NoSettingsToSet, "No settings");
                     break;
             }
         }

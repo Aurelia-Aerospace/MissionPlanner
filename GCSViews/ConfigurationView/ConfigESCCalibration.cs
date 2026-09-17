@@ -31,7 +31,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 if (!MainV2.comPort.setParam((byte)MainV2.comPort.sysidcurrent, (byte)MainV2.comPort.compidcurrent, "ESC_CALIBRATION", 3))
                 {
-                    CustomMessageBox.Show("Set param error. Please ensure your version is AC3.3+.");
+                    CustomMessageBox.Show(Strings.SetParamErrorPleaseEnsureYour);
                     return;
                 }
             }

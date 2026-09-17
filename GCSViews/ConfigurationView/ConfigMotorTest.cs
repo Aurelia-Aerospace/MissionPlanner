@@ -317,7 +317,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                         0,
                         0))
                 {
-                    CustomMessageBox.Show("Command was denied by the autopilot");
+                    CustomMessageBox.Show(Strings.CommandWasDeniedByTheAutopilot);
                 }
             }
             catch
@@ -334,7 +334,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Bad default system association", Strings.ERROR);
+                CustomMessageBox.Show(Strings.BadDefaultSystemAssociation, Strings.ERROR);
             }
         }
 
@@ -344,7 +344,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (!MainV2.comPort.MAV.param.ContainsKey("MOT_SPIN_ARM"))
             {
-                CustomMessageBox.Show("param MOT_SPIN_ARM missing", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ParamMotSpinArmMissing, Strings.ERROR);
                 return;
             }
 
@@ -360,7 +360,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Throttle percent above 20, too high", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ThrottlePercentAbove20TooHigh, Strings.ERROR);
             }
 
             this.Enabled = true;
@@ -372,7 +372,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (!MainV2.comPort.MAV.param.ContainsKey("MOT_SPIN_MIN"))
             {
-                CustomMessageBox.Show("param MOT_SPIN_MIN missing", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ParamMotSpinMinMissing, Strings.ERROR);
                 return;
             }
 

@@ -337,7 +337,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             var videoStreamConfig = o as IAMStreamConfig;
             if (videoStreamConfig == null)
             {
-                CustomMessageBox.Show("Failed to get IAMStreamConfig");
+                CustomMessageBox.Show(Strings.FailedToGetIamstreamconfig);
                 return;
             }
 
@@ -419,7 +419,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 return;
             MainV2.instance.changelanguage((CultureInfo)CMB_language.SelectedItem);
 
-            MessageBox.Show("Please Restart the Planner");
+            MessageBox.Show(Strings.PleaseRestartThePlanner);
 
             MainV2.instance.Close();
             //Application.Exit();
@@ -504,7 +504,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Error: getting param list");
+                CustomMessageBox.Show(Strings.ErrorGettingParamList);
             }
 
 
@@ -699,7 +699,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             if (startup)
                 return;
-            CustomMessageBox.Show("You need to restart the planner for this to take effect");
+            CustomMessageBox.Show(Strings.YouNeedToRestartThePlanner);
             Settings.Instance["CHK_GDIPlus"] = CHK_GDIPlus.Checked.ToString();
         }
 
@@ -800,7 +800,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             ThemeManager.LoadTheme(CMB_theme.Text);
             ThemeManager.ApplyThemeTo(MainV2.instance);
-            CustomMessageBox.Show("You may need to select another tab or restart to see the full effect.");
+            CustomMessageBox.Show(Strings.YouMayNeedToSelectAnother);
         }
 
         private void BUT_themecustom_Click(object sender, EventArgs e)

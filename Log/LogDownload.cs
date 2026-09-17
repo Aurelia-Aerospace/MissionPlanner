@@ -123,7 +123,7 @@ namespace MissionPlanner.Log
             }
             catch (Exception ex)
             {
-                log.Error("Error opening comport", ex);
+                log.Error(Strings.ErrorOpeningComport, ex);
                 CustomMessageBox.Show("Error opening comport");
                 return;
             }
@@ -420,7 +420,7 @@ namespace MissionPlanner.Log
             {
                 if (CHK_logs.Items.Count == 0)
                 {
-                    CustomMessageBox.Show("Nothing to download");
+                    CustomMessageBox.Show(Strings.NothingToDownload);
                     return;
                 }
 

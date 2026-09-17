@@ -126,7 +126,7 @@ namespace MissionPlanner.Utilities
 
             if (!File.Exists(file))
             {
-                //CustomMessageBox.Show("Missing FirmwareHistory.txt file");
+                //CustomMessageBox.Show(Strings.MissingFirmwarehistoryTxtFile);
                 return;
             }
 
@@ -385,7 +385,7 @@ namespace MissionPlanner.Utilities
                 {
                     //
                     if ((int)DialogResult.Yes ==
-                        CustomMessageBox.Show("Is this a CubeBlack?", "CubeBlack", MessageBoxButtons.YesNo))
+                        CustomMessageBox.Show(Strings.IsThisACubeblack, "CubeBlack", MessageBoxButtons.YesNo))
                     {
                         BoardDetect.chbootloader = "CubeBlack";
                         board = BoardDetect.boards.chbootloader;
@@ -576,7 +576,7 @@ namespace MissionPlanner.Utilities
 
             }
 
-            if (CustomMessageBox.Show("Upload ChibiOS", "ChibiOS", MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
+            if (CustomMessageBox.Show(Strings.UploadChibios, "ChibiOS", MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
             {
                 return chibiosurl;
             }
@@ -697,7 +697,7 @@ namespace MissionPlanner.Utilities
                     catch (IOException ex)
                     {
                         log.Error(ex);
-                        CustomMessageBox.Show("lost communication with the board.", "lost comms");
+                        CustomMessageBox.Show(Strings.LostCommunicationWithTheBoard, "lost comms");
                         uploader.close();
                         result = false;
                         return false;
@@ -867,7 +867,7 @@ namespace MissionPlanner.Utilities
                     if (board == BoardDetect.boards.vrbrainv40)
                     {
                         CustomMessageBox.Show(
-                            "VRBRAIN 4 detected. Please unplug the board, and then press OK and plug back in.\n");
+                            Strings.Vrbrain4DetectedPleaseUnplugThe);
                     }
                 }
                 else
@@ -963,9 +963,9 @@ namespace MissionPlanner.Utilities
                     {
                         //VR boards have no tone alarm
                         if (up.board_type == 1140)
-                            CustomMessageBox.Show("Upload complete! Please unplug and reconnect board.");
+                            CustomMessageBox.Show(Strings.UploadCompletePleaseUnplugAndReconnect);
                         else
-                            CustomMessageBox.Show("Upload complete!");
+                            CustomMessageBox.Show(Strings.UploadComplete2);
                     }
                     else
                     {
@@ -1220,7 +1220,7 @@ namespace MissionPlanner.Utilities
                     adbClient.ExecuteRemoteCommand("reboot.sh", device, consoleOut);
                 }
 
-                CustomMessageBox.Show("Firmware installed!");
+                CustomMessageBox.Show(Strings.FirmwareInstalled);
                 updateProgress(-1, "Firmware installed");
             }
             catch (Exception e)
@@ -1304,7 +1304,7 @@ namespace MissionPlanner.Utilities
                 }
                 catch (MissingFieldException)
                 {
-                    CustomMessageBox.Show("Please update, your install is currupt", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.PleaseUpdateYourInstallIsCurrupt, Strings.ERROR);
                     return false;
                 }
             }
@@ -1370,7 +1370,7 @@ namespace MissionPlanner.Utilities
             {
                 if (FLASH.Length > 126976)
                 {
-                    CustomMessageBox.Show("Firmware is to big for a 1280, Please upgrade your hardware!!");
+                    CustomMessageBox.Show(Strings.FirmwareIsToBigForA);
                     return false;
                 }
                 //port = new ArduinoSTK();
@@ -1459,7 +1459,7 @@ namespace MissionPlanner.Utilities
                 {
                 }
 
-                //CustomMessageBox.Show("1. If you are updating your firmware from a previous version, please verify your parameters are appropriate for the new version.\n2. Please ensure your accelerometer is calibrated after installing or re-calibrated after updating the firmware.");
+                //CustomMessageBox.Show(Strings.1IfYouAreUpdatingYour);
 
                 try
                 {
@@ -1546,7 +1546,7 @@ namespace MissionPlanner.Utilities
 
                     if (checksumact != checksum)
                     {
-                        CustomMessageBox.Show("The hex file loaded is invalid, please try again.");
+                        CustomMessageBox.Show(Strings.TheHexFileLoadedIsInvalid);
                         throw new Exception("Checksum Failed - Invalid Hex");
                     }
                 }
@@ -1555,7 +1555,7 @@ namespace MissionPlanner.Utilities
 
             if (!hitend)
             {
-                CustomMessageBox.Show("The hex file did no contain an end flag. aborting");
+                CustomMessageBox.Show(Strings.TheHexFileDidNoContain);
                 throw new Exception("No end flag in file");
             }
 

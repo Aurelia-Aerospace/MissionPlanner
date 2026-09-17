@@ -198,7 +198,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT_CAPACITY Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBattCapacityFailed, Strings.ERROR);
             }
         }
 
@@ -261,7 +261,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT_MONITOR,BATT_VOLT_PIN,BATT_CURR_PIN Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBattMonitorBattVoltPin, Strings.ERROR);
             }
         }
 
@@ -300,7 +300,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 if (MainV2.comPort.MAV.param.ContainsKey("BATT_MONITOR") &&
                     (MainV2.comPort.MAV.param["BATT_MONITOR"].Value == 3 ||
                      MainV2.comPort.MAV.param["BATT_MONITOR"].Value == 4)) {
-                   CustomMessageBox.Show("Set BATT_VOLT_MULT Failed", Strings.ERROR);
+                   CustomMessageBox.Show(Strings.SetBattVoltMultFailed, Strings.ERROR);
                 }
             }
         }
@@ -348,7 +348,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 if (MainV2.comPort.MAV.param.ContainsKey("BATT_MONITOR") &&
                     (MainV2.comPort.MAV.param["BATT_MONITOR"].Value == 3 ||
                      MainV2.comPort.MAV.param["BATT_MONITOR"].Value == 4)) {
-                  CustomMessageBox.Show("Set BATT_AMP_PERVOLT Failed", Strings.ERROR);
+                  CustomMessageBox.Show(Strings.SetBattAmpPervoltFailed, Strings.ERROR);
                 }
             }
         }
@@ -558,7 +558,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT_????_PIN Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBattPinFailed, Strings.ERROR);
             }
         }
 

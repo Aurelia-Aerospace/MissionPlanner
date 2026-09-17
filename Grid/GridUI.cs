@@ -971,7 +971,7 @@ namespace MissionPlanner.Grid
 
             if (polygon.Count == 0)
             {
-                CustomMessageBox.Show("Please define a polygon!");
+                CustomMessageBox.Show(Strings.PleaseDefineAPolygon);
                 return 0;
             }
 
@@ -1594,7 +1594,7 @@ namespace MissionPlanner.Grid
                 camera.sensorheight = float.Parse(TXT_sensheight.Text);
                 camera.sensorwidth = float.Parse(TXT_senswidth.Text);
             }
-            catch { CustomMessageBox.Show("One of your entries is not a valid number"); return; }
+            catch { CustomMessageBox.Show(Strings.OneOfYourEntriesIsNot); return; }
 
             cameras[CMB_camera.Text] = camera;
 
@@ -1609,7 +1609,7 @@ namespace MissionPlanner.Grid
 
                 if (NUM_split.Value > 1 && CHK_toandland.Checked != true)
                 {
-                    CustomMessageBox.Show("You must use Land/RTL to split a mission", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.YouMustUseLandRtlTo, Strings.ERROR);
                     return;
                 }
 
@@ -1884,7 +1884,7 @@ namespace MissionPlanner.Grid
             }
             else
             {
-                CustomMessageBox.Show("Bad Grid", "Error");
+                CustomMessageBox.Show(Strings.BadGrid, "Error");
             }
         }
 

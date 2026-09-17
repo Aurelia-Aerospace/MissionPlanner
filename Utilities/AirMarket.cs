@@ -172,11 +172,11 @@ namespace MissionPlanner.Utilities
             var ans = await AirMarket.ValidateCredentials(txt_username.Text, txt_password.Text, cmb_server.Text).ConfigureAwait(true);
             if (ans == false)
             {
-                CustomMessageBox.Show("Username or password invalid");
+                CustomMessageBox.Show(Strings.UsernameOrPasswordInvalid);
             }
             else
             {
-                CustomMessageBox.Show("Success checking credentials");
+                CustomMessageBox.Show(Strings.SuccessCheckingCredentials);
             }
         }
 

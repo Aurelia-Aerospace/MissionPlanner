@@ -106,7 +106,7 @@ namespace MissionPlanner
                 config.SaveToDir("C:\\Temp\\Snapshot");
                 DotTrace.Attach(config);
                 DotTrace.StartCollectingData();
-                CustomMessageBox.Show("Trace started");
+                CustomMessageBox.Show(Strings.TraceStarted);
             }
             else
             {
@@ -732,13 +732,13 @@ namespace MissionPlanner
 
             if (ex.Message.Contains("The port is closed"))
             {
-                CustomMessageBox.Show("Serial connection has been lost");
+                CustomMessageBox.Show(Strings.SerialConnectionHasBeenLost);
                 return;
             }
 
             if (ex.Message.Contains("Array.Empty"))
             {
-                CustomMessageBox.Show("Please install Microsoft Dot Net 4.6.2");
+                CustomMessageBox.Show(Strings.PleaseInstallMicrosoftDotNet4);
                 Application.Exit();
                 return;
             }
@@ -856,7 +856,7 @@ namespace MissionPlanner
                 {
                     Console.WriteLine(exp.ToString());
                     log.Error(exp);
-                    CustomMessageBox.Show("Could not send report! Typically due to lack of internet connection.");
+                    CustomMessageBox.Show(Strings.CouldNotSendReportTypicallyDue);
                 }
             }
         }

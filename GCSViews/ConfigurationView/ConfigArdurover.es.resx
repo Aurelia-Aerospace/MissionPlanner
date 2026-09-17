@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Tipo de motor</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Aceleración máxima (%)</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Aceleración mínima (%)</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Acelerador y motores</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Velocidad de crucero</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Acelerador de crucero</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Freno</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Accel Max (m/s/s)</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>IMAX</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Velocidad/Acelerador</value>
+  </data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve">
+    <value>Escribir parámetros</value>
+  </data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve">
+    <value>Actualizar parámetros</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Velocidad de WP</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Latitud, Altitud, Control, Amortiguación</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Latitud, Altitud, Control, Período</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Exceso de WP</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>WP Radius</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Turn G Max</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Navegación</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>FF</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>IMAX</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Velocidad de giro</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Supresión de rebotes del sonar</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tiempo de respuesta</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Ángulo de giro</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Distancia del gatillo (cm)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Evitación</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Radio de giro</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Modo de dirección</value>
+  </data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve">
+    <value>Actualizar pantalla</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>RC7 Opt</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>RC8 Opt</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>RC9 Opt</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>RC10 Opt</value>
+  </data>
+</root>

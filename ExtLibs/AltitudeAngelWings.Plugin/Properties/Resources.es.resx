@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AskToEnableAltitudeAngel" xml:space="preserve">
+    <value>¿Deseas activar el complemento Altitude Angel?
+
+Al hacer clic en «Sí», dispondrás de los datos de Altitude Angel sobre el espacio aéreo y los peligros en tierra directamente en los mapas de Mission Planner,
+lo que te facilitará saber dónde puedes y dónde no puedes volar, y planificar vuelos más seguros. Se te pedirá que inicies sesión con tu
+cuenta de Altitude Angel o que te registres para crear una nueva cuenta si aún no tienes una.
+
+Siempre puedes acceder a la configuración de este complemento haciendo clic con el botón derecho del ratón en el mapa y seleccionando «Configuración de Altitude Angel».
+
+Para obtener más información, consultar la política de privacidad y los términos y condiciones, visita: [enlace;https://www.altitudeangel.com;www.altitudeangel.com]</value>
+  </data>
+  <data name="ExplicitClickPrefix" xml:space="preserve">
+    <value>Altitude Angel está desactivado actualmente. </value>
+  </data>
+  <data name="AskToEnableCaption" xml:space="preserve">
+    <value>Complemento Altitude Angel</value>
+  </data>
+  <data name="SettingsMenuItemText" xml:space="preserve">
+    <value>Configuración de Altitude Angel</value>
+  </data>
+  <data name="SettingsAccountTabText" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="SettingsURLDomainSuffixText" xml:space="preserve">
+    <value>Sufijo de dominio de la URL</value>
+  </data>
+  <data name="SettingsClientSecretText" xml:space="preserve">
+    <value>Secreto del cliente</value>
+  </data>
+  <data name="SettingsClientIDText" xml:space="preserve">
+    <value>N.º de cliente</value>
+  </data>
+  <data name="SettingsOverrideClientSettingsText" xml:space="preserve">
+    <value>Anular la configuración del cliente</value>
+  </data>
+  <data name="SettingsWhatIsThisText" xml:space="preserve">
+    <value>¿Qué es esto?</value>
+  </data>
+  <data name="SettingsEnableFlightReportingText" xml:space="preserve">
+    <value>Activar la notificación de vuelos</value>
+  </data>
+  <data name="SettingsSignOutText" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="SettingsSignInText" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="SettingsMapLayersText" xml:space="preserve">
+    <value>Capas del mapa</value>
+  </data>
+  <data name="SettingsPlanMapText" xml:space="preserve">
+    <value>Mapa del plano</value>
+  </data>
+  <data name="SettingsDataMapText" xml:space="preserve">
+    <value>Mapa de datos</value>
+  </data>
+  <data name="SettingsDefaultLayersText" xml:space="preserve">
+    <value>Capas predeterminadas</value>
+  </data>
+  <data name="SettingsOpacityAdjustText" xml:space="preserve">
+    <value>Ajustar la opacidad</value>
+  </data>
+  <data name="SettingsGroundDataText" xml:space="preserve">
+    <value>Datos terrestres</value>
+  </data>
+  <data name="SettingsFlightReportingTabText" xml:space="preserve">
+    <value>Informes de vuelo</value>
+  </data>
+  <data name="SettingsFlightReportDescriptionText" xml:space="preserve">
+    <value>Descripción del informe de vuelo</value>
+  </data>
+  <data name="SettingsUseLocalConflictScopeText" xml:space="preserve">
+    <value>Utilizar el ámbito de conflicto local</value>
+  </data>
+  <data name="SettingsSerialNumberText" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="SettingsAllowSMSContactText" xml:space="preserve">
+    <value>Permitir contacto por SMS</value>
+  </data>
+  <data name="SettingsICAOAddressText" xml:space="preserve">
+    <value>Dirección de la OACI</value>
+  </data>
+  <data name="SettingsUseExistingFlightPlanIDText" xml:space="preserve">
+    <value>Utilizar el ID del plan de vuelo existente</value>
+  </data>
+  <data name="SettingsCommercialFlightText" xml:space="preserve">
+    <value>Vuelo comercial</value>
+  </data>
+  <data name="SettingsFlightReportDurationText" xml:space="preserve">
+    <value>Duración del informe de vuelo (minutos)</value>
+  </data>
+  <data name="SettingsContactPhoneNumberText" xml:space="preserve">
+    <value>Número de teléfono de contacto</value>
+  </data>
+  <data name="SettingsFlightReportNameText" xml:space="preserve">
+    <value>Nombre del informe de vuelo</value>
+  </data>
+  <data name="SettingsAboutTabText" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="SettingsDisableText" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="SettingsEnableText" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="SettingsWindowTitleText" xml:space="preserve">
+    <value>Configuración de Altitude Angel</value>
+  </data>
+  <data name="PluginAuthor" xml:space="preserve">
+    <value>Altitude Angel</value>
+  </data>
+  <data name="PluginName" xml:space="preserve">
+    <value>Altitude Angel</value>
+  </data>
+  <data name="MissionPlannerAdapterNotifyMessageTitle" xml:space="preserve">
+    <value>Notificación</value>
+  </data>
+  <data name="MissionPlannerAdapterMessageBoxDefaultCaption" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="LoginWindowTitleText" xml:space="preserve">
+    <value>Inicio de sesión en Altitude Angel</value>
+  </data>
+  <data name="WaitWindowTitle" xml:space="preserve">
+    <value>Altitude Angel</value>
+  </data>
+  <data name="MessageCtrlClickPlannerMap" xml:space="preserve">
+    <value>Utiliza Ctrl + clic para mostrar y ocultar la información de Altitude Angel en el mapa de planificación de vuelo.</value>
+  </data>
+</root>

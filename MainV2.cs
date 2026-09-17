@@ -1023,7 +1023,7 @@ namespace MissionPlanner
 
             if (CurrentState.rateattitudebackup == 0) // initilised to 10, configured above from save
             {
-                CustomMessageBox.Show("NOTE: your attitude rate is 0, the hud will not work\nChange in Configuration > Planner > Telemetry Rates");
+                CustomMessageBox.Show(Strings.NoteYourAttitudeRateIs02);
             }
 
             // create log dir if it doesnt exist
@@ -1322,7 +1322,7 @@ namespace MissionPlanner
 
                     if (ans == false)
                     {
-                        CustomMessageBox.Show("Bad Password", "Bad Password");
+                        CustomMessageBox.Show(Strings.BadPassword, "Bad Password");
                     }
                 }
 
@@ -3349,7 +3349,7 @@ namespace MissionPlanner
                         if (!GStreamer.GstLaunchExists)
                         {
                             if (CustomMessageBox.Show(
-                                    "A video stream has been detected, but gstreamer has not been configured/installed.\nDo you want to install/config it now?",
+                                    Strings.AVideoStreamHasBeenDetected,
                                     "GStreamer", System.Windows.Forms.MessageBoxButtons.YesNo) ==
                                 (int) System.Windows.Forms.DialogResult.Yes)
                             {
@@ -3715,7 +3715,7 @@ namespace MissionPlanner
                     }
                     else
                     {
-                        CustomMessageBox.Show("Failed to start joystick");
+                        CustomMessageBox.Show(Strings.FailedToStartJoystick);
                     }
                 }
 
@@ -4158,13 +4158,13 @@ namespace MissionPlanner
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Invalid command");
+                    CustomMessageBox.Show(Strings.InvalidCommand);
                     return true;
                 }
 
                 //read
                 ///////MainV2.comPort.doCommand(MAVLink09.MAV_CMD.PREFLIGHT_STORAGE, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f);
-                CustomMessageBox.Show("Done MAV_ACTION_STORAGE_WRITE");
+                CustomMessageBox.Show(Strings.DoneMavActionStorageWrite);
                 return true;
             }
 
@@ -4413,7 +4413,7 @@ namespace MissionPlanner
             }
             catch
             {
-                CustomMessageBox.Show("Link open failed. check your default webpage association");
+                CustomMessageBox.Show(Strings.LinkOpenFailedCheckYourDefault);
             }
         }
 
