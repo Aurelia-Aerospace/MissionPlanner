@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label5.Text" xml:space="preserve">
     <value>Velocidad de variación</value>
   </data>
@@ -180,5 +181,68 @@
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
     <value>Actualizar pantalla</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 13</value>
+  </data>
+  <data name="label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 13</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 13</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 13</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="TRIM_THROTTLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 13</value>
+  </data>
+  <data name="THR_SLEWRATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 82</value>
+  </data>
+  <data name="TECS_SINK_MIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 36</value>
+  </data>
+  <data name="YAW2SRV_DAMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 59</value>
+  </data>
+  <data name="TECS_CLMB_MAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 13</value>
+  </data>
+  <data name="TECS_SINK_MAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 59</value>
+  </data>
+  <data name="TECS_PTCH_DAMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 82</value>
+  </data>
+  <data name="YAW2SRV_RLL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 13</value>
+  </data>
+  <data name="NAVL1_DAMPING.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 36</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 231</value>
+  </data>
+  <data name="TECS_TIME_CONST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 108</value>
   </data>
 </root>

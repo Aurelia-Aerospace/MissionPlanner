@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CHK_mixmode.Text" xml:space="preserve">
     <value>Elevones</value>
   </data>
@@ -45,5 +46,29 @@
   </data>
   <data name="CHK_revch1.Text" xml:space="preserve">
     <value>Inverso</value>
+  </data>
+  <data name="CHK_elevonrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="CHK_elevonch1rev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="CHK_mixmode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="BUT_BindDSM8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 15</value>
+  </data>
+  <data name="CHK_elevonch1rev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 19</value>
+  </data>
+  <data name="BUT_BindDSMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="CHK_elevonrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 19</value>
+  </data>
+  <data name="CHK_elevonch2rev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 19</value>
   </data>
 </root>

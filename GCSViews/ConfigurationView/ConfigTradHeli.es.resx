@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Tipo de plato giratorio</value>
   </data>
@@ -171,5 +172,101 @@
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Puñalada 1</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 16</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_cyc_max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 40</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_sv_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 112</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_rsc_power_low.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 45</value>
+  </data>
+  <data name="HS4_REV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 60</value>
+  </data>
+  <data name="mavlinkNumericUpDowntailspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 57</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 71</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 97</value>
+  </data>
+  <data name="mavlinkNumericUpDownH_PHANG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 340</value>
+  </data>
+  <data name="mavlinkudH_RSC_RATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 19</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_rsc_power_high.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 71</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 45</value>
+  </data>
+  <data name="mavlinkNumericUpDownrunuptime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 45</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 19</value>
   </data>
 </root>

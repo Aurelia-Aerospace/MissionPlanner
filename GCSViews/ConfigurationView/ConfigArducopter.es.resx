@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label25.Text" xml:space="preserve">
     <value>P</value>
   </data>
@@ -264,5 +265,104 @@
   </data>
   <data name="label52.Text" xml:space="preserve">
     <value>RC6 Opt</value>
+  </data>
+  <data name="myLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 18</value>
+  </data>
+  <data name="myLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="myLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 361</value>
+  </data>
+  <data name="WPNAV_SPEED_DN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 84</value>
+  </data>
+  <data name="WPNAV_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 13</value>
+  </data>
+  <data name="CH6_OPTION.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 334</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 100</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 334</value>
+  </data>
+  <data name="TUNE_LOW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 360</value>
+  </data>
+  <data name="INS_NOTCH_BW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 77</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 104</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 79</value>
+  </data>
+  <data name="TUNE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 332</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 287</value>
+  </data>
+  <data name="WPNAV_LOIT_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 107</value>
+  </data>
+  <data name="INS_HNTCH_HMNCS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 102</value>
+  </data>
+  <data name="mavlinkNumericUpDownatc_input_tc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 39</value>
+  </data>
+  <data name="INS_HNTCH_ENABLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="groupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 5</value>
+  </data>
+  <data name="CH10_OPTION.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 442</value>
+  </data>
+  <data name="INS_HNTCH_FREQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 102</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 29</value>
+  </data>
+  <data name="INS_HNTCH_BW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 52</value>
+  </data>
+  <data name="INS_HNTCH_REF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 77</value>
   </data>
 </root>

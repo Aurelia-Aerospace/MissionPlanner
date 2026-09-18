@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chk_ele.Text" xml:space="preserve">
     <value>Altitud</value>
   </data>
@@ -69,5 +70,74 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Configuración de la propagación</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="chk_rf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="label111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 23</value>
+  </data>
+  <data name="label112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="cb_showscale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="label109.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="label110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 23</value>
+  </data>
+  <data name="Clearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 19</value>
+  </data>
+  <data name="label110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 75</value>
+  </data>
+  <data name="NUM_range.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 73</value>
+  </data>
+  <data name="CMB_Angular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 72</value>
+  </data>
+  <data name="label112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 75</value>
+  </data>
+  <data name="NUM_min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 124</value>
+  </data>
+  <data name="NUM_max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 124</value>
+  </data>
+  <data name="chk_setalt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 60</value>
+  </data>
+  <data name="CMB_Rotational.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 72</value>
+  </data>
+  <data name="label111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 75</value>
+  </data>
+  <data name="NUM_height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 73</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 126</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 126</value>
   </data>
 </root>

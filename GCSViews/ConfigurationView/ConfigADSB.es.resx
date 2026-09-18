@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Actualizar parámetros</value>
   </data>
@@ -24,5 +25,26 @@
   </data>
   <data name="but_saveflid.Text" xml:space="preserve">
     <value>Guardar</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 13</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="txt_flid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 2</value>
+  </data>
+  <data name="but_saveflid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 2</value>
+  </data>
+  <data name="but_saveacreg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 3</value>
+  </data>
+  <data name="txt_acreg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 3</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 5</value>
   </data>
 </root>
