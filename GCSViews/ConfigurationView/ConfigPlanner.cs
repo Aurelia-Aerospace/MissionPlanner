@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
@@ -102,16 +103,28 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 Settings.Instance["severity"] = CMB_severity.SelectedIndex.ToString();
             }
 
-            // setup language selection
-            var cultureCodes = new[]
-            {
-                "en-US", "zh-Hans", "zh-TW", "ru-RU", "Fr", "Pl", "it-IT", "es-ES", "de-DE", "ja-JP", "id-ID", "ko-KR",
-                "ar", "pt", "tr", "ru-KZ", "uk"
-            };
+            // setup language selection - only list cultures that actually ship a translated
+            // MissionPlanner.Strings satellite assembly, so users can't pick a language that
+            // silently falls back to English.
+            var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            _languages = cultureCodes
-                .Select(CultureInfoEx.GetCultureInfo)
-                .Where(c => c != null)
+            _languages = new List<CultureInfo> { CultureInfoEx.GetCultureInfo("en-US") };
+
+            if (appDir != null)
+            {
+                foreach (var dir in Directory.GetDirectories(appDir))
+                {
+                    if (!File.Exists(Path.Combine(dir, "MissionPlanner.Strings.resources.dll")))
+                        continue;
+
+                    var culture = CultureInfoEx.GetCultureInfo(Path.GetFileName(dir));
+                    if (culture != null)
+                        _languages.Add(culture);
+                }
+            }
+
+            _languages = _languages
+                .OrderBy(c => c.DisplayName)
                 .ToList();
 
             CMB_language.DisplayMember = "DisplayName";
