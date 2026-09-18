@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Página web de Declination</value>
   </data>
@@ -20,7 +21,7 @@
     <value>Selecciona un dispositivo para configurar rápidamente los parámetros:</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Títulos universitarios</value>
+    <value>Grados</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Acta</value>
@@ -126,5 +127,41 @@
   </data>
   <data name="but_largemagcal.Text" xml:space="preserve">
     <value>MagCal para vehículos grandes</value>
+  </data>
+  <data name="LBL_primary_compass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 13</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 27</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 43</value>
+  </data>
+  <data name="TXT_declination_deg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 41</value>
+  </data>
+  <data name="buttonQuickPixhawk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 33</value>
+  </data>
+  <data name="groupBoxmpcalib.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 309</value>
+  </data>
+  <data name="CMB_primary_compass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 44</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 139</value>
+  </data>
+  <data name="buttonAPMExternal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 33</value>
+  </data>
+  <data name="TXT_declination_min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 40</value>
+  </data>
+  <data name="QuickAPM25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 33</value>
   </data>
 </root>

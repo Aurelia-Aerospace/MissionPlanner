@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BUT_forcecal_accel.Text" xml:space="preserve">
     <value>Calibración de aceleración de fuerza</value>
   </data>
@@ -128,7 +129,7 @@
     <value>ejecutar el algoritmo de orientación del cardán</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>cuádruple: brazo y despegue</value>
+    <value>cuádruple: armar y despegar</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
     <value>Prueba de velocidad de conversión de estructuras</value>
@@ -146,7 +147,7 @@
     <value>índice de registros</value>
   </data>
   <data name="but_armandtakeoff.Text" xml:space="preserve">
-    <value>brazo y despegue</value>
+    <value>armar y despegar</value>
   </data>
   <data name="but_maplogs.Text" xml:space="preserve">
     <value>registros de mapas</value>
@@ -369,5 +370,68 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>temp</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 13</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 19</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 13</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 13</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 13</value>
+  </data>
+  <data name="but_dfumode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 573</value>
+  </data>
+  <data name="but_gpsinj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 497</value>
+  </data>
+  <data name="but_acbarohight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 174</value>
+  </data>
+  <data name="but_followswarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 535</value>
+  </data>
+  <data name="but_3dmap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 117</value>
+  </data>
+  <data name="label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 532</value>
+  </data>
+  <data name="label56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 570</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 456</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 171</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 114</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 494</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 304</value>
+  </data>
+  <data name="myButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 459</value>
+  </data>
+  <data name="but_paramrestore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 307</value>
   </data>
 </root>

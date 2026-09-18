@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="RSSI.ToolTip" xml:space="preserve">
     <value>Consulta las especificaciones para ver un gráfico de RSSI en dBm. Las cifras que aparecen al final son:
 txe: número de errores de transmisión (por ejemplo, tiempos de espera de transmisión) 
@@ -138,8 +139,8 @@ LED rojo fijo: en modo de actualización del firmware</value>
     <value>RSSI</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>NOTA: Haz siempre clic en «Copiar a remoto» cuando realices modificaciones;
-así te asegurarás de no perder la conexión por radio.</value>
+    <value>NOTA: Haz clic en «Copiar a remoto» al modificar;
+así no perderás la conexión por radio.</value>
   </data>
   <data name="groupBoxLocal.Text" xml:space="preserve">
     <value>Local</value>
@@ -292,7 +293,7 @@ así te asegurarás de no perder la conexión por radio.</value>
     <value>GPO1_3STATLED</value>
   </data>
   <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve">
-    <value>Configurar el sistema de seguridad ante fallos de PPM</value>
+    <value>Fail-Safe PPM</value>
   </data>
   <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve">
     <value>Grabar la señal PPM por defecto para la salida PPM (lado del vehículo)</value>
@@ -409,10 +410,10 @@ así te asegurarás de no perder la conexión por radio.</value>
     <value>Cargar firmware (personalizado)</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>Restablecer los valores predeterminados</value>
+    <value>Restaurar valores</value>
   </data>
   <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve">
-    <value>Configurar el sistema de seguridad ante fallos de PPM</value>
+    <value>Fail-Safe PPM</value>
   </data>
   <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve">
     <value>Grabar la señal PPM predeterminada para la salida PPM (lado del vehículo)</value>
@@ -427,12 +428,291 @@ así te asegurarás de no perder la conexión por radio.</value>
     <value>Cargar firmware (estándar)</value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>Se debe copiar en el dispositivo remoto</value>
+    <value>Copiar al remoto</value>
   </data>
   <data name="btnSaveToFile.Text" xml:space="preserve">
     <value>Guardar en un archivo...</value>
   </data>
   <data name="btnLoadFromFile.Text" xml:space="preserve">
     <value>Cargar desde un archivo...</value>
+  </data>
+  <data name="lblRSER_BRK_DETMS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="lblANT_MODE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="lblRMIN_FREQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="lblRMAX_WINDOW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="lblRMAX_DATA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblMAX_FREQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="lblRDUTY_CYCLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 13</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 13</value>
+  </data>
+  <data name="lblSER_BRK_DETMS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="lblGLOBAL_RETRIES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblNETID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="lblMAX_WINDOW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="lblMIN_FREQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="lblRGLOBAL_RETRIES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblRMAX_RETRIES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 13</value>
+  </data>
+  <data name="lblRANT_MODE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="lblMAX_DATA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lbl_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 28</value>
+  </data>
+  <data name="lblRMAX_FREQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="lblMAX_RETRIES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 13</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="lblDUTY_CYCLE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="lblRNETID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="BUT_Syncoptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 518</value>
+  </data>
+  <data name="lblRGPO1_0TXEN485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 386</value>
+  </data>
+  <data name="RDUTY_CYCLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 157</value>
+  </data>
+  <data name="RMAX_WINDOW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 232</value>
+  </data>
+  <data name="lblRSBUSOUT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 311</value>
+  </data>
+  <data name="RGPO1_0TXEN485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 382</value>
+  </data>
+  <data name="ATI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 12</value>
+  </data>
+  <data name="lblSBUSOUT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 311</value>
+  </data>
+  <data name="lblRNUM_CHANNELS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 136</value>
+  </data>
+  <data name="RNUM_CHANNELS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 132</value>
+  </data>
+  <data name="RMAX_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 232</value>
+  </data>
+  <data name="lblRDESTID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 136</value>
+  </data>
+  <data name="MAX_DATA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 207</value>
+  </data>
+  <data name="RGLOBAL_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 257</value>
+  </data>
+  <data name="RMIN_FREQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 82</value>
+  </data>
+  <data name="AIR_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 132</value>
+  </data>
+  <data name="RATE_FREQBAND.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 357</value>
+  </data>
+  <data name="lblNUM_CHANNELS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 136</value>
+  </data>
+  <data name="lblTX_ENCAP_METHOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 161</value>
+  </data>
+  <data name="ATI3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 12</value>
+  </data>
+  <data name="txt_aeskey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 307</value>
+  </data>
+  <data name="lblENCRYPTION_LEVEL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 261</value>
+  </data>
+  <data name="lblRTX_ENCAP_METHOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 161</value>
+  </data>
+  <data name="btnRandom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 282</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 18</value>
+  </data>
+  <data name="lblSER_BRK_DETMS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 286</value>
+  </data>
+  <data name="RSER_BRK_DETMS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 282</value>
+  </data>
+  <data name="TX_ENCAP_METHOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 157</value>
+  </data>
+  <data name="txt_Raeskey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 307</value>
+  </data>
+  <data name="SER_BRK_DETMS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 282</value>
+  </data>
+  <data name="lblANT_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 86</value>
+  </data>
+  <data name="GPO1_0TXEN485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 382</value>
+  </data>
+  <data name="MAX_WINDOW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 232</value>
+  </data>
+  <data name="lblRGPIO1_1FUNC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 408</value>
+  </data>
+  <data name="lblRTSCTS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 211</value>
+  </data>
+  <data name="lblRMAX_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 236</value>
+  </data>
+  <data name="lblGPO1_0TXEN485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 386</value>
+  </data>
+  <data name="lblRRTSCTS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 211</value>
+  </data>
+  <data name="RAIR_SPEED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 132</value>
+  </data>
+  <data name="lblNODEID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 111</value>
+  </data>
+  <data name="ANT_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 82</value>
+  </data>
+  <data name="MAX_FREQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 107</value>
+  </data>
+  <data name="RNETID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 157</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 286</value>
+  </data>
+  <data name="lblDESTID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 136</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 18</value>
+  </data>
+  <data name="NUM_CHANNELS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 132</value>
+  </data>
+  <data name="RMAX_DATA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 207</value>
+  </data>
+  <data name="lblDUTY_CYCLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 161</value>
+  </data>
+  <data name="lblRENCRYPTION_LEVEL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 261</value>
+  </data>
+  <data name="RANT_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 82</value>
+  </data>
+  <data name="MIN_FREQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 82</value>
+  </data>
+  <data name="MAX_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 232</value>
+  </data>
+  <data name="lblGPIO1_1FUNC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 411</value>
+  </data>
+  <data name="NODEID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 107</value>
+  </data>
+  <data name="lblRNODEID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 111</value>
+  </data>
+  <data name="NETID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 157</value>
+  </data>
+  <data name="RMAX_FREQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 107</value>
+  </data>
+  <data name="lblRANT_MODE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 86</value>
+  </data>
+  <data name="ATI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 12</value>
+  </data>
+  <data name="RRATE_FREQBAND.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 357</value>
+  </data>
+  <data name="RTX_ENCAP_METHOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 157</value>
+  </data>
+  <data name="GLOBAL_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 257</value>
+  </data>
+  <data name="DUTY_CYCLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 157</value>
+  </data>
+  <data name="lblRDUTY_CYCLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 161</value>
+  </data>
+  <data name="lblMAX_RETRIES.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 236</value>
   </data>
 </root>

@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
     <value>Grabar Hud en formato AVI</value>
   </data>
@@ -140,7 +141,7 @@
     <value>Cambiar el modo a RTL</value>
   </data>
   <data name="BUT_quickmanual.Text" xml:space="preserve">
-    <value>Holgazanear</value>
+    <value>Loiter</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
     <value>Cambia el modo a «Manual/Estabilizar»</value>
@@ -164,13 +165,13 @@
     <value>Cambios en el modo de la izquierda</value>
   </data>
   <data name="tabActions.Text" xml:space="preserve">
-    <value>Acciones</value>
+    <value>Acciones (avanzado)</value>
   </data>
   <data name="tabPagemessages.Text" xml:space="preserve">
     <value>Mensajes</value>
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>Holgazanear</value>
+    <value>Loiter</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
     <value>Cambia el modo a «Manual/Estabilizar»</value>
@@ -188,7 +189,7 @@
     <value>Cambia al modo «Auto»</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
-    <value>Acciones</value>
+    <value>Acciones (simple)</value>
   </data>
   <data name="tabPagePreFlight.Text" xml:space="preserve">
     <value>PreFlight</value>
@@ -296,7 +297,7 @@
     <value>Rodar</value>
   </data>
   <data name="groupBoxYaw.Text" xml:space="preserve">
-    <value>Sartén</value>
+    <value>Paneo</value>
   </data>
   <data name="BUT_resetGimbalPos.Text" xml:space="preserve">
     <value>Restablecer posición</value>
@@ -477,5 +478,131 @@
   </data>
   <data name="openScriptDialog.Filter" xml:space="preserve">
     <value>Archivos de Python|*.py|Todos los archivos|*.*</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 13</value>
+  </data>
+  <data name="FlightID_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="CB_tuning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="Squawk_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="Gheading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 7</value>
+  </data>
+  <data name="fault_clb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 6</value>
+  </data>
+  <data name="tabAuxFunction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 44</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 167</value>
+  </data>
+  <data name="tabServo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 44</value>
+  </data>
+  <data name="Galt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 7</value>
+  </data>
+  <data name="NACp_lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 89</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 167</value>
+  </data>
+  <data name="tabGauges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>892, 44</value>
+  </data>
+  <data name="panel_persistent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 0</value>
+  </data>
+  <data name="tabScripts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1188, 44</value>
+  </data>
+  <data name="Squawk_nud.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 31</value>
+  </data>
+  <data name="tabPagemessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1484, 44</value>
+  </data>
+  <data name="BUT_abort_script.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 80</value>
+  </data>
+  <data name="Mode_clb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 6</value>
+  </data>
+  <data name="NIC_lbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 63</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1151, 3</value>
+  </data>
+  <data name="tablogbrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2076, 44</value>
+  </data>
+  <data name="tabStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2372, 44</value>
+  </data>
+  <data name="tabQuick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2668, 44</value>
+  </data>
+  <data name="BUT_edit_selected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 79</value>
+  </data>
+  <data name="tabPayload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3260, 44</value>
+  </data>
+  <data name="distanceBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 0</value>
+  </data>
+  <data name="tabTLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2964, 44</value>
+  </data>
+  <data name="modifyandSetAlt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 36</value>
+  </data>
+  <data name="FlightID_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 11</value>
+  </data>
+  <data name="CHK_autopan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 3</value>
+  </data>
+  <data name="BUT_run_script.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 80</value>
+  </data>
+  <data name="FlightID_tb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 6</value>
+  </data>
+  <data name="modifyandSetLoiterRad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 72</value>
+  </data>
+  <data name="Squawk_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 37</value>
+  </data>
+  <data name="gMapControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 0</value>
+  </data>
+  <data name="tabPagePreFlight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3556, 44</value>
+  </data>
+  <data name="Gspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 7</value>
+  </data>
+  <data name="tabActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1780, 44</value>
+  </data>
+  <data name="tabActionsSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3852, 44</value>
+  </data>
+  <data name="modifyandSetSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 0</value>
   </data>
 </root>

@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BUT_Accept.Text" xml:space="preserve">
     <value>Aceptar</value>
   </data>
@@ -98,7 +99,7 @@
     <value>Haz clic y arrastra un rectángulo sobre la zona que quieras medir</value>
   </data>
   <data name="toolStripButtonpan.Text" xml:space="preserve">
-    <value>Sartén</value>
+    <value>Desplazar</value>
   </data>
   <data name="toolStripButtonbox.Text" xml:space="preserve">
     <value>Caja</value>
@@ -114,5 +115,29 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Encuesta (Gridv2)</value>
+  </data>
+  <data name="chk_markers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="chk_footprints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 43</value>
+  </data>
+  <data name="LBL_topdock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 0</value>
+  </data>
+  <data name="NUM_maxflttime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 99</value>
+  </data>
+  <data name="lbl_spacing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 33</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 0</value>
   </data>
 </root>

@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Text" xml:space="preserve">
     <value>Porcentaje de aceleración</value>
   </data>
@@ -36,9 +37,27 @@ desplázate hasta la parte inferior de la página</value>
     <value>Establece el porcentaje mínimo que se mostrará cuando el sistema esté armado, pero aún en tierra.</value>
   </data>
   <data name="but_mot_spin_arm.Text" xml:space="preserve">
-    <value>Ajuste del brazo giratorio del motor</value>
+    <value>Configurar giro del motor armado</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Prueba del motor</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 13</value>
+  </data>
+  <data name="but_mot_spin_arm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 11</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 16</value>
+  </data>
+  <data name="NUM_thr_percent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 14</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 11</value>
+  </data>
+  <data name="NUM_duration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 14</value>
   </data>
 </root>

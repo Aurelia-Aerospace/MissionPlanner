@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CHK_verifyheight.Text" xml:space="preserve">
     <value>Comprobar la altura</value>
   </data>
@@ -11,7 +12,7 @@
     <value>WP Radius</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>Texto alternativo predeterminado</value>
+    <value>Alt. predeterminada</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Radio de permanencia</value>
@@ -50,7 +51,7 @@
     <value>MAVFTP</value>
   </data>
   <data name="but_mincommands.Text" xml:space="preserve">
-    <value>˅</value>
+    <value>Ë…</value>
   </data>
   <data name="CMB_altmode.Text" xml:space="preserve">
     <value>Familiar</value>
@@ -209,7 +210,7 @@
     <value>Círculos</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Holgazanear</value>
+    <value>Loiter</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
     <value>Inicio</value>
@@ -447,5 +448,59 @@
   </data>
   <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve">
     <value>Volver a la página de inicio</value>
+  </data>
+  <data name="CHK_verifyheight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="chk_grid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="LBL_defalutalt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="BUT_Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 8</value>
+  </data>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>981, 0</value>
+  </data>
+  <data name="CMB_altmode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 7</value>
+  </data>
+  <data name="lnk_kml.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 3</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 4</value>
+  </data>
+  <data name="cmb_missiontype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>986, 3</value>
+  </data>
+  <data name="LBL_defalutalt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 4</value>
+  </data>
+  <data name="TXT_homelng.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 42</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1113, 5</value>
+  </data>
+  <data name="lbl_distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>931, 5</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>981, 319</value>
+  </data>
+  <data name="panelAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>990, 0</value>
   </data>
 </root>

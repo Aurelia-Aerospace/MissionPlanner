@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label33.Text" xml:space="preserve">
     <value>Sensor</value>
   </data>
@@ -29,7 +30,7 @@
     <value>Longitud de la pista</value>
   </data>
   <data name="CHK_speechaltwarning.Text" xml:space="preserve">
-    <value>Advertencia alternativa</value>
+    <value>Aviso alt.</value>
   </data>
   <data name="label108.Text" xml:space="preserve">
     <value>Conectar Restablecer</value>
@@ -84,16 +85,16 @@
     <value>Discurso</value>
   </data>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>Aviso sobre la batería</value>
+    <value>Aviso batería</value>
   </data>
   <data name="CHK_speechcustom.Text" xml:space="preserve">
-    <value>Intervalo de 30 segundos</value>
+    <value>Intervalo 30s</value>
   </data>
   <data name="CHK_speechmode.Text" xml:space="preserve">
     <value>Modo </value>
   </data>
   <data name="CHK_speechwaypoint.Text" xml:space="preserve">
-    <value>Punto de referencia</value>
+    <value>Waypoint</value>
   </data>
   <data name="label94.Text" xml:space="preserve">
     <value>Color del menú en pantalla (OSD)</value>
@@ -144,7 +145,7 @@
     <value>Personalizado</value>
   </data>
   <data name="CHK_speecharmdisarm.Text" xml:space="preserve">
-    <value>Activar/Desactivar</value>
+    <value>Armado</value>
   </data>
   <data name="BUT_Vario.Text" xml:space="preserve">
     <value>Vario de arranque/parada</value>
@@ -159,7 +160,7 @@
     <value>Proteger la configuración con contraseña</value>
   </data>
   <data name="CHK_speechlowspeed.Text" xml:space="preserve">
-    <value>Baja velocidad</value>
+    <value>Vel. baja</value>
   </data>
   <data name="CHK_showairports.Text" xml:space="preserve">
     <value>Mostrar aeropuertos</value>
@@ -180,10 +181,10 @@
     <value>Diseño</value>
   </data>
   <data name="CHK_AutoParamCommit.Text" xml:space="preserve">
-    <value>Parámetros de confirmación automática</value>
+    <value>Confirmar params. auto</value>
   </data>
   <data name="chk_shownofly.Text" xml:space="preserve">
-    <value>Prohibido volar</value>
+    <value>No volar</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Unidades alternativas</value>
@@ -198,7 +199,10 @@
     <value>Funciona en un ordenador lento</value>
   </data>
   <data name="CHK_speechArmedOnly.Text" xml:space="preserve">
-    <value>Solo cuando está armado</value>
+    <value>Solo armado</value>
+  </data>
+  <data name="CHK_speechArmedOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 89</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>NOTA: Configura el nivel bajo de GRAVEDAD para que se active la función de voz.</value>
@@ -238,5 +242,266 @@
   </data>
   <data name="CHK_rtsresetesp32.Text" xml:space="preserve">
     <value>Desactivar el reinicio RTS en el ESP32 SerialUSB</value>
+  </data>
+  <data name="CHK_speechaltwarning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 13</value>
+  </data>
+  <data name="CHK_speecharmdisarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 17</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="CHK_speechbattery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 17</value>
+  </data>
+  <data name="chk_displayheading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 17</value>
+  </data>
+  <data name="chk_norcreceiver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="CHK_showairports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 13</value>
+  </data>
+  <data name="CHK_Password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 17</value>
+  </data>
+  <data name="label101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 13</value>
+  </data>
+  <data name="chk_displaynavbearing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 17</value>
+  </data>
+  <data name="chk_displaytooltip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 17</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="CHK_speechcustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="CHK_speechmode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="CHK_speechwaypoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="chk_displayradius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 17</value>
+  </data>
+  <data name="CHK_beta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 17</value>
+  </data>
+  <data name="CHK_params_bg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 17</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="CHK_speechArmedOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 17</value>
+  </data>
+  <data name="label108.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 13</value>
+  </data>
+  <data name="label98.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="label97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 13</value>
+  </data>
+  <data name="chk_displaytarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 17</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="chk_analytics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 17</value>
+  </data>
+  <data name="CHK_resetapmonconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 17</value>
+  </data>
+  <data name="CMB_ratesensors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>637, 251</value>
+  </data>
+  <data name="label102.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 254</value>
+  </data>
+  <data name="txt_log_dir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 395</value>
+  </data>
+  <data name="BUT_videostart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 6</value>
+  </data>
+  <data name="CHK_speechmode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 89</value>
+  </data>
+  <data name="label99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 198</value>
+  </data>
+  <data name="chk_displaytooltip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>937, 501</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 254</value>
+  </data>
+  <data name="CHK_loadwponconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 326</value>
+  </data>
+  <data name="CHK_AutoParamCommit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 578</value>
+  </data>
+  <data name="chk_tfr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 577</value>
+  </data>
+  <data name="chk_shownofly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 554</value>
+  </data>
+  <data name="chk_ADSB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 554</value>
+  </data>
+  <data name="CMB_speedunits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 222</value>
+  </data>
+  <data name="CHK_hudshow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 10</value>
+  </data>
+  <data name="chk_slowMachine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 600</value>
+  </data>
+  <data name="chk_displaynavbearing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 501</value>
+  </data>
+  <data name="chk_displayradius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 501</value>
+  </data>
+  <data name="CHK_speechbattery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 89</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1279, 502</value>
+  </data>
+  <data name="CMB_altunits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 195</value>
+  </data>
+  <data name="CMB_distunits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 195</value>
+  </data>
+  <data name="CHK_speechlowspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 89</value>
+  </data>
+  <data name="CHK_speecharmdisarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 89</value>
+  </data>
+  <data name="BUT_videostop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 6</value>
+  </data>
+  <data name="BUT_mapCacheDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 653</value>
+  </data>
+  <data name="CHK_beta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 577</value>
+  </data>
+  <data name="num_linelength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1206, 500</value>
+  </data>
+  <data name="CMB_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 139</value>
+  </data>
+  <data name="CMB_rateattitude.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 251</value>
+  </data>
+  <data name="CHK_resetapmonconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 277</value>
+  </data>
+  <data name="BUT_themecustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 421</value>
+  </data>
+  <data name="CMB_videosources.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 8</value>
+  </data>
+  <data name="CMB_raterc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 251</value>
+  </data>
+  <data name="CHK_rtsresetesp32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 277</value>
+  </data>
+  <data name="CHK_disttohomeflightdata.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 302</value>
+  </data>
+  <data name="BUT_logdirbrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 393</value>
+  </data>
+  <data name="chk_displaytarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 501</value>
+  </data>
+  <data name="NUM_tracklength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 300</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 198</value>
+  </data>
+  <data name="CMB_ratestatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 251</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 303</value>
+  </data>
+  <data name="label103.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 254</value>
+  </data>
+  <data name="CMB_mapCache.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 653</value>
+  </data>
+  <data name="CHK_speechwaypoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 89</value>
+  </data>
+  <data name="label104.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 254</value>
+  </data>
+  <data name="label107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 254</value>
+  </data>
+  <data name="chk_norcreceiver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 577</value>
+  </data>
+  <data name="num_gcsid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 475</value>
+  </data>
+  <data name="CMB_osdcolor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 62</value>
+  </data>
+  <data name="CHK_speechcustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 89</value>
+  </data>
+  <data name="CMB_rateposition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 251</value>
+  </data>
+  <data name="CHK_speechaltwarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 89</value>
+  </data>
+  <data name="CHK_showairports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 554</value>
   </data>
 </root>

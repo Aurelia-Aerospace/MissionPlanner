@@ -4,6 +4,7 @@
   <resheader name="version"><value>2.0</value></resheader>
   <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Aceleración 0-100 %</value>
   </data>
@@ -167,7 +168,7 @@
     <value>Velocidad de aproximación</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Min TO Lanzamiento</value>
+    <value>Cabeceo mínimo TO</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
     <value>Velocidad aerodinámica (m/s)</value>
@@ -195,5 +196,89 @@
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>Escribir parámetros</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 16</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 16</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 16</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 16</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 16</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 16</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="PITCH_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 101</value>
+  </data>
+  <data name="LOITER_RD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 101</value>
+  </data>
+  <data name="ENTRY_ANGLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 44</value>
+  </data>
+  <data name="ARSPD_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 44</value>
+  </data>
+  <data name="HDG_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 131</value>
+  </data>
+  <data name="T_OFF_PITCH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 16</value>
+  </data>
+  <data name="PITCH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 131</value>
+  </data>
+  <data name="ROLL_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 131</value>
+  </data>
+  <data name="FLD_ELEV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="LND_APCH_SPD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 44</value>
+  </data>
+  <data name="EH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 131</value>
+  </data>
+  <data name="YAW_RATE_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 44</value>
+  </data>
+  <data name="XTRACK_GAIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="ARSPD_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 131</value>
   </data>
 </root>
