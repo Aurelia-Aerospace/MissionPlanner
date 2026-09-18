@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using MissionPlanner;
 
 namespace MissionPlanner.Joystick
 {
@@ -104,7 +105,7 @@ namespace MissionPlanner.Joystick
             this.BUT_detch.Name = "BUT_detch";
             this.BUT_detch.Size = new System.Drawing.Size(45, 23);
             this.BUT_detch.TabIndex = 62;
-            this.BUT_detch.Text = "Auto Detect";
+            this.BUT_detch.Text = Strings.AutoDetect;
             this.BUT_detch.UseVisualStyleBackColor = true;
             this.BUT_detch.Click += new System.EventHandler(this.BUT_detch_Click);
             // 
