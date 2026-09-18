@@ -11,19 +11,19 @@
     <value>Convertir a texto</value>
   </data>
   <data name="BUT_graphmavlog.Text" xml:space="preserve">
-    <value>Registro de gráficos</value>
+    <value>Graficar registro</value>
   </data>
   <data name="BUT_convertcsv.Text" xml:space="preserve">
     <value>Convertir a CSV</value>
   </data>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>Extraer parámetros</value>
+    <value>Extraer Params</value>
   </data>
   <data name="BUT_getwpsfromlog.Text" xml:space="preserve">
-    <value>Extraer los documentos de trabajo</value>
+    <value>Extraer WPs</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>Crear un archivo de MATLAB</value>
+    <value>Crear archivo Matlab</value>
   </data>
   <data name="but_cs.Text" xml:space="preserve">
     <value>Extracto CS</value>

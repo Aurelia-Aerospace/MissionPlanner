@@ -11,7 +11,7 @@
     <value>AS </value>
   </data>
   <data name="Bat" xml:space="preserve">
-    <value>Murciélago</value>
+    <value>Bat</value>
   </data>
   <data name="Cell" xml:space="preserve">
     <value>Célula</value>
@@ -59,7 +59,7 @@
     <value>NE</value>
   </data>
   <data name="NotReadyToArm" xml:space="preserve">
-    <value>No estoy preparado para armarme</value>
+    <value>No listo para armar</value>
   </data>
   <data name="NW" xml:space="preserve">
     <value>NW</value>

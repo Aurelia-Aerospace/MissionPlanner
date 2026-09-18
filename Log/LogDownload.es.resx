@@ -8,10 +8,10 @@
     <value>No se pueden borrar los registros mientras el dron esté activado. ¡Desactívalo, por favor!</value>
   </data>
   <data name="BUT_DLall.Text" xml:space="preserve">
-    <value>Descargar todos los registros</value>
+    <value>Descargar todos</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>Descargar estos registros</value>
+    <value>Descargar estos</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
     <value>Borrar registros</value>
@@ -20,7 +20,7 @@
     <value>Recrear KML</value>
   </data>
   <data name="BUT_firstperson.Text" xml:space="preserve">
-    <value>KML en primera persona</value>
+    <value>KML primera persona</value>
   </data>
   <data name="BUT_dumpdf.Text" xml:space="preserve">
     <value>(adv) Volcar todo el DF</value>
