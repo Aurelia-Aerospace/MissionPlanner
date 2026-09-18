@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="menu_parameters.Text" xml:space="preserve">
+    <value>Parámetros</value>
+  </data>
+  <data name="menu_restart.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="menu_update.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="menu_updatebeta.Text" xml:space="preserve">
+    <value>Actualizar Beta</value>
+  </data>
+  <data name="menu_passthrough.Text" xml:space="preserve">
+    <value>Paso directo de CAN - Here3</value>
+  </data>
+  <data name="menu_passthrough4.Text" xml:space="preserve">
+    <value>Paso directo de CAN - Here3+/4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Después de activar SLCAN, ya no podrás conectarte mediante MAVLink.
+Debes salir de esta pantalla y esperar 2 segundos antes de volver a conectar
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ID/Nombre del nodo</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Modo / Estado / Tiempo de actividad</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Código específico del fabricante</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Versión de software/CRC64</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Versión de hardware/UID</value>
+  </data>
+  <data name="chk_log.Text" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="Node.HeaderText" xml:space="preserve">
+    <value>Nodo</value>
+  </data>
+  <data name="Level.HeaderText" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="Source.HeaderText" xml:space="preserve">
+    <value>Origen</value>
+  </data>
+  <data name="UAVText.HeaderText" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="chk_canonclose.Text" xml:space="preserve">
+    <value>¿Salir de SLCAN al cerrar?</value>
+  </data>
+  <data name="but_filter.Text" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="but_stats.Text" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="but_connect.Text" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="nameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="modeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+  <data name="healthDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="uptimeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Tiempo de actividad</value>
+  </data>
+  <data name="hardwareVersionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Versión HW</value>
+  </data>
+  <data name="SoftwareVersion.HeaderText" xml:space="preserve">
+    <value>Versión SW</value>
+  </data>
+  <data name="SoftwareCRC.HeaderText" xml:space="preserve">
+    <value>CRC SW</value>
+  </data>
+  <data name="Menu.HeaderText" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+</root>

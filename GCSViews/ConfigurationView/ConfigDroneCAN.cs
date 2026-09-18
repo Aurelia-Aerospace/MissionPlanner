@@ -673,7 +673,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             cmb_interfacetype.Enabled = true;
             cmb_networkinterface.Enabled = true;
-            but_connect.Text = "Connect";
+            but_connect.Text = Strings.Connect;
             isConnected = false;
         }
 
@@ -1625,7 +1625,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             cmb_interfacetype.Enabled = false;
             cmb_networkinterface.Enabled = false;
-            but_connect.Text = "Disconnect";
+            but_connect.Text = Strings.Disconnect;
             isConnected = true;
 
             var type = (ConnectionTypes)selected;
