@@ -32,7 +32,7 @@
     <value>Planificador de vuelos</value>
   </data>
   <data name="MenuInitConfig.Text" xml:space="preserve">
-    <value>CONFIGURACIÓN</value>
+    <value>AJUSTE INICIAL</value>
   </data>
   <data name="MenuInitConfig.ToolTipText" xml:space="preserve">
     <value>Configuración del hardware</value>
