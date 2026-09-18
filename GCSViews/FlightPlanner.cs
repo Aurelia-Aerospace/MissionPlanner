@@ -3794,7 +3794,7 @@ namespace MissionPlanner.GCSViews
 
                 if (!int.TryParse(maxalts, out maxalt))
                 {
-                    CustomMessageBox.Show(Strings.BadMaxAlt);
+                    CustomMessageBox.Show(Strings.BadMaxalt);
                     return;
                 }
             }

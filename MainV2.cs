@@ -1023,7 +1023,7 @@ namespace MissionPlanner
 
             if (CurrentState.rateattitudebackup == 0) // initilised to 10, configured above from save
             {
-                CustomMessageBox.Show(Strings.NoteYourAttitudeRateIs02);
+                CustomMessageBox.Show(Strings.NoteYourAttitudeRateIs0);
             }
 
             // create log dir if it doesnt exist

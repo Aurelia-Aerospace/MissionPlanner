@@ -519,6 +519,9 @@ Please use Standard/Advanced Params for the safe settings</value>
   <data name="NORCReceiver" xml:space="preserve">
     <value>NO RC Receiver</value>
   </data>
+  <data name="AutoDetect" xml:space="preserve">
+    <value>Auto Detect</value>
+  </data>
   <data name="AutoWP" xml:space="preserve">
     <value>Auto WP</value>
   </data>
@@ -1199,9 +1202,6 @@ extreme positions so the red bars hit the limits.</value>
   </data>
   <data name="BadMinAlt2" xml:space="preserve">
     <value>Bad Min Alt</value>
-  </data>
-  <data name="BadMaxAlt" xml:space="preserve">
-    <value>Bad Max Alt</value>
   </data>
   <data name="FailedToSetMinMaxFence" xml:space="preserve">
     <value>Failed to set min/max fence alt</value>
