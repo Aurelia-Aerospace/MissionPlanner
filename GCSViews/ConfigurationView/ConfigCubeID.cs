@@ -65,7 +65,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 file = Path.GetTempFileName();
                 if (!Download.getFilefromNet(url, file))
                 {
-                    sender.doWorkArgs.ErrorMessage = "Bad Download";
+                    sender.doWorkArgs.ErrorMessage = Strings.BadDownload;
                     return;
                 }
             }
@@ -119,7 +119,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
       (byte)MainV2.comPort.sysidcurrent, (byte)MainV2.comPort.compidcurrent);
 
                 Thread.Sleep(1000);
-                sender.UpdateProgressAndStatus((int)(progress * 100), "Updating " + offset + " Seen HW: " + seenresp);
+                sender.UpdateProgressAndStatus((int)(progress * 100), string.Format(Strings.UpdatingSeenHW, offset, seenresp));
 
                 if (!seenresp)
                     continue;

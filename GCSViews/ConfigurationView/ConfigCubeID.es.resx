@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="but_upfw.Text" xml:space="preserve">
+    <value>Subir firmware</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Para usar esta función
+Activa el paso directo serie al puerto donde está conectado el CubeID.
+Establece el parámetro SERIAL_PASSTIMO en 0
+Establece el parámetro SERIAL_PASS2 en el puerto telem
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>SERIAL_PASS2 </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>SERIAL_PASSTIMO</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Selecciona el dispositivo ODID en la lista desplegable de la esquina superior derecha
+y luego pulsa el botón Actualizar firmware</value>
+  </data>
+  <data name="CHK_forcebaud.Text" xml:space="preserve">
+    <value>Forzar 57600 baudios</value>
+  </data>
+  <data name="but_customfw.Text" xml:space="preserve">
+    <value>Subir firmware personalizado</value>
+  </data>
+</root>
