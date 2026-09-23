@@ -322,7 +322,7 @@ namespace MissionPlanner
                 catch (Exception ex)
                 {
                     log.Debug(ex.ToString());
-                    CustomMessageBox.Show("Log Can not be opened. Are you still connected?");
+                    CustomMessageBox.Show(Strings.LogCanNotBeOpenedAre);
                     return;
                 }
 
@@ -761,7 +761,7 @@ namespace MissionPlanner
 
             if (datacompass1.Count < 10)
             {
-                sender.doWorkArgs.ErrorMessage = "Log does not contain enough data";
+                sender.doWorkArgs.ErrorMessage = Strings.LogDoesNotContainEnoughData;
                 ans = null;
                 ans2 = null;
                 return;
@@ -1308,7 +1308,7 @@ namespace MissionPlanner
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Setting new offsets for compass #1 failed");
+                    CustomMessageBox.Show(Strings.SettingNewOffsetsForCompass1);
                     return;
                 }
 
@@ -1363,7 +1363,7 @@ namespace MissionPlanner
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Setting new offsets for compass #2 failed");
+                    CustomMessageBox.Show(Strings.SettingNewOffsetsForCompass2);
                     return;
                 }
 
@@ -1406,7 +1406,7 @@ namespace MissionPlanner
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Setting new offsets for compass #3 failed");
+                    CustomMessageBox.Show(Strings.SettingNewOffsetsForCompass3);
                     return;
                 }
 

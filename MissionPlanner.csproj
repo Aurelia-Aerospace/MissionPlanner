@@ -1050,6 +1050,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ResEdit.Designer.cs">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Update="ResEdit.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ResEdit.es.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="resedit.ko-KR.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="resedit.zh-Hans.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="resedit.zh-Hant.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="resedit.zh-TW.resx">
+      <DependentUpon>ResEdit.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <None Update="C:\Users\hog\.nuget\packages\skiasharp\1.59.3\build\net45\..\..\runtimes\win7-x64\native\libSkiaSharp.dll">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>

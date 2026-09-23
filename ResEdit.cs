@@ -23,11 +23,22 @@ namespace resedit
 
             list.Add("");
 
-            CultureInfo[] temp = System.Globalization.CultureInfo.GetCultures(CultureTypes.AllCultures);
+            // Only offer cultures that actually ship a translated MissionPlanner.Strings
+            // satellite assembly next to this executable, instead of every culture Windows
+            // knows about - most of those have no translation at all.
+            string appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            foreach (CultureInfo cul in temp)
+            if (appDir != null)
             {
-                list.Add(cul.DisplayName + " " + cul.Name);
+                foreach (string dir in Directory.GetDirectories(appDir))
+                {
+                    if (!File.Exists(Path.Combine(dir, "MissionPlanner.Strings.resources.dll")))
+                        continue;
+
+                    CultureInfo cul = CultureInfoEx.GetCultureInfo(Path.GetFileName(dir));
+                    if (cul != null)
+                        list.Add(cul.DisplayName + " " + cul.Name);
+                }
             }
 
             list.Sort();

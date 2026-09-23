@@ -661,7 +661,7 @@ namespace MissionPlanner
 
         private void but_reboot_Click(object sender, EventArgs e)
         {
-            if (CustomMessageBox.Show("Are you sure?", "", MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
+            if (CustomMessageBox.Show(Strings.AreYouSure, "", MessageBoxButtons.YesNo) == (int)DialogResult.Yes)
                 MainV2.comPort.doReboot(false, true);
         }
 
@@ -966,10 +966,10 @@ namespace MissionPlanner
 
         private void but_blupdate_Click(object sender, EventArgs e)
         {
-            if (CustomMessageBox.Show("Are you sure you want to upgrade the bootloader? This can brick your board",
+            if (CustomMessageBox.Show(Strings.AreYouSureYouWantTo,
                 "BL Update", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int) DialogResult.Yes)
                 if (CustomMessageBox.Show(
-                    "Are you sure you want to upgrade the bootloader? This can brick your board, Please allow 5 mins for this process",
+                    Strings.AreYouSureYouWantTo2,
                     "BL Update", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int) DialogResult.Yes)
                     try
                     {
@@ -977,11 +977,11 @@ namespace MissionPlanner
                             (byte) MainV2.comPort.compidcurrent, MAVLink.MAV_CMD.FLASH_BOOTLOADER, 0, 0, 0, 0, 290876,
                             0, 0))
                         {
-                            CustomMessageBox.Show("Upgraded bootloader");
+                            CustomMessageBox.Show(Strings.UpgradedBootloader);
                         }
                         else
                         {
-                            CustomMessageBox.Show("Failed to upgrade bootloader");
+                            CustomMessageBox.Show(Strings.FailedToUpgradeBootloader);
                         }
                     }
                     catch (Exception ex)
@@ -998,7 +998,7 @@ namespace MissionPlanner
 
         private void but_anonlog_Click(object sender, EventArgs e)
         {
-            CustomMessageBox.Show("This is beta, please confirm the output file");
+            CustomMessageBox.Show(Strings.ThisIsBetaPleaseConfirmThe);
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
                 ofd.Filter = "tlog or bin/log|*.tlog;*.bin;*.log";
@@ -1170,7 +1170,7 @@ namespace MissionPlanner
 
             var currentQNH = MainV2.comPort.GetParam(paramname).ToString();
             //338.6388 pa => 100' = 30.48m
-            CustomMessageBox.Show("use at your own risk!!!");
+            CustomMessageBox.Show(Strings.UseAtYourOwnRisk);
 
             NumericUpDown mavlinkNumericUpDown = new NumericUpDown();
             mavlinkNumericUpDown.Minimum = -100;
@@ -1227,7 +1227,7 @@ namespace MissionPlanner
 
         private void but_lockup_Click(object sender, EventArgs e)
         {
-            if (CustomMessageBox.Show("Lockup the autopilot??? this can cause a CRASH!!!!!!",
+            if (CustomMessageBox.Show(Strings.LockupTheAutopilotThisCanCause,
                     "Lockup", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int)DialogResult.Yes)
                 if (CustomMessageBox.Show("Lockup the autopilot??? this can cause a CRASH!!!!!!",
                         "Lockup", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == (int)DialogResult.Yes)
@@ -1264,7 +1264,7 @@ namespace MissionPlanner
 
         private void but_paramrestore_Click(object sender, EventArgs e)
         {
-            CustomMessageBox.Show("This process make take a some time");
+            CustomMessageBox.Show(Strings.ThisProcessMakeTakeASome);
 
             using (var ofd = new OpenFileDialog
             {
@@ -1387,7 +1387,7 @@ namespace MissionPlanner
                 {
                     apj_tool.Process(ofd.FileName, ofd2.FileName);
 
-                    CustomMessageBox.Show("The new APJ has been saved with the source APJ");
+                    CustomMessageBox.Show(Strings.TheNewApjHasBeenSaved);
                 }
             }
         }
