@@ -42,7 +42,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (Program.WindowsStoreApp)
             {
-                //  CustomMessageBox.Show("Not Available", "Unfortunately the windows store version of this app does not support uploading.", MessageBoxButtons.OK);
+                //  CustomMessageBox.Show(Strings.NotAvailable, "Unfortunately the windows store version of this app does not support uploading.", MessageBoxButtons.OK);
                 //  this.Enabled = false;
                 //  return;
             }
@@ -540,7 +540,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                         if (fd.FileName.ToLower().EndsWith(".px4") || fd.FileName.ToLower().EndsWith(".apj"))
                         {
                             if (solo.Solo.is_solo_alive &&
-                                CustomMessageBox.Show("Solo", "Is this a Solo?",
+                                CustomMessageBox.Show(Strings.Solo, "Is this a Solo?",
                                     CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.Yes)
                             {
                                 boardtype = BoardDetect.boards.solo;
@@ -625,7 +625,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 if (MainV2.comPort.BaseStream.IsOpen)
                 {
                     MainV2.comPort.doReboot(true, false);
-                    CustomMessageBox.Show("Please ignore the unplug and plug back in when uploading flight firmware.");
+                    CustomMessageBox.Show(Strings.PleaseIgnoreTheUnplugAndPlug);
                 }
                 else
                 {
@@ -634,7 +634,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Failed to connect and send the reboot command", Strings.ERROR);
+                CustomMessageBox.Show(Strings.FailedToConnectAndSendThe, Strings.ERROR);
             }
         }
 
