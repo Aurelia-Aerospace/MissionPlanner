@@ -43,7 +43,7 @@ namespace MissionPlanner.Controls
 
             if (planlocs.Count <= 1)
             {
-                CustomMessageBox.Show("Please plan something first", Strings.ERROR);
+                CustomMessageBox.Show(Strings.PleasePlanSomethingFirst, Strings.ERROR);
                 return;
             }
 
@@ -269,7 +269,7 @@ namespace MissionPlanner.Controls
             }
             catch
             {
-                CustomMessageBox.Show("Error getting GE data", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ErrorGettingGeData, Strings.ERROR);
             }
 
             return answer;

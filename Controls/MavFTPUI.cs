@@ -451,7 +451,7 @@ namespace MissionPlanner.Controls
                     var success = _mavftp.kCmdRemoveFile(fullName + "/" +
                                                          text, cancel);
                     if (!success)
-                        CustomMessageBox.Show("Failed to delete file", text);
+                        CustomMessageBox.Show(Strings.FailedToDeleteFile, text);
                 };
 
                 prd.RunBackgroundOperationAsync();
@@ -516,7 +516,7 @@ namespace MissionPlanner.Controls
                     if (!_mavftp.kCmdCreateDirectory(fullPath + "/" + folder,
                         cancel))
                     {
-                        CustomMessageBox.Show("Failed to create directory", Strings.ERROR);
+                        CustomMessageBox.Show(Strings.FailedToCreateDirectory, Strings.ERROR);
                     }
                 };
 

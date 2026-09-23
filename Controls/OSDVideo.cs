@@ -268,7 +268,7 @@ namespace MissionPlanner.Controls
             }
             else
             {
-                MessageBox.Show("File does not exist");
+                MessageBox.Show(Strings.FileDoesNotExist);
             }
         }
 
@@ -285,7 +285,7 @@ namespace MissionPlanner.Controls
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Log Can not be opened. Are you still connected?");
+                    CustomMessageBox.Show(Strings.LogCanNotBeOpenedAre);
                     return;
                 }
                 mine.logreadmode = true;
@@ -772,7 +772,7 @@ namespace MissionPlanner.Controls
 
                 Console.WriteLine("3 " + DateTime.Now.Millisecond);
             }
-            //System.Windows.Forms.CustomMessageBox.Show("Problem with capture device, grabbing frame took longer than 5 sec");
+            //System.Windows.Forms.CustomMessageBox.Show(Strings.ProblemWithCaptureDeviceGrabbingFrame);
             catch (Exception ex)
             {
                 Console.WriteLine("Grab bmp failed " + ex.ToString());

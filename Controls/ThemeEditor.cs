@@ -121,7 +121,7 @@ namespace MissionPlanner.Controls
 
             ThemeManager.LoadTheme(ThemeManager.thmColor.strThemeName);
             ThemeManager.ApplyThemeTo(MainV2.instance);
-            CustomMessageBox.Show("You may need to select another tab or restart to see the full effect.");
+            CustomMessageBox.Show(Strings.YouMayNeedToSelectAnother);
             this.Close();
         }
 
