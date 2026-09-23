@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Text" xml:space="preserve">
+    <value>Porcentaje de aceleración</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>NOTA: MANTÉN PRESIONADO EL UAV
+Esto servirá para comprobar que los motores funcionan.
+Los motores se comprueban girando en el sentido de las agujas del reloj, 
+empezando por la parte delantera derecha.</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Haz clic aquí para ver los números de tus motores;
+desplázate hasta la parte inferior de la página</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Duración (s)</value>
+  </data>
+  <data name="FrameType.Text" xml:space="preserve">
+    <value>Tipo: desconocido</value>
+  </data>
+  <data name="FrameClass.Text" xml:space="preserve">
+    <value>Clase: desconocida</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Establece el porcentaje mínimo que se mostrará durante el vuelo</value>
+  </data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve">
+    <value>Establecer el número mínimo de revoluciones del motor</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Establece el porcentaje mínimo que se mostrará cuando el sistema esté armado, pero aún en tierra.</value>
+  </data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve">
+    <value>Configurar giro del motor armado</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Prueba del motor</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 13</value>
+  </data>
+  <data name="but_mot_spin_arm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 11</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 16</value>
+  </data>
+  <data name="NUM_thr_percent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 14</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 11</value>
+  </data>
+  <data name="NUM_duration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 14</value>
+  </data>
+</root>

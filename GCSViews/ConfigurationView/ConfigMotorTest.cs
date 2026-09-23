@@ -51,7 +51,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             for (var a = 1; a <= motormax; a++)
             {
                 but = new MyButton();
-                but.Text = "Test motor " + (char)((a - 1) + 'A');
+                but.Text = Strings.TestMotor + (char)((a - 1) + 'A');
                 but.Location = new Point(x, y);
                 but.Click += but_Click;
                 but.Tag = a;
@@ -65,7 +65,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                         if (motor.TestOrder == a)
                         {
                             var lab = new Label();
-                            lab.Text += "Motor Number: " + motor.Number;
+                            lab.Text += Strings.MotorNumberColon + motor.Number;
                             if (motor.Rotation != "?")
                             {
                                 lab.Text += ", " + motor.Rotation;
@@ -81,7 +81,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
 
             but = new MyButton();
-            but.Text = "Test all motors";
+            but.Text = Strings.TestAllMotors;
             but.Location = new Point(x, y);
             but.Size = new Size(75, 37);
             but.Click += but_TestAll;
@@ -90,7 +90,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             y += 39;
 
             but = new MyButton();
-            but.Text = "Stop all motors";
+            but.Text = Strings.StopAllMotors;
             but.Location = new Point(x, y);
             but.Size = new Size(75, 37);
             but.Click += but_StopAll;
@@ -99,7 +99,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             y += 39;
 
             but = new MyButton();
-            but.Text = "Test all in Sequence";
+            but.Text = Strings.TestAllInSequence;
             but.Location = new Point(x, y);
             but.Size = new Size(75, 37);
             but.Click += but_TestAllSeq;
@@ -211,7 +211,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 if (item.Key == Convert.ToInt32(frame_class))
                 {
-                    FrameClass.Text = "Class: " + item.Value;
+                    FrameClass.Text = Strings.ClassColon + item.Value;
                     break;
                 }
             }
@@ -222,7 +222,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 if (item.Key == Convert.ToInt32(frame_type))
                 {
-                    FrameType.Text = "Type: " + item.Value;
+                    FrameType.Text = Strings.TypeColon + item.Value;
                     break;
                 }
             }
@@ -298,7 +298,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch (Exception ex)
             {
-                CustomMessageBox.Show("Failed to test motor\n" + ex);
+                CustomMessageBox.Show(Strings.FailedToTestMotor + ex);
             }
         }
 
@@ -317,7 +317,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                         0,
                         0))
                 {
-                    CustomMessageBox.Show("Command was denied by the autopilot");
+                    CustomMessageBox.Show(Strings.CommandWasDeniedByTheAutopilot);
                 }
             }
             catch
@@ -334,7 +334,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Bad default system association", Strings.ERROR);
+                CustomMessageBox.Show(Strings.BadDefaultSystemAssociation, Strings.ERROR);
             }
         }
 
@@ -344,7 +344,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (!MainV2.comPort.MAV.param.ContainsKey("MOT_SPIN_ARM"))
             {
-                CustomMessageBox.Show("param MOT_SPIN_ARM missing", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ParamMotSpinArmMissing, Strings.ERROR);
                 return;
             }
 
@@ -360,7 +360,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Throttle percent above 20, too high", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ThrottlePercentAbove20TooHigh, Strings.ERROR);
             }
 
             this.Enabled = true;
@@ -372,7 +372,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (!MainV2.comPort.MAV.param.ContainsKey("MOT_SPIN_MIN"))
             {
-                CustomMessageBox.Show("param MOT_SPIN_MIN missing", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ParamMotSpinMinMissing, Strings.ERROR);
                 return;
             }
 
@@ -389,7 +389,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             else
             {
-                CustomMessageBox.Show("Throttle percent above 20, too high", Strings.ERROR);
+                CustomMessageBox.Show(Strings.ThrottlePercentAbove20TooHigh, Strings.ERROR);
             }
 
             this.Enabled = true;

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Text" xml:space="preserve">
+    <value>«Plus»</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>«X», «Y6A»</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>«V»</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>«H»</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>NOTA: X e H NO son intercambiables; la rotación de la hélice cambia.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>«Y6B»</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>NOTA: Este es el Y6B y la rotación de la hélice ha cambiado con respecto al antiguo Y6A.</value>
+  </data>
+  <data name="radio_type_other.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>«Cola en V»</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Tipo de vehículo</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Clase de fotograma</value>
+  </data>
+  <data name="radioButtonOctaQuad.Text" xml:space="preserve">
+    <value>OctaQuad</value>
+  </data>
+  <data name="radioButtonTri.Text" xml:space="preserve">
+    <value>Tri</value>
+  </data>
+  <data name="radioButtonHeli.Text" xml:space="preserve">
+    <value>Heli</value>
+  </data>
+  <data name="radioButtonY6.Text" xml:space="preserve">
+    <value>6.º curso</value>
+  </data>
+  <data name="radioButtonOcta.Text" xml:space="preserve">
+    <value>Octa</value>
+  </data>
+  <data name="radioButtonHexa.Text" xml:space="preserve">
+    <value>Hexa</value>
+  </data>
+  <data name="radioButtonQuad.Text" xml:space="preserve">
+    <value>Quad</value>
+  </data>
+  <data name="radioButtonUndef.Text" xml:space="preserve">
+    <value>Sin definir</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="radioButtonUndef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 74</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="radioButtonOcta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 18</value>
+  </data>
+  <data name="radioButtonQuad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="radioButtonHexa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="radioButtonTri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 18</value>
+  </data>
+  <data name="radioButtonOctaQuad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 18</value>
+  </data>
+  <data name="radioButton_VTail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 203</value>
+  </data>
+  <data name="radioButtonY6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 18</value>
+  </data>
+  <data name="radioButton_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 118</value>
+  </data>
+  <data name="radioButtonHeli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 18</value>
+  </data>
+  <data name="radioButton_H.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 287</value>
+  </data>
+</root>
