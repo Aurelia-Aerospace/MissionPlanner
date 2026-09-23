@@ -71,6 +71,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigFFT));
             this.INS_LOG_BAT_MASK = new MissionPlanner.Controls.MavlinkCheckBoxBitMask();
             this.INS_LOG_BAT_CNT = new MissionPlanner.Controls.RangeControl();
             this.but_fft = new MissionPlanner.Controls.MyButton();
@@ -112,6 +113,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             this.but_fft.Size = new System.Drawing.Size(75, 23);
             this.but_fft.TabIndex = 5;
             this.but_fft.Text = "FFT";
+            resources.ApplyResources(this.but_fft, "but_fft");
             this.but_fft.UseVisualStyleBackColor = true;
             this.but_fft.Click += new System.EventHandler(this.but_fft_Click);
             // 
@@ -135,7 +137,8 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FFT Setup";
-            // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            //
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.LOG_BITMASK);
@@ -145,7 +148,8 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Please ensure IMU_RAW and IMU_FAST are turned off to use FFT";
-            // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            //
             // ConfigFFT
             // 
             this.Controls.Add(this.groupBox2);

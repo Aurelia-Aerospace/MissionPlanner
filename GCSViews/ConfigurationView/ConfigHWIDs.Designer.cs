@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigHWIDs));
             this.components = new System.ComponentModel.Container();
             this.myDataGridView1 = new MissionPlanner.Controls.MyDataGridView();
             this.deviceInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -71,6 +72,7 @@
             // 
             this.paramNameDataGridViewTextBoxColumn.DataPropertyName = "ParamName";
             this.paramNameDataGridViewTextBoxColumn.HeaderText = "ParamName";
+            resources.ApplyResources(this.paramNameDataGridViewTextBoxColumn, "paramNameDataGridViewTextBoxColumn");
             this.paramNameDataGridViewTextBoxColumn.Name = "paramNameDataGridViewTextBoxColumn";
             this.paramNameDataGridViewTextBoxColumn.ReadOnly = true;
             this.paramNameDataGridViewTextBoxColumn.Width = 150;
@@ -86,6 +88,7 @@
             // 
             this.busTypeDataGridViewTextBoxColumn.DataPropertyName = "BusType";
             this.busTypeDataGridViewTextBoxColumn.HeaderText = "BusType";
+            resources.ApplyResources(this.busTypeDataGridViewTextBoxColumn, "busTypeDataGridViewTextBoxColumn");
             this.busTypeDataGridViewTextBoxColumn.Name = "busTypeDataGridViewTextBoxColumn";
             this.busTypeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -100,6 +103,7 @@
             // 
             this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
             this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
+            resources.ApplyResources(this.addressDataGridViewTextBoxColumn, "addressDataGridViewTextBoxColumn");
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             this.addressDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -107,6 +111,7 @@
             // 
             this.devTypeDataGridViewTextBoxColumn.DataPropertyName = "DevType";
             this.devTypeDataGridViewTextBoxColumn.HeaderText = "DevType";
+            resources.ApplyResources(this.devTypeDataGridViewTextBoxColumn, "devTypeDataGridViewTextBoxColumn");
             this.devTypeDataGridViewTextBoxColumn.Name = "devTypeDataGridViewTextBoxColumn";
             this.devTypeDataGridViewTextBoxColumn.ReadOnly = true;
             // 

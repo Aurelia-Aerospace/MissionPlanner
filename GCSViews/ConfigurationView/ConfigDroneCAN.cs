@@ -206,7 +206,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 if (!MainV2.comPort.BaseStream.IsOpen)
                 {
                     if (CustomMessageBox.Show(
-                            "You are not currently connected via mavlink. Please make sure the device is already in slcan mode or this is the slcan serialport.",
+                            Strings.YouAreNotCurrentlyConnectedVia,
                             "SLCAN", CustomMessageBox.MessageBoxButtons.OKCancel) != CustomMessageBox.DialogResult.OK)
                         return;
                 }
@@ -500,7 +500,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                     can.NodeInfo[nodeID].hardware_version.major + "." + can.NodeInfo[nodeID].hardware_version.minor,
                     CultureInfo.InvariantCulture);
 
-            if (CustomMessageBox.Show("Do you want to search the internet for an update?", "Update",
+            if (CustomMessageBox.Show(Strings.DoYouWantToSearchThe, "Update",
                     CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.Yes)
             {
                 var url = can.LookForUpdate(devicename, hwversion, beta);
@@ -673,7 +673,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             cmb_interfacetype.Enabled = true;
             cmb_networkinterface.Enabled = true;
-            but_connect.Text = "Connect";
+            but_connect.Text = Strings.Connect;
             isConnected = false;
         }
 
@@ -715,7 +715,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 menu_passthrough.Checked = false;
                 listener.Stop();
-                CustomMessageBox.Show("Stop", "Disabled forwarding");
+                CustomMessageBox.Show(Strings.Stop, "Disabled forwarding");
                 listener = null;
                 return;
             }
@@ -1480,7 +1480,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             if (inter == null)
             {
-                CustomMessageBox.Show("No network interfaces found");
+                CustomMessageBox.Show(Strings.NoNetworkInterfacesFound);
                 return;
             }
             BusInUse = bus;
@@ -1489,7 +1489,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             var p = inter.GetIPProperties().GetIPv4Properties();
             if (p == null)
             {
-                CustomMessageBox.Show("No IPv4 properties found");
+                CustomMessageBox.Show(Strings.NoIpv4PropertiesFound);
                 return;
             }
 
@@ -1616,7 +1616,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (selected == null)
             {
-                CustomMessageBox.Show("Please select an interface type");
+                CustomMessageBox.Show(Strings.PleaseSelectAnInterfaceType);
                 return;
             }
 
@@ -1625,7 +1625,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             cmb_interfacetype.Enabled = false;
             cmb_networkinterface.Enabled = false;
-            but_connect.Text = "Disconnect";
+            but_connect.Text = Strings.Disconnect;
             isConnected = true;
 
             var type = (ConnectionTypes)selected;

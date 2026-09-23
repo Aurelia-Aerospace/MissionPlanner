@@ -27,6 +27,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         }
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigRadioOutput));
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
@@ -102,7 +103,8 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             this.label6.Size = new System.Drawing.Size(27, 13);
             this.label6.TabIndex = 152;
             this.label6.Text = "Max";
-            // 
+            resources.ApplyResources(this.label6, "label6");
+            //
             // label5
             // 
             this.label5.AutoSize = true;
@@ -120,33 +122,37 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             this.label4.Size = new System.Drawing.Size(24, 13);
             this.label4.TabIndex = 150;
             this.label4.Text = "Min";
-            // 
+            resources.ApplyResources(this.label4, "label4");
+            //
             // label3
-            // 
+            //
             this.label3.Location = new System.Drawing.Point(126, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(160, 13);
             this.label3.TabIndex = 149;
             this.label3.Text = "Function";
-            // 
+            resources.ApplyResources(this.label3, "label3");
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(73, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 148;
             this.label2.Text = "Reverse";
-            // 
+            resources.ApplyResources(this.label2, "label2");
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(23, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 147;
             this.label1.Text = "Position";
-            // 
+            resources.ApplyResources(this.label1, "label1");
+            //
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
