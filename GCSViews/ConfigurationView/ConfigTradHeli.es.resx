@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Tipo de plato giratorio</value>
+  </data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve">
+    <value>Sin barra estabilizadora</value>
+  </data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve">
+    <value>H1</value>
+  </data>
+  <data name="CCPM.Text" xml:space="preserve">
+    <value>CCPM</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>Parte inferior</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Tipo de cola</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Velocidad de la cola</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Ganancia</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cero</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Acabado</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Servo</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Acabado</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Servo</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Recorrido del timón</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Viajes en grupo</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Posición del servo de oscilación</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Preparación colectiva previa a la competición</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Tasa de aceleración del RSC</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Crítico</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Aceleración (segundos)</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Frecuencia (segundos)</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Punto de consigna del modo 1</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Control de la velocidad del rotor</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Prueba del servo al arrancar</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Hover Roll</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Piro Comp</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Desplazamiento cíclico</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Landing Collective</value>
+  </data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve">
+    <value>Prueba</value>
+  </data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve">
+    <value>Cero</value>
+  </data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Modo servo</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ángulo de fase</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Salida del acelerador</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Curva en V</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Alta potencia</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Bajo consumo</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Curva</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Acro Expo</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Puñalada 4</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Puñalada 3</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Puñalada 2</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Puñalada 1</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 16</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_cyc_max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 40</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_sv_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 112</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_rsc_power_low.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 45</value>
+  </data>
+  <data name="HS4_REV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 60</value>
+  </data>
+  <data name="mavlinkNumericUpDowntailspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 57</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 71</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 97</value>
+  </data>
+  <data name="mavlinkNumericUpDownH_PHANG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 340</value>
+  </data>
+  <data name="mavlinkudH_RSC_RATE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 19</value>
+  </data>
+  <data name="mavlinkNumericUpDownh_rsc_power_high.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 71</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 45</value>
+  </data>
+  <data name="mavlinkNumericUpDownrunuptime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 45</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 249</value>
+  </data>
+  <data name="mavlinkNumericUpDownim_stab_col_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 19</value>
+  </data>
+</root>

@@ -126,7 +126,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             MainV2.instance.DeviceChanged += Instance_DeviceChanged;
 
-            CustomMessageBox.Show("Please re-power to autopilot");
+            CustomMessageBox.Show(Strings.PleaseRePowerToAutopilot);
             UpdateStatus("Please re-power to autopilot", 100);
         }
 

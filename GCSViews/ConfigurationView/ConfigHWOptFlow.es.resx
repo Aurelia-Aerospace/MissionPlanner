@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Text" xml:space="preserve">
+    <value>Flujo óptico  </value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Orientación en el eje de guiñada</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Escala FX</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Escala del ejercicio fiscal</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Puesto X</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Posición Y</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Posición Z</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>grados, en relación con el vehículo</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>metros hacia delante</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>metros a la derecha</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>metros más abajo</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Posición del sensor con respecto a la IMU</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Factores de escala</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Anulación de la altura</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>metros del suelo</value>
+  </data>
+  <data name="CHK_enableoptflow.Text" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 13</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 290</value>
+  </data>
+  <data name="mavlinkNumericUpDown_yaw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 92</value>
+  </data>
+  <data name="mavlinkNumericUpDownFY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 166</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 238</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 330</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 264</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 97</value>
+  </data>
+  <data name="mavlinkNumericUpDownHGTOVR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 328</value>
+  </data>
+</root>

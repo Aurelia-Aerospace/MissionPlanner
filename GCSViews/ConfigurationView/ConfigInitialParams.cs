@@ -133,14 +133,14 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             if (prop_size <= 0 )
             {
 
-                CustomMessageBox.Show("Prop size must be larger than zero.", "ERROR!");
+                CustomMessageBox.Show(Strings.PropSizeMustBeLargerThan, "ERROR!");
                 return;
 
             }
 
             if (batt_cells < 1)
             {
-                CustomMessageBox.Show("Battery cell count must be at least 1.", "ERROR!");
+                CustomMessageBox.Show(Strings.BatteryCellCountMustBeAt, "ERROR!");
                 return;
             }
 
@@ -228,7 +228,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (paramCompareForm.DialogResult == DialogResult.OK)
             {
-                CustomMessageBox.Show("Initial Parameters succesfully updated.\r\nCheck parameters before flight!\r\n\r\nAfter test flight :\r\n\tSet ATC_THR_MIX_MAN to 0.5\r\n\tSet PSC_ACCZ_P to MOT_THST_HOVER\r\n\tSet PSC_ACCZ_I to 2*MOT_THST_HOVER\r\n\r\nHappy flying!", "Initial parameter calculator");
+                CustomMessageBox.Show(Strings.InitialParametersSuccesfullyUpdatedRCheck, "Initial parameter calculator");
             }
 
             }

@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
@@ -102,16 +103,28 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 Settings.Instance["severity"] = CMB_severity.SelectedIndex.ToString();
             }
 
-            // setup language selection
-            var cultureCodes = new[]
-            {
-                "en-US", "zh-Hans", "zh-TW", "ru-RU", "Fr", "Pl", "it-IT", "es-ES", "de-DE", "ja-JP", "id-ID", "ko-KR",
-                "ar", "pt", "tr", "ru-KZ", "uk"
-            };
+            // setup language selection - only list cultures that actually ship a translated
+            // MissionPlanner.Strings satellite assembly, so users can't pick a language that
+            // silently falls back to English.
+            var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            _languages = cultureCodes
-                .Select(CultureInfoEx.GetCultureInfo)
-                .Where(c => c != null)
+            _languages = new List<CultureInfo> { CultureInfoEx.GetCultureInfo("en-US") };
+
+            if (appDir != null)
+            {
+                foreach (var dir in Directory.GetDirectories(appDir))
+                {
+                    if (!File.Exists(Path.Combine(dir, "MissionPlanner.Strings.resources.dll")))
+                        continue;
+
+                    var culture = CultureInfoEx.GetCultureInfo(Path.GetFileName(dir));
+                    if (culture != null)
+                        _languages.Add(culture);
+                }
+            }
+
+            _languages = _languages
+                .OrderBy(c => c.DisplayName)
                 .ToList();
 
             CMB_language.DisplayMember = "DisplayName";
@@ -337,7 +350,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             var videoStreamConfig = o as IAMStreamConfig;
             if (videoStreamConfig == null)
             {
-                CustomMessageBox.Show("Failed to get IAMStreamConfig");
+                CustomMessageBox.Show(Strings.FailedToGetIamstreamconfig);
                 return;
             }
 
@@ -419,7 +432,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 return;
             MainV2.instance.changelanguage((CultureInfo)CMB_language.SelectedItem);
 
-            MessageBox.Show("Please Restart the Planner");
+            MessageBox.Show(Strings.PleaseRestartThePlanner);
 
             MainV2.instance.Close();
             //Application.Exit();
@@ -504,7 +517,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Error: getting param list");
+                CustomMessageBox.Show(Strings.ErrorGettingParamList);
             }
 
 
@@ -699,7 +712,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             if (startup)
                 return;
-            CustomMessageBox.Show("You need to restart the planner for this to take effect");
+            CustomMessageBox.Show(Strings.YouNeedToRestartThePlanner);
             Settings.Instance["CHK_GDIPlus"] = CHK_GDIPlus.Checked.ToString();
         }
 
@@ -800,7 +813,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             ThemeManager.LoadTheme(CMB_theme.Text);
             ThemeManager.ApplyThemeTo(MainV2.instance);
-            CustomMessageBox.Show("You may need to select another tab or restart to see the full effect.");
+            CustomMessageBox.Show(Strings.YouMayNeedToSelectAnother);
         }
 
         private void BUT_themecustom_Click(object sender, EventArgs e)

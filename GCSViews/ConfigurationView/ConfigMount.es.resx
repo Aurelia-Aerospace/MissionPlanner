@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label5.Text" xml:space="preserve">
+    <value>Inclinación</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Rodar</value>
+  </data>
+  <data name="LNK_wiki.Text" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Paneo</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Límites angulares</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Límites del servo</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Límites angulares</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Límites del servo</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Límites angulares</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Límites del servo</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Canal de entrada</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Canal de entrada</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Canal de entrada</value>
+  </data>
+  <data name="mavlinkCheckBoxTR.Text" xml:space="preserve">
+    <value>Inverso</value>
+  </data>
+  <data name="mavlinkCheckBoxPR.Text" xml:space="preserve">
+    <value>Inverso</value>
+  </data>
+  <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
+    <value>Inverso</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Ángulos de retracción</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Ángulos neutros</value>
+  </data>
+  <data name="CHK_stab_tilt.Text" xml:space="preserve">
+    <value>Estabilizar la inclinación</value>
+  </data>
+  <data name="CHK_stab_roll.Text" xml:space="preserve">
+    <value>Estabilizar alabeo</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Obturador</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Límites del servo</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>No se ha pulsado</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Empujado</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>Obturador</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Duración (1/10 de segundo)</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Por favor, configura la opción Ch7 en «Disparador de cámara».</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>NOTA: el tipo de cardán se aplicará la próxima vez que se reinicie el controlador de vuelo.</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="mavlinkNumericUpDownShutM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 475</value>
+  </data>
+  <data name="LNK_wiki.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 12</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 172</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 313</value>
+  </data>
+  <data name="mavlinkNumericUpDownTSMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 111</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 435</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 452</value>
+  </data>
+  <data name="mavlinkNumericUpDownshut_duration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 527</value>
+  </data>
+  <data name="mavlinkNumericUpDownPAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 336</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 47</value>
+  </data>
+  <data name="mavlinkNumericUpDownshut_notpushed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 501</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 214</value>
+  </data>
+  <data name="CMB_shuttertype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 425</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 313</value>
+  </data>
+  <data name="mavlinkNumericUpDownRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 212</value>
+  </data>
+  <data name="CHK_stab_roll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 164</value>
+  </data>
+  <data name="mavlinkComboBoxTilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 34</value>
+  </data>
+  <data name="CMB_inputch_pan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 336</value>
+  </data>
+  <data name="CMB_inputch_roll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 212</value>
+  </data>
+  <data name="mavlinkNumericUpDownRAMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 238</value>
+  </data>
+  <data name="mavlinkComboBoxPan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 286</value>
+  </data>
+  <data name="mavlinkNumericUpDownTSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 85</value>
+  </data>
+  <data name="mavlinkNumericUpDownshut_pushed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 475</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 296</value>
+  </data>
+  <data name="mavlinkNumericUpDownRSMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 238</value>
+  </data>
+  <data name="mavlinkNumericUpDownPSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 336</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 338</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 313</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 189</value>
+  </data>
+  <data name="mavlinkNumericUpDownShutMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 501</value>
+  </data>
+  <data name="mavlinkNumericUpDownPSMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 362</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 189</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 62</value>
+  </data>
+  <data name="mavlinkNumericUpDownPAMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 362</value>
+  </data>
+  <data name="mavlinkNumericUpDownTAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 85</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 87</value>
+  </data>
+  <data name="CMB_inputch_tilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 85</value>
+  </data>
+  <data name="mavlinkComboBoxRoll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 162</value>
+  </data>
+  <data name="mavlinkNumericUpDownTAMX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 111</value>
+  </data>
+  <data name="mavlinkNumericUpDownRSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 212</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 189</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 452</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 62</value>
+  </data>
+</root>

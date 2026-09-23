@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_status1.Text" xml:space="preserve">
+    <value>9999 bps</value>
+  </data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve">
+    <value>Tipo de inyección de glutamato monosódico</value>
+  </data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve">
+    <value>Esto depende de la versión de firmware que tenga tu piloto automático; si es posible, déjalo activado, ya que la versión más reciente gestiona mucho mejor la corrupción de datos.</value>
+  </data>
+  <data name="lbl_svin.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve">
+    <value>Datos de la medición
+Válida: ¿la medición es válida?
+En curso: ¿estamos realizando la medición en nuestra posición actualmente?
+Duración: el número de segundos que llevamos realizando la medición
+Obs: número de observaciones utilizadas en nuestra medición
+Precisión: precisión actual de nuestra medición en el punto
+</value>
+  </data>
+  <data name="chk_autoconfig.Text" xml:space="preserve">
+    <value>Configurar automáticamente el receptor</value>
+  </data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve">
+    <value>Configura automáticamente el receptor conectado al puerto seleccionado para que emita mensajes de corrección.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Al conectarse, el receptor iniciará un «procesos de calibración» para determinar la ubicación precisa mediante GPS.
+El proceso de calibración finaliza cuando la ubicación de la base RTCM deja de variar.
+En función de la ubicación y la señal, esto podría tardar un par de minutos.
+
+Una vez completada la calibración, ya estás listo para empezar.
+</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Uso de la constelación RTCM</value>
+  </data>
+  <data name="label21.ToolTip" xml:space="preserve">
+    <value>Elige para qué constelaciones el receptor genera correcciones. Cuantas más constelaciones se elijan, mayor será la velocidad de transmisión de datos.</value>
+  </data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve">
+    <value>Galileo</value>
+  </data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve">
+    <value>Activar o desactivar la salida de mensajes RTCM de Galileo.</value>
+  </data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve">
+    <value>BeiDou</value>
+  </data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve">
+    <value>Activar o desactivar la salida de mensajes RTCM de BeiDou.</value>
+  </data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve">
+    <value>GLONASS</value>
+  </data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve">
+    <value>Activar o desactivar la salida de mensajes RTCM de GLONASS.</value>
+  </data>
+  <data name="chk_septentriogps.Text" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve">
+    <value>Activar o desactivar la salida de mensajes GPS RTCM.</value>
+  </data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve">
+    <value>Establecer intervalo</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Intervalo entre mensajes RTCM (s)</value>
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value>Selecciona la frecuencia con la que el receptor envía mensajes RTCM. Cuanto menor sea el valor, mayor será la velocidad de transmisión de datos.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Cantidad de mensajes RTCM</value>
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value>Elige el nivel de detalle de los mensajes RTCM. Cuanto mayor sea el valor, mayor será la velocidad de transmisión de datos.</value>
+  </data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve">
+    <value>Básico</value>
+  </data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve">
+    <value>Puesto fijo</value>
+  </data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve">
+    <value>Introduce una posición fija para la antena de la estación base, en lugar de dejar que el receptor la determine automáticamente. Esto puede mejorar la precisión de las correcciones.
+</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Altitud (WGS84)</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Longitud (WGS84)</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Altitud (m)</value>
+  </data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve">
+    <value>Establecer posición</value>
+  </data>
+  <data name="but_restartsvin.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve">
+    <value>Se utiliza para guardar la posición actual de la estación base tal y como se ha medido</value>
+  </data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve">
+    <value>M8P fw 130+/F9P</value>
+  </data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve">
+    <value>Si tanto la estación base como el rover tienen el firmware u-blox 1.30 o superior, marca esta casilla</value>
+  </data>
+  <data name="but_save_basepos.Text" xml:space="preserve">
+    <value>Guardar la posición actual</value>
+  </data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve">
+    <value>Se utiliza para guardar la posición actual de la estación base tal y como se ha medido</value>
+  </data>
+  <data name="Lat.HeaderText" xml:space="preserve">
+    <value>Lat/ECEFX</value>
+  </data>
+  <data name="Long.HeaderText" xml:space="preserve">
+    <value>Largo/ECEFY</value>
+  </data>
+  <data name="Alt.HeaderText" xml:space="preserve">
+    <value>Alt/ECEFZ</value>
+  </data>
+  <data name="BaseName1.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Use.HeaderText" xml:space="preserve">
+    <value>Uso</value>
+  </data>
+  <data name="Delete.HeaderText" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Hora(s)</value>
+  </data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve">
+    <value>Comprobación de la precisión del gatillo. Debe quedar por debajo de este valor.</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cotas de levantamiento (m)</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value>Para que el levantamiento se considere completado, deben cumplirse tanto los requisitos de precisión como los de duración,
+es decir, una precisión inferior a 2 m y más de 60 segundos de observaciones.</value>
+  </data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve">
+    <value>Realizar el sondeo en el menor tiempo posible. Debe ser mayor que este número.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value>Datos del levantamiento
+Válido: ¿es válido el levantamiento?
+En curso: ¿estamos realizando el levantamiento en nuestra posición actual?
+Duración: número de segundos que llevamos realizando el levantamiento
+Obs: número de observaciones utilizadas en nuestro levantamiento
+Precisión: precisión actual de nuestro levantamiento en puntos
+</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value>Datos del levantamiento
+Válido: ¿el levantamiento es válido?
+En curso: ¿estamos realizando el levantamiento en nuestra posición actual?
+Duración: el número de segundos que llevamos realizando el levantamiento
+Obs: número de observaciones utilizadas en nuestro levantamiento
+Precisión: precisión actual de nuestro levantamiento en un punto concreto
+</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value>Datos del levantamiento
+Válido: ¿el levantamiento es válido?
+En curso: ¿estamos realizando el levantamiento en nuestra posición actual?
+Duración: el número de segundos que llevamos realizando el levantamiento
+Obs: número de observaciones utilizadas en nuestro levantamiento
+Precisión: precisión actual de nuestro levantamiento en puntos
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value>Datos del levantamiento
+Válido: ¿el levantamiento es válido?
+En curso: ¿estamos realizando el levantamiento en nuestra posición actual?
+Duración: número de segundos que llevamos realizando el levantamiento
+Obs: número de observaciones utilizadas en nuestro levantamiento
+Precisión: precisión actual de nuestro levantamiento en el punto
+</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Encuesta en</value>
+  </data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve">
+    <value>Opciones de configuración automática</value>
+  </data>
+  <data name="chk_sendgga.Text" xml:space="preserve">
+    <value>¿Enviar NTRIP GGA? (VRS/Smart)</value>
+  </data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve">
+    <value>Esto depende de la versión de firmware que tenga tu piloto automático; si es posible, déjalo activado, ya que la versión más reciente gestiona mucho mejor la corrupción de datos.</value>
+  </data>
+  <data name="check_sendntripv1.Text" xml:space="preserve">
+    <value>¿Se envía el protocolo NTRIP v1.0?</value>
+  </data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve">
+    <value>Algunos servidores NTRIP más antiguos, como RTKLIB, no admiten la versión 2.0 del protocolo NTRIP. Marca la casilla para volver a la versión 1.0 del protocolo.</value>
+  </data>
+  <data name="lbl_status3.Text" xml:space="preserve">
+    <value>-00,000000000 000,000000000 0000,000000000</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Velocidad de entrada de datos</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Velocidad de transmisión de datos</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Base RTCM </value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Mensajes leídos</value>
+  </data>
+  <data name="labelmsgseen.Text" xml:space="preserve">
+    <value>rtcm0000
+rtcm0000</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>GLONASS</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Galileo</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Beidou</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>RTCM</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Estado del enlace</value>
+  </data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve">
+    <value>UBlox M8P/F9P</value>
+  </data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve">
+    <value>Septentrio</value>
+  </data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve">
+    <value>Unicore UM982</value>
+  </data>
+  <data name="BUT_connect.Text" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 13</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 13</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 13</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="chk_septentrioglonass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 123</value>
+  </data>
+  <data name="chk_septentriogps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 123</value>
+  </data>
+  <data name="labelmsgseen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="panel_septentrio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1499, 16</value>
+  </data>
+  <data name="txt_surveyinAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 25</value>
+  </data>
+  <data name="panel_ubloxoptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1499, 16</value>
+  </data>
+  <data name="chk_septentriogalileo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 123</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 0</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 13</value>
+  </data>
+  <data name="chk_septentriobeidou.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 123</value>
+  </data>
+  <data name="input_septentriortcminterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 87</value>
+  </data>
+  <data name="lbl_status1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 0</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 29</value>
+  </data>
+  <data name="cmb_septentriortcmamount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 51</value>
+  </data>
+  <data name="but_restartsvin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="button_septentriortcminterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 87</value>
+  </data>
+  <data name="lbl_status2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 13</value>
+  </data>
+  <data name="txt_surveyinDur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 25</value>
+  </data>
+</root>

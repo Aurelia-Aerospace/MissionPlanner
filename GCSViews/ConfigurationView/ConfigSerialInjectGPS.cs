@@ -533,12 +533,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             catch (Utilities.Septentrio.FailedAckException)
             {
                 this.LogError("Automatic configuration of Unicore receiver failed");
-                CustomMessageBox.Show("Automatic configuration of Unicore receiver failed.");
+                CustomMessageBox.Show(Strings.AutomaticConfigurationOfUnicoreReceiverFailed);
             }
             catch (InvalidOperationException)
             {
                 this.LogError("Unicore fixed base position is invalid");
-                CustomMessageBox.Show("Unicore fixed base position is invalid.");
+                CustomMessageBox.Show(Strings.UnicoreFixedBasePositionIsInvalid);
             }
             catch (FormatException)
             {
@@ -565,12 +565,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             catch (Utilities.Septentrio.FailedAckException)
             {
                 this.LogError("Automatic configuration of Septentrio receiver failed");
-                CustomMessageBox.Show("Automatic configuration of Septentrio receiver failed.");
+                CustomMessageBox.Show(Strings.AutomaticConfigurationOfSeptentrioReceiverFailed);
             }
             catch (InvalidOperationException)
             {
                 this.LogError("Septentrio fixed base position is invalid");
-                CustomMessageBox.Show("Septentrio fixed base position is invalid.");
+                CustomMessageBox.Show(Strings.SeptentrioFixedBasePositionIsInvalid);
             }
             catch (FormatException)
             {
@@ -1261,7 +1261,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             if (MainV2.comPort.MAV.cs.Base == null)
             {
-                CustomMessageBox.Show("No valid base position determined by gps yet", Strings.ERROR);
+                CustomMessageBox.Show(Strings.NoValidBasePositionDeterminedBy, Strings.ERROR);
                 return;
             }
 
@@ -1435,7 +1435,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private void chk_movingbase_CheckedChanged(object sender, EventArgs e)
         {
             if (comPort.IsOpen)
-                CustomMessageBox.Show("Please Disconnect and Reconnect to apply this change.");
+                CustomMessageBox.Show(Strings.PleaseDisconnectAndReconnectToApply);
         }
 
         private void comboBoxConfigType_SelectedIndexChanged(object sender, EventArgs e)
@@ -1469,7 +1469,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             catch (Utilities.Septentrio.FailedAckException)
             {
                 this.LogError("Configuration of fixed position on Septentrio receiver failed");
-                CustomMessageBox.Show("Configuration of fixed position on Septentrio receiver failed.");
+                CustomMessageBox.Show(Strings.ConfigurationOfFixedPositionOnSeptentrio);
             }
             catch (FormatException) { }
             catch (InvalidOperationException) { }
@@ -1603,7 +1603,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             catch (Utilities.Septentrio.FailedAckException)
             {
                 this.LogError("Configuration of RTCM interval on Septentrio receiver failed");
-                CustomMessageBox.Show("Configuration of RTCM interval on Septentrio receiver failed.");
+                CustomMessageBox.Show(Strings.ConfigurationOfRtcmIntervalOnSeptentrio);
             }
             catch (FormatException ex) {
                 log.Error(ex.Message);
