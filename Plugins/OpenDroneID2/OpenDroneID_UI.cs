@@ -344,7 +344,7 @@ namespace MissionPlanner.Controls
         {
             // Note: this function is for development only and should be removed for production enviroments. 
 
-            if (CustomMessageBox.Show("Are you sure you want to disable outgoing Remote ID?", "RID Developer Mode?", CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.No)
+            if (CustomMessageBox.Show(Strings.AreYouSureYouWantTo4, "RID Developer Mode?", CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.No)
             {
                 return;
             }

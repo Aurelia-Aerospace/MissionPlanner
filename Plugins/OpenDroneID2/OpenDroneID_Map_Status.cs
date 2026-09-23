@@ -48,7 +48,7 @@ namespace MissionPlanner.Controls
 
         private void OpenDroneID_Map_Status_DoubleClick(object sender, EventArgs e)
         {
-            if (CustomMessageBox.Show("Are you sure you want to declare Remote ID Emergency?", "RID Emergency?", CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.Yes)
+            if (CustomMessageBox.Show(Strings.AreYouSureYouWantTo3, "RID Emergency?", CustomMessageBox.MessageBoxButtons.YesNo) == CustomMessageBox.DialogResult.Yes)
             {
                 try
                 {

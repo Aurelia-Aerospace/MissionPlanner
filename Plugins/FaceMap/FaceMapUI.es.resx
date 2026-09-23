@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Velocidad mínima de obturación:</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Altitud del suelo:</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Gira a Dia (a 45d):</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Foto cada (aprox.):</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Duración estimada del vuelo:</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Distancia entre líneas:</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Huella:</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>N.º de tiras:</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Imágenes:</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Resolución en el suelo: </value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Distancia entre las imágenes: </value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Altitud inicial:</value>
+  </data>
+  <data name="tabCamera.Text" xml:space="preserve">
+    <value>Configuración de la cámara</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Método de activación</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Servo</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>PWM H</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>PWM L</value>
+  </data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve">
+    <value>DO_SET_SERVO</value>
+  </data>
+  <data name="chk_stopstart.Text" xml:space="preserve">
+    <value>Empieza la ruptura</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>PWM</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Tiempo de ciclo [s]</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Servo</value>
+  </data>
+  <data name="rad_digicam.Text" xml:space="preserve">
+    <value>DO_DIGICAM_CONTROL</value>
+  </data>
+  <data name="rad_repeatservo.Text" xml:space="preserve">
+    <value>DO_REPEAT_SERVO</value>
+  </data>
+  <data name="rad_trigdist.Text" xml:space="preserve">
+    <value>CAM_TRIGG_DIST</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Opciones de la cámara</value>
+  </data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve">
+    <value>Cargar foto de muestra</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Valores calculados</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Campo de visión vertical [m]</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Campo de visión horizontal [m]</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>cm/píxel</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Altura del sensor [mm]</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ancho del sensor [mm]</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Altura de la imagen [píxeles]</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Ancho de la imagen [píxeles]</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Distancia focal [mm]</value>
+  </data>
+  <data name="BUT_save.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Ángulo de solapamiento</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>(mín. 5 m)</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>Pases adicionales en la línea de puntera</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Altura de la primera pasada por encima de la puntera </value>
+  </data>
+  <data name="groupBox_copter.Text" xml:space="preserve">
+    <value>Opciones de helicóptero</value>
+  </data>
+  <data name="CHK_extraimages.Text" xml:space="preserve">
+    <value>Captura de imágenes adicionales de las esquinas</value>
+  </data>
+  <data name="CHK_usespeed.Text" xml:space="preserve">
+    <value>Aprovecha la velocidad en esta misión</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Velocidad de vuelo (estimada)</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Dividir en x segmentos</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Distancia desde la cara</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Superposición [%]</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Desviación lateral [%]</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Opciones de cuadrícula</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Haz una foto cada [m]</value>
+  </data>
+  <data name="tabGrid.Text" xml:space="preserve">
+    <value>Opciones de cuadrícula</value>
+  </data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve">
+    <value>Retardo en WP (segundos)</value>
+  </data>
+  <data name="tabSimple.Text" xml:space="preserve">
+    <value>Sencillo</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Control+S para guardar en un archivo
+Control+O para cargar un archivo de formulario</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Opciones sencillas</value>
+  </data>
+  <data name="CHK_FollowPathHome.Text" xml:space="preserve">
+    <value>Sigue la ruta de la encuesta hasta la página de inicio</value>
+  </data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve">
+    <value>Usar RTL</value>
+  </data>
+  <data name="CHK_toandland.Text" xml:space="preserve">
+    <value>Añadir puntos de referencia de despegue y aterrizaje</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Cámara</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Inclinación de la cámara [grados]</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Número de bancos</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Profundidad del terraplén [m]</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ángulo [grados]</value>
+  </data>
+  <data name="CHK_camPitchUnlock.Text" xml:space="preserve">
+    <value>Desbloquear el ángulo de inclinación de la cámara</value>
+  </data>
+  <data name="CHK_facedirection.Text" xml:space="preserve">
+    <value>Dirección de la proyección «Flip Face»</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Altura de la punta [m]</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Altura del banco [m]</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Pantalla</value>
+  </data>
+  <data name="CHK_grid.Text" xml:space="preserve">
+    <value>Trayectoria de vuelo</value>
+  </data>
+  <data name="CHK_markers.Text" xml:space="preserve">
+    <value>Marcadores</value>
+  </data>
+  <data name="CHK_boundary.Text" xml:space="preserve">
+    <value>Definición de la línea de los dedos del pie</value>
+  </data>
+  <data name="BUT_Accept.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FaceMap</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 13</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 13</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 13</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="LBL_copter_delay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 13</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 13</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 13</value>
+  </data>
+  <data name="lbl_flighttime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="NUM_cameraPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 163</value>
+  </data>
+  <data name="lbl_gndelev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 59</value>
+  </data>
+  <data name="lbl_distbetweenlines.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 59</value>
+  </data>
+  <data name="lbl_photoevery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 33</value>
+  </data>
+  <data name="TRK_zoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 0</value>
+  </data>
+  <data name="TXT_imgheight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 71</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 0</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1101, 0</value>
+  </data>
+  <data name="lbl_turnrad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 46</value>
+  </data>
+  <data name="NUM_UpDownFlySpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 14</value>
+  </data>
+  <data name="tabSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 22</value>
+  </data>
+  <data name="NUM_toepoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 336</value>
+  </data>
+  <data name="NUM_toepoint_runs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 371</value>
+  </data>
+  <data name="NUM_Distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 63</value>
+  </data>
+  <data name="lbl_minshutter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 20</value>
+  </data>
+  <data name="lbl_grndres.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 59</value>
+  </data>
+  <data name="TXT_imgwidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 45</value>
+  </data>
+  <data name="lbl_spacing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 46</value>
+  </data>
+  <data name="tabCamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 22</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 20</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 46</value>
+  </data>
+  <data name="NUM_copter_delay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 21</value>
+  </data>
+  <data name="NUM_BermDepth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 112</value>
+  </data>
+</root>
