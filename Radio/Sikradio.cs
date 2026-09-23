@@ -749,7 +749,7 @@ S15: MAX_WINDOW=131
                         }
                         if (!cmdanswer.Contains("OK"))
                         {
-                            MsgBox.CustomMessageBox.Show("Set Command error");
+                            MsgBox.CustomMessageBox.Show(Strings.SetCommandError);
                         }
 
                     }
@@ -982,7 +982,7 @@ S15: MAX_WINDOW=131
                         var cmdwriteanswer = doCommand(Session.Port, "AT&W");
                         if (!cmdwriteanswer.Contains("OK"))
                         {
-                            MsgBox.CustomMessageBox.Show("Failed to save parameters");
+                            MsgBox.CustomMessageBox.Show(Strings.FailedToSaveParameters);
                         }
 
                         // return to normal mode
@@ -998,7 +998,7 @@ S15: MAX_WINDOW=131
                     doCommand(Session.Port, "ATZ");
 
                     lbl_status.Text = "Fail";
-                    MsgBox.CustomMessageBox.Show("Failed to enter command mode");
+                    MsgBox.CustomMessageBox.Show(Strings.FailedToEnterCommandMode);
                     EnableConfigControls(true, false);
                 }
 
@@ -1820,7 +1820,7 @@ S15: MAX_WINDOW=131
 
                         if ((RemoteFWVer != null) &&  (LocalFWVer != RemoteFWVer) && UsedAltRanges)
                         {
-                            MsgBox.CustomMessageBox.Show("The ranges and options shown for the remote modem may not be accurate.  To ensure accurate, use the same firmware version in both the local and remote modems");
+                            MsgBox.CustomMessageBox.Show(Strings.TheRangesAndOptionsShownFor);
                         }
 
                         items = answer.Split('\n');
@@ -1880,7 +1880,7 @@ S15: MAX_WINDOW=131
                     Session.PutIntoTransparentMode();
 
                     lbl_status.Text = "Fail";
-                    MsgBox.CustomMessageBox.Show("Failed to enter command mode.  Try power-cycling modem.");
+                    MsgBox.CustomMessageBox.Show(Strings.FailedToEnterCommandModeTry);
                     EnableConfigControls(true, false);
                 }
 
@@ -2265,7 +2265,7 @@ red LED solid - in firmware update mode");
                 if (RFD900 == null)
                 {
                     UpdateStatus("Unknown modem");
-                    MsgBox.CustomMessageBox.Show("Couldn't communicate with modem.  Try power-cycling modem.");
+                    MsgBox.CustomMessageBox.Show(Strings.CouldnTCommunicateWithModemTry);
                     EndSession();
                 }
                 else
@@ -2447,7 +2447,7 @@ red LED solid - in firmware update mode");
                 }
                 catch
                 {
-                    MsgBox.CustomMessageBox.Show("Invalid ComPort or in use");
+                    MsgBox.CustomMessageBox.Show(Strings.InvalidComportOrInUse);
                     return null;
                 }
             }

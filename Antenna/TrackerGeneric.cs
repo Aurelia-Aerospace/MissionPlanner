@@ -103,7 +103,7 @@ namespace MissionPlanner.Antenna
                 }
 
                 _tracker.BUT_find.Enabled = true;
-                //CustomMessageBox.Show("Disconnected!");
+                //CustomMessageBox.Show(Strings.Disconnected);
                 return;
             }
 

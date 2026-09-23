@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CMB_interface.Items" xml:space="preserve">
+    <value>Maestro</value>
+  </data>
+  <data name="CMB_interface.Items1" xml:space="preserve">
+    <value>ArduTracker</value>
+  </data>
+  <data name="CMB_interface.Text" xml:space="preserve">
+    <value>Maestro</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Interfaz</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Acabado</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Gama</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Gama</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Acabado</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Paneo</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Inclinación</value>
+  </data>
+  <data name="CHK_revpan.Text" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="CHK_revtilt.Text" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Rango de PWM</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Rango de PWM</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>El uso incorrecto de esta interfaz puede provocar daños en el servo. ¡Úsala con precaución!</value>
+  </data>
+  <data name="label12.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>487, 0</value>
+  </data>
+  <data name="BUT_connect.Text" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="LBL_pantrim.Text" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="LBL_tilttrim.Text" xml:space="preserve">
+    <value>Ángulo</value>
+  </data>
+  <data name="BUT_find.Text" xml:space="preserve">
+    <value>Detectar</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PWM central</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>PWM central</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Velocidad</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Aceleración</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Aceleración</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Velocidad</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="TXT_panspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 159</value>
+  </data>
+  <data name="TXT_tiltspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 322</value>
+  </data>
+  <data name="TXT_pwmrangetilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 270</value>
+  </data>
+  <data name="TXT_centerpan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 133</value>
+  </data>
+  <data name="TXT_tiltrange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 244</value>
+  </data>
+  <data name="TXT_panrange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 81</value>
+  </data>
+  <data name="TXT_centertilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 296</value>
+  </data>
+  <data name="TXT_pwmrangepan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 107</value>
+  </data>
+  <data name="TRK_pantrim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 96</value>
+  </data>
+  <data name="TRK_tilttrim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 258</value>
+  </data>
+</root>

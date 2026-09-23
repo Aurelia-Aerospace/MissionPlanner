@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Retract: subir el soporte a las posiciones preestablecidas
+Neutral: cargar la posición por defecto, es decir, hacia delante
+Mavlink_targeting: apuntar hacia un valor recibido de balanceo, cabeceo y guiñada
+rc_targeting: utilizar los canales del mando a distancia para controlar los ejes
+gps_point: se utiliza para seguir un único punto en el suelo</value>
+  </data>
+</root>
