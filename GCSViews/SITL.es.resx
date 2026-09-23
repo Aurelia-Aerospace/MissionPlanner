@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label6.Text" xml:space="preserve">
+    <value>Avión</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Rover</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Multirrotor</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Helicóptero</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Ubicación de inicio - Arrástrame</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Selecciona un firmware para ejecutarlo</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Solo para usuarios avanzados</value>
+  </data>
+  <data name="but_swarmrover.Text" xml:space="preserve">
+    <value>Rover Swarm - Multilink</value>
+  </data>
+  <data name="but_swarmplane.Text" xml:space="preserve">
+    <value>Plane Swarm - Multilink</value>
+  </data>
+  <data name="but_swarmseq.Text" xml:space="preserve">
+    <value>Copter Swarm - Enlace único</value>
+  </data>
+  <data name="but_swarmlink.Text" xml:space="preserve">
+    <value>Copter Swarm - Multilink</value>
+  </data>
+  <data name="chk_wipe.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Línea de comandos adicional</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="cmb_model.Items1" xml:space="preserve">
+    <value>cuadricóptero</value>
+  </data>
+  <data name="cmb_model.Items2" xml:space="preserve">
+    <value>xplane</value>
+  </data>
+  <data name="cmb_model.Items3" xml:space="preserve">
+    <value>xplane-heli</value>
+  </data>
+  <data name="cmb_model.Items4" xml:space="preserve">
+    <value>luciérnaga</value>
+  </data>
+  <data name="cmb_model.Items5" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="cmb_model.Items6" xml:space="preserve">
+    <value>cuádruple</value>
+  </data>
+  <data name="cmb_model.Items7" xml:space="preserve">
+    <value>helicóptero</value>
+  </data>
+  <data name="cmb_model.Items8" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="cmb_model.Items9" xml:space="preserve">
+    <value>hexa</value>
+  </data>
+  <data name="cmb_model.Items10" xml:space="preserve">
+    <value>octa</value>
+  </data>
+  <data name="cmb_model.Items11" xml:space="preserve">
+    <value>tri</value>
+  </data>
+  <data name="cmb_model.Items12" xml:space="preserve">
+    <value>y6</value>
+  </data>
+  <data name="cmb_model.Items13" xml:space="preserve">
+    <value>helicóptero</value>
+  </data>
+  <data name="cmb_model.Items14" xml:space="preserve">
+    <value>heli-dual</value>
+  </data>
+  <data name="cmb_model.Items15" xml:space="preserve">
+    <value>helicompuesto</value>
+  </data>
+  <data name="cmb_model.Items16" xml:space="preserve">
+    <value>helicóptero monorrotor</value>
+  </data>
+  <data name="cmb_model.Items17" xml:space="preserve">
+    <value>coaxcóptero</value>
+  </data>
+  <data name="cmb_model.Items18" xml:space="preserve">
+    <value>rover</value>
+  </data>
+  <data name="cmb_model.Items19" xml:space="preserve">
+    <value>crrcsim</value>
+  </data>
+  <data name="cmb_model.Items20" xml:space="preserve">
+    <value>jsbsim</value>
+  </data>
+  <data name="cmb_model.Items21" xml:space="preserve">
+    <value>flightaxis</value>
+  </data>
+  <data name="cmb_model.Items22" xml:space="preserve">
+    <value>cenador</value>
+  </data>
+  <data name="cmb_model.Items23" xml:space="preserve">
+    <value>última_letra</value>
+  </data>
+  <data name="cmb_model.Items24" xml:space="preserve">
+    <value>rastreador</value>
+  </data>
+  <data name="cmb_model.Items25" xml:space="preserve">
+    <value>globo</value>
+  </data>
+  <data name="cmb_model.Items26" xml:space="preserve">
+    <value>avión</value>
+  </data>
+  <data name="cmb_model.Items27" xml:space="preserve">
+    <value>calibración</value>
+  </data>
+  <data name="cmb_model.Items28" xml:space="preserve">
+    <value>avión-jet</value>
+  </data>
+  <data name="cmb_model.Items29" xml:space="preserve">
+    <value>velero</value>
+  </data>
+  <data name="cmb_model.Items30" xml:space="preserve">
+    <value>lancha a motor</value>
+  </data>
+  <data name="cmb_model.Items31" xml:space="preserve">
+    <value>morse-rover</value>
+  </data>
+  <data name="cmb_model.Items32" xml:space="preserve">
+    <value>rover-skid</value>
+  </data>
+  <data name="cmb_model.Items33" xml:space="preserve">
+    <value>plano-3d</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Velocidad de simulación</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 13</value>
+  </data>
+  <data name="txt_cmdline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 17</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 20</value>
+  </data>
+  <data name="cmb_model.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 17</value>
+  </data>
+  <data name="chk_wipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 17</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 290</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 20</value>
+  </data>
+  <data name="num_simspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 18</value>
+  </data>
+</root>
