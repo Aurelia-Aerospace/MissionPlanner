@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_distbetweenlines.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Distancia entre líneas:</value>
+  </data>
+  <data name="lbl_strips.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>N.º de tiras:</value>
+  </data>
+  <data name="lbl_distance.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="lbl_area.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Distancia: </value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Área: </value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Velocidad (estimada)</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Distancia entre ejes [m]</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>OverShoot [m]</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ángulo [grados]</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Empezar desde</value>
+  </data>
+  <data name="BUT_Accept.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Altitud</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Distancia entre líneas [m]</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>OverShoot [m]</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Opciones sencillas</value>
+  </data>
+  <data name="CHK_internals.Text" xml:space="preserve">
+    <value>Componentes internos</value>
+  </data>
+  <data name="chk_grid.Text" xml:space="preserve">
+    <value>Cuadrícula</value>
+  </data>
+  <data name="chk_markers.Text" xml:space="preserve">
+    <value>Marcadores</value>
+  </data>
+  <data name="chk_boundary.Text" xml:space="preserve">
+    <value>Límite</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Pantalla</value>
+  </data>
+  <data name="tabSimple.Text" xml:space="preserve">
+    <value>Sencillo</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cuadrícula</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="NUM_Distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 71</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 0</value>
+  </data>
+</root>

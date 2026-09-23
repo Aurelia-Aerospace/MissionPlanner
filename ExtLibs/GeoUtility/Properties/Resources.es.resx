@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="DE_ERROR_CONVERTFROM" xml:space="preserve">
+    <value>No se permite la conversión de tipo entre {0} y {1}.</value>
+  </data>
+  <data name="DE_ERROR_GAUSS_EAST" xml:space="preserve">
+    <value>Valor geométrico fuera del sistema Gauss-Krüger definido para Alemania: 
+Longitud geográfica: de 5 a 16 E.</value>
+  </data>
+  <data name="DE_ERROR_GAUSS_NORTH" xml:space="preserve">
+    <value>Coordenadas fuera del sistema Gauss-Krüger definido para Alemania: 
+Latitud geográfica: de 46 a 55 N.</value>
+  </data>
+  <data name="DE_ERROR_GEO2UTM" xml:space="preserve">
+    <value>Valores fuera del rango definido en el sistema de coordenadas WGS84: 
+Longitud: de -180 a +180 E; latitud: de -80 a +84 N.</value>
+  </data>
+  <data name="DE_ERROR_GEO_LATITUDE" xml:space="preserve">
+    <value>Latitud no válida. Rango definido: de -80 (sur) a +84 (norte)</value>
+  </data>
+  <data name="DE_ERROR_GEO_LONGITUDE" xml:space="preserve">
+    <value>Longitud no válida. Rango definido: de -180 (oeste) a +180 (este)</value>
+  </data>
+  <data name="DE_ERROR_GK_OUT_OF_RANGE" xml:space="preserve">
+    <value>Valores fuera del sistema Gauss-Krüger definido para Alemania: 
+Longitud: de 5 a 16 E; latitud: de 46 a 55 N.</value>
+  </data>
+  <data name="DE_ERROR_MAPDIMENSION" xml:space="preserve">
+    <value>Clave interna no válida para la imagen de satélite.</value>
+  </data>
+  <data name="DE_ERROR_MGRS" xml:space="preserve">
+    <value>No se ha podido reconocer el formato de las cadenas de coordenadas MGRS o se encuentran fuera del rango válido.</value>
+  </data>
+  <data name="DE_ERROR_MGRS_EAST" xml:space="preserve">
+    <value>East-Wert no válido. </value>
+  </data>
+  <data name="DE_ERROR_MGRS_GRID" xml:space="preserve">
+    <value>El valor de la cuadrícula no es válido. Consta de 2 letras.</value>
+  </data>
+  <data name="DE_ERROR_MGRS_NORTH" xml:space="preserve">
+    <value>North-Wert no válido.</value>
+  </data>
+  <data name="DE_ERROR_TILE" xml:space="preserve">
+    <value>Valores no válidos en el parámetro derivado de MapServiceTileBase.</value>
+  </data>
+  <data name="DE_ERROR_UTM_BAND" xml:space="preserve">
+    <value>Rango no válido. Rango definido: de C a X (excepto I y O).</value>
+  </data>
+  <data name="DE_ERROR_UTM_EAST" xml:space="preserve">
+    <value>El valor de «East-Wert» no es válido. Rango definido: entre 200 000 y 800 000 aproximadamente.</value>
+  </data>
+  <data name="DE_ERROR_UTM_NORTH" xml:space="preserve">
+    <value>Valor de «Norte» no válido. Rango de definición: aprox. de 0 a 9 300 000 (Norte), aprox. de 1 100 000 a 10 000 000 (Sur)</value>
+  </data>
+  <data name="DE_ERROR_UTM_STRING" xml:space="preserve">
+    <value>No se ha podido reconocer la cadena UTM (formato desconocido).</value>
+  </data>
+  <data name="DE_ERROR_UTM_ZONE" xml:space="preserve">
+    <value>{0}{1} es una zona UTM no válida.</value>
+  </data>
+  <data name="DE_ERROR_UTM_ZONE2" xml:space="preserve">
+    <value>Zona no válida. Rango definido: del 1 al 60.</value>
+  </data>
+  <data name="DE_GAUSS_LONG_STRING" xml:space="preserve">
+    <value>Derecha: {0}; Arriba: {1}</value>
+  </data>
+  <data name="DE_GAUSS_SHORT_STRING" xml:space="preserve">
+    <value>R: {0}   H: {1}</value>
+  </data>
+  <data name="DE_GEOGRAPHIC_STRING" xml:space="preserve">
+    <value>Longitud: {0}; Anchura: {1}</value>
+  </data>
+  <data name="DE_MS_NO_IMAGE" xml:space="preserve">
+    <value>La imagen por satélite no está disponible a este nivel de zoom.</value>
+  </data>
+  <data name="DE_NO_ERROR_MESSAGE" xml:space="preserve">
+    <value>No hay más detalles disponibles sobre el error.</value>
+  </data>
+  <data name="ERROR_CONVERTFROM" xml:space="preserve">
+    <value>No se permite la conversión de tipos entre {0} y {1}.</value>
+  </data>
+  <data name="ERROR_GAUSS_EAST" xml:space="preserve">
+    <value>Valor de la longitud este fuera del rango del sistema alemán Gauss-Krueger: 
+Longitud: de 5 a 16 E.</value>
+  </data>
+  <data name="ERROR_GAUSS_NORTH" xml:space="preserve">
+    <value>Valor de la latitud norte fuera del rango del sistema alemán Gauss-Krueger: 
+Latitud: de 46 a 55 N.</value>
+  </data>
+  <data name="ERROR_GEO2UTM" xml:space="preserve">
+    <value>Valores fuera del rango para UTM: 
+Longitud: de -180 a +180 E; Latitud: de -80 a +84 N.</value>
+  </data>
+  <data name="ERROR_GEO_LATITUDE" xml:space="preserve">
+    <value>La latitud no es válida. Rango: de -80 (sur) a +84 (norte)</value>
+  </data>
+  <data name="ERROR_GEO_LONGITUDE" xml:space="preserve">
+    <value>La longitud no es válida. Rango: de -180 (oeste) a +180 (este)</value>
+  </data>
+  <data name="ERROR_GK_OUT_OF_RANGE" xml:space="preserve">
+    <value>Valores fuera del rango del sistema alemán Gauss-Krüger: 
+Longitud: de 5 a 16 E; Latitud: de 46 a 55 N.</value>
+  </data>
+  <data name="ERROR_MAPDIMENSION" xml:space="preserve">
+    <value>Clave interna no válida para la imagen de satélite.</value>
+  </data>
+  <data name="ERROR_MGRS" xml:space="preserve">
+    <value>No se ha podido analizar el formato de la cadena MGRS o está fuera de rango.</value>
+  </data>
+  <data name="ERROR_MGRS_EAST" xml:space="preserve">
+    <value>El valor de «Este» no es válido.</value>
+  </data>
+  <data name="ERROR_MGRS_GRID" xml:space="preserve">
+    <value>El valor de la cuadrícula no es válido. Debe tener 2 letras.</value>
+  </data>
+  <data name="ERROR_MGRS_NORTH" xml:space="preserve">
+    <value>El valor de «North» no es válido.</value>
+  </data>
+  <data name="ERROR_TILE" xml:space="preserve">
+    <value>Tu objeto derivado de MapServiceTileBase contiene valores no válidos.</value>
+  </data>
+  <data name="ERROR_UTM_BAND" xml:space="preserve">
+    <value>Banda no válida. Rango: de C a X (excepto I y O).</value>
+  </data>
+  <data name="ERROR_UTM_EAST" xml:space="preserve">
+    <value>El valor de «East» no es válido. Rango: entre 200 000 y 800 000 aproximadamente.</value>
+  </data>
+  <data name="ERROR_UTM_NORTH" xml:space="preserve">
+    <value>Valor de «Norte» no válido. Rango: aprox. de 0 a 9 300 000 (Norte), aprox. de 1 100 000 a 10 000 000 (Sur)</value>
+  </data>
+  <data name="ERROR_UTM_STRING" xml:space="preserve">
+    <value>No se ha podido analizar la cadena UTM (formato desconocido).</value>
+  </data>
+  <data name="ERROR_UTM_ZONE" xml:space="preserve">
+    <value>{0}{1} es una zona UTM no válida.</value>
+  </data>
+  <data name="ERROR_UTM_ZONE2" xml:space="preserve">
+    <value>Zona no válida. Rango: de 1 a 60.</value>
+  </data>
+  <data name="GAUSS_SHORT_STRING" xml:space="preserve">
+    <value>E {0}   N {1}</value>
+  </data>
+  <data name="GAUSS_LONG_STRING" xml:space="preserve">
+    <value>Este: {0}; Norte: {1}</value>
+  </data>
+  <data name="GEOGRAPHIC_STRING" xml:space="preserve">
+    <value>Longitud: {0}; Latitud: {1}</value>
+  </data>
+  <data name="MS_NO_IMAGE" xml:space="preserve">
+    <value>No hay ninguna imagen de satélite disponible con este nivel de zoom.</value>
+  </data>
+  <data name="NO_ERROR_MESSAGE" xml:space="preserve">
+    <value>No hay detalles del error disponibles.</value>
+  </data>
+</root>
