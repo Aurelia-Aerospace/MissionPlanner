@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Bytes/s</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Paquetes</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Puntos perdidos</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Calidad</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Total de bytes</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Bytes/s</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Paquetes/s</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Tiempo máximo entre paquetes (ms)</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="chk_signing.Text" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="chk_mavlink2.Text" xml:space="preserve">
+    <value>Mavlink 2</value>
+  </data>
+  <data name="but_reset.Text" xml:space="preserve">
+    <value>Restablecer</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 13</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="txt_PacketsPerSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 42</value>
+  </data>
+  <data name="txt_PacketsRx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 42</value>
+  </data>
+  <data name="txt_BytesSent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 68</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 43</value>
+  </data>
+  <data name="txt_PacketsLost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 68</value>
+  </data>
+  <data name="txt_LinkQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 68</value>
+  </data>
+  <data name="txt_MaxPacketInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 94</value>
+  </data>
+</root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Qué hace esta función.
+1. Obtiene las coordenadas GPS actuales de un GPS NMEA.
+2. Envía un punto de waypoint (WP) en modo guiado al punto de acceso (AP) a la frecuencia (Hz) que solicites. (Recuerda que esto está limitado al GPS que estés utilizando).
+
+Cómo utilizarlo
+1. Conéctate al punto de acceso (AP).
+2. Despega y comprueba que el modo guiado funciona.
+3. Abre esta aplicación y selecciona el puerto de comunicación y la velocidad de transmisión de tu GPS NMEA.
+4. Ahora debería estar siguiéndote.
+NOTA: debes poner el AP en modo guiado manualmente.</value>
+  </data>
+</root>
