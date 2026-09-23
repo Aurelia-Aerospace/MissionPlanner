@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Text" xml:space="preserve">
+    <value>Desviación en segundos</value>
+  </data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve">
+    <value>Etiquetar imágenes con geoetiquetas</value>
+  </data>
+  <data name="BUT_estoffset.Text" xml:space="preserve">
+    <value>Desviación estimada</value>
+  </data>
+  <data name="BUT_doit.Text" xml:space="preserve">
+    <value>Preprocesamiento</value>
+  </data>
+  <data name="BUT_browsedir.Text" xml:space="preserve">
+    <value>Ver fotos</value>
+  </data>
+  <data name="BUT_browselog.Text" xml:space="preserve">
+    <value>Registro de navegación</value>
+  </data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
+    <value>Ubicación KML</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve">
+    <value>Desfase temporal</value>
+  </data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
+    <value>Mensaje de CAM</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Rotación</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Campo de visión transversal</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Dir fov</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Tiempo mínimo de exposición (s) (CAM)</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Insertar imagen al final</value>
+  </data>
+  <data name="lbldrpstart.Text" xml:space="preserve">
+    <value>Insertar imagen al principio</value>
+  </data>
+  <data name="chk_usegps2.Text" xml:space="preserve">
+    <value>Utiliza GPS2</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Base de Alt. Rel</value>
+  </data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
+    <value>Utilizar AMSL Alt</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Retardo del obturador (ms)</value>
+  </data>
+  <data name="chk_cammsg.Text" xml:space="preserve">
+    <value>Utilizar los mensajes de Cam</value>
+  </data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve">
+    <value>Mensaje de activación</value>
+  </data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve">
+    <value>Utiliza GPSAlt</value>
+  </data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve">
+    <value>Utiliza GPSAlt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Imágenes georreferenciadas</value>
+  </data>
+  <data name="CHECK_AMSLAlt_Use.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="lbldrpstart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 13</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 13</value>
+  </data>
+  <data name="chk_cammsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 17</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 13</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 10</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 9</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 9</value>
+  </data>
+  <data name="txt_basealt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 61</value>
+  </data>
+  <data name="BUT_estoffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 18</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 63</value>
+  </data>
+  <data name="TXT_offsetseconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <data name="chk_camusegpsalt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 108</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 10</value>
+  </data>
+  <data name="PANEL_SHUTTER_LAG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 128</value>
+  </data>
+  <data name="TXT_shutterLag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 19</value>
+  </data>
+  <data name="chk_usegps2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 63</value>
+  </data>
+</root>
