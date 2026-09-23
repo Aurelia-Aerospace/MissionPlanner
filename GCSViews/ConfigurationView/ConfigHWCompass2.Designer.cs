@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigHWCompass2));
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -90,7 +91,8 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Set the Compass Priority by reordering the compasses in the table below (Highest " +
     "at the top)\r\n";
-            // 
+            resources.ApplyResources(this.label1, "label1");
+            //
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -100,7 +102,8 @@
             this.label6.Size = new System.Drawing.Size(583, 22);
             this.label6.TabIndex = 80;
             this.label6.Text = "Compass Priority";
-            // 
+            resources.ApplyResources(this.label6, "label6");
+            //
             // groupBox5
             // 
             this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -135,7 +138,8 @@
             this.groupBoxonboardcalib.TabIndex = 81;
             this.groupBoxonboardcalib.TabStop = false;
             this.groupBoxonboardcalib.Text = "Onboard Mag Calibration";
-            // 
+            resources.ApplyResources(this.groupBoxonboardcalib, "groupBoxonboardcalib");
+            //
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(321, 107);
@@ -171,7 +175,8 @@
             this.label2.Size = new System.Drawing.Size(181, 13);
             this.label2.TabIndex = 17;
             this.label2.Text = "Relax fitness if calibration fails";
-            // 
+            resources.ApplyResources(this.label2, "label2");
+            //
             // label10
             // 
             this.label10.AutoSize = true;
@@ -181,7 +186,8 @@
             this.label10.Size = new System.Drawing.Size(40, 13);
             this.label10.TabIndex = 16;
             this.label10.Text = "Fitness";
-            // 
+            resources.ApplyResources(this.label10, "label10");
+            //
             // mavlinkComboBoxfitness
             // 
             this.mavlinkComboBoxfitness.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -203,7 +209,8 @@
             this.label9.Size = new System.Drawing.Size(37, 13);
             this.label9.TabIndex = 14;
             this.label9.Text = "Mag 3";
-            // 
+            resources.ApplyResources(this.label9, "label9");
+            //
             // label8
             // 
             this.label8.AutoSize = true;
@@ -213,7 +220,8 @@
             this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 13;
             this.label8.Text = "Mag 2";
-            // 
+            resources.ApplyResources(this.label8, "label8");
+            //
             // label7
             // 
             this.label7.AutoSize = true;
@@ -223,7 +231,8 @@
             this.label7.Size = new System.Drawing.Size(37, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "Mag 1";
-            // 
+            resources.ApplyResources(this.label7, "label7");
+            //
             // horizontalProgressBar3
             // 
             this.horizontalProgressBar3.DrawLabel = true;
@@ -280,6 +289,7 @@
             this.BUT_OBmagcalaccept.Size = new System.Drawing.Size(75, 23);
             this.BUT_OBmagcalaccept.TabIndex = 1;
             this.BUT_OBmagcalaccept.Text = "Accept";
+            resources.ApplyResources(this.BUT_OBmagcalaccept, "BUT_OBmagcalaccept");
             this.BUT_OBmagcalaccept.UseVisualStyleBackColor = true;
             this.BUT_OBmagcalaccept.Click += new System.EventHandler(this.BUT_OBmagcalaccept_Click);
             // 
@@ -292,6 +302,7 @@
             this.BUT_OBmagcalcancel.Size = new System.Drawing.Size(75, 23);
             this.BUT_OBmagcalcancel.TabIndex = 2;
             this.BUT_OBmagcalcancel.Text = "Cancel";
+            resources.ApplyResources(this.BUT_OBmagcalcancel, "BUT_OBmagcalcancel");
             this.BUT_OBmagcalcancel.UseVisualStyleBackColor = true;
             this.BUT_OBmagcalcancel.Click += new System.EventHandler(this.BUT_OBmagcalcancel_Click);
             // 
@@ -303,6 +314,7 @@
             this.BUT_OBmagcalstart.Size = new System.Drawing.Size(75, 23);
             this.BUT_OBmagcalstart.TabIndex = 0;
             this.BUT_OBmagcalstart.Text = "Start";
+            resources.ApplyResources(this.BUT_OBmagcalstart, "BUT_OBmagcalstart");
             this.BUT_OBmagcalstart.UseVisualStyleBackColor = true;
             this.BUT_OBmagcalstart.Click += new System.EventHandler(this.BUT_OBmagcalstart_Click);
             // 
@@ -318,7 +330,8 @@
             this.label3.Size = new System.Drawing.Size(255, 13);
             this.label3.TabIndex = 85;
             this.label3.Text = "Do you want to disable any of the first 3 compasses?";
-            // 
+            resources.ApplyResources(this.label3, "label3");
+            //
             // but_largemagcal
             // 
             this.but_largemagcal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -327,6 +340,7 @@
             this.but_largemagcal.Size = new System.Drawing.Size(75, 23);
             this.but_largemagcal.TabIndex = 21;
             this.but_largemagcal.Text = "Large Vehicle MagCal";
+            resources.ApplyResources(this.but_largemagcal, "but_largemagcal");
             this.but_largemagcal.UseVisualStyleBackColor = true;
             this.but_largemagcal.Click += new System.EventHandler(this.but_largemagcal_Click);
             // 
@@ -338,7 +352,8 @@
             this.label4.Size = new System.Drawing.Size(281, 13);
             this.label4.TabIndex = 86;
             this.label4.Text = "A mag calibration is required to remap the above changes.";
-            // 
+            resources.ApplyResources(this.label4, "label4");
+            //
             // but_reboot
             // 
             this.but_reboot.Location = new System.Drawing.Point(3, 313);
@@ -346,6 +361,7 @@
             this.but_reboot.Size = new System.Drawing.Size(75, 23);
             this.but_reboot.TabIndex = 88;
             this.but_reboot.Text = "Reboot";
+            resources.ApplyResources(this.but_reboot, "but_reboot");
             this.but_reboot.UseVisualStyleBackColor = true;
             this.but_reboot.Click += new System.EventHandler(this.but_reboot_Click);
             // 
@@ -357,7 +373,8 @@
             this.label5.Size = new System.Drawing.Size(203, 13);
             this.label5.TabIndex = 89;
             this.label5.Text = "A reboot is required to adjust the ordering.\r\n";
-            // 
+            resources.ApplyResources(this.label5, "label5");
+            //
             // mavlinkCheckBoxUseCompass3
             // 
             this.mavlinkCheckBoxUseCompass3.AutoSize = true;
@@ -370,6 +387,7 @@
             this.mavlinkCheckBoxUseCompass3.Size = new System.Drawing.Size(100, 17);
             this.mavlinkCheckBoxUseCompass3.TabIndex = 83;
             this.mavlinkCheckBoxUseCompass3.Text = "Use Compass 3";
+            resources.ApplyResources(this.mavlinkCheckBoxUseCompass3, "mavlinkCheckBoxUseCompass3");
             this.mavlinkCheckBoxUseCompass3.UseVisualStyleBackColor = true;
             // 
             // mavlinkCheckBoxUseCompass2
@@ -384,6 +402,7 @@
             this.mavlinkCheckBoxUseCompass2.Size = new System.Drawing.Size(100, 17);
             this.mavlinkCheckBoxUseCompass2.TabIndex = 84;
             this.mavlinkCheckBoxUseCompass2.Text = "Use Compass 2";
+            resources.ApplyResources(this.mavlinkCheckBoxUseCompass2, "mavlinkCheckBoxUseCompass2");
             this.mavlinkCheckBoxUseCompass2.UseVisualStyleBackColor = true;
             // 
             // CHK_compass_learn
@@ -398,6 +417,7 @@
             this.CHK_compass_learn.Size = new System.Drawing.Size(148, 17);
             this.CHK_compass_learn.TabIndex = 87;
             this.CHK_compass_learn.Text = "Automatically learn offsets";
+            resources.ApplyResources(this.CHK_compass_learn, "CHK_compass_learn");
             this.CHK_compass_learn.UseVisualStyleBackColor = true;
             // 
             // mavlinkCheckBoxUseCompass1
@@ -412,6 +432,7 @@
             this.mavlinkCheckBoxUseCompass1.Size = new System.Drawing.Size(100, 17);
             this.mavlinkCheckBoxUseCompass1.TabIndex = 82;
             this.mavlinkCheckBoxUseCompass1.Text = "Use Compass 1";
+            resources.ApplyResources(this.mavlinkCheckBoxUseCompass1, "mavlinkCheckBoxUseCompass1");
             this.mavlinkCheckBoxUseCompass1.UseVisualStyleBackColor = true;
             // 
             // myDataGridView1
@@ -450,6 +471,7 @@
             // Priority
             // 
             this.Priority.HeaderText = "Priority";
+            resources.ApplyResources(this.Priority, "Priority");
             this.Priority.Name = "Priority";
             this.Priority.ReadOnly = true;
             this.Priority.Width = 50;
@@ -458,6 +480,7 @@
             // 
             this.devIDDataGridViewTextBoxColumn.DataPropertyName = "DevID";
             this.devIDDataGridViewTextBoxColumn.HeaderText = "DevID";
+            resources.ApplyResources(this.devIDDataGridViewTextBoxColumn, "devIDDataGridViewTextBoxColumn");
             this.devIDDataGridViewTextBoxColumn.Name = "devIDDataGridViewTextBoxColumn";
             this.devIDDataGridViewTextBoxColumn.ReadOnly = true;
             this.devIDDataGridViewTextBoxColumn.Width = 50;
@@ -466,6 +489,7 @@
             // 
             this.busTypeDataGridViewTextBoxColumn.DataPropertyName = "BusType";
             this.busTypeDataGridViewTextBoxColumn.HeaderText = "BusType";
+            resources.ApplyResources(this.busTypeDataGridViewTextBoxColumn, "busTypeDataGridViewTextBoxColumn");
             this.busTypeDataGridViewTextBoxColumn.Name = "busTypeDataGridViewTextBoxColumn";
             this.busTypeDataGridViewTextBoxColumn.ReadOnly = true;
             this.busTypeDataGridViewTextBoxColumn.Width = 60;
@@ -474,6 +498,7 @@
             // 
             this.busDataGridViewTextBoxColumn.DataPropertyName = "Bus";
             this.busDataGridViewTextBoxColumn.HeaderText = "Bus";
+            resources.ApplyResources(this.busDataGridViewTextBoxColumn, "busDataGridViewTextBoxColumn");
             this.busDataGridViewTextBoxColumn.Name = "busDataGridViewTextBoxColumn";
             this.busDataGridViewTextBoxColumn.ReadOnly = true;
             this.busDataGridViewTextBoxColumn.Width = 50;
@@ -482,6 +507,7 @@
             // 
             this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
             this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
+            resources.ApplyResources(this.addressDataGridViewTextBoxColumn, "addressDataGridViewTextBoxColumn");
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             this.addressDataGridViewTextBoxColumn.ReadOnly = true;
             this.addressDataGridViewTextBoxColumn.Width = 50;
@@ -490,6 +516,7 @@
             // 
             this.devTypeDataGridViewTextBoxColumn.DataPropertyName = "DevType";
             this.devTypeDataGridViewTextBoxColumn.HeaderText = "DevType";
+            resources.ApplyResources(this.devTypeDataGridViewTextBoxColumn, "devTypeDataGridViewTextBoxColumn");
             this.devTypeDataGridViewTextBoxColumn.Name = "devTypeDataGridViewTextBoxColumn";
             this.devTypeDataGridViewTextBoxColumn.ReadOnly = true;
             this.devTypeDataGridViewTextBoxColumn.Width = 150;
@@ -498,6 +525,7 @@
             // 
             this.Missing.DataPropertyName = "Missing";
             this.Missing.HeaderText = "Missing";
+            resources.ApplyResources(this.Missing, "Missing");
             this.Missing.Name = "Missing";
             this.Missing.ReadOnly = true;
             this.Missing.Width = 50;
@@ -506,6 +534,7 @@
             // 
             this.External.DataPropertyName = "External";
             this.External.HeaderText = "External";
+            resources.ApplyResources(this.External, "External");
             this.External.Name = "External";
             this.External.ReadOnly = true;
             this.External.Width = 50;
@@ -514,12 +543,14 @@
             // 
             this.Orientation.DataPropertyName = "Orient";
             this.Orientation.HeaderText = "Orientation";
+            resources.ApplyResources(this.Orientation, "Orientation");
             this.Orientation.Name = "Orientation";
             this.Orientation.ReadOnly = true;
             // 
             // Up
             // 
             this.Up.HeaderText = "Up";
+            resources.ApplyResources(this.Up, "Up");
             this.Up.Image = global::MissionPlanner.Properties.Resources.up;
             this.Up.Name = "Up";
             this.Up.ReadOnly = true;
@@ -528,6 +559,7 @@
             // Down
             // 
             this.Down.HeaderText = "Down";
+            resources.ApplyResources(this.Down, "Down");
             this.Down.Image = global::MissionPlanner.Properties.Resources.down;
             this.Down.Name = "Down";
             this.Down.ReadOnly = true;
@@ -545,6 +577,7 @@
             this.but_missing.Size = new System.Drawing.Size(75, 23);
             this.but_missing.TabIndex = 90;
             this.but_missing.Text = "Remove Missing";
+            resources.ApplyResources(this.but_missing, "but_missing");
             this.but_missing.UseVisualStyleBackColor = true;
             this.but_missing.Click += new System.EventHandler(this.but_missing_ClickAsync);
             // 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigCompassMot));
             this.components = new System.ComponentModel.Container();
             this.BUT_compassmot = new MissionPlanner.Controls.MyButton();
             this.txt_status = new System.Windows.Forms.TextBox();
@@ -45,6 +46,7 @@
             this.BUT_compassmot.Size = new System.Drawing.Size(75, 23);
             this.BUT_compassmot.TabIndex = 0;
             this.BUT_compassmot.Text = "Start";
+            resources.ApplyResources(this.BUT_compassmot, "BUT_compassmot");
             this.BUT_compassmot.UseVisualStyleBackColor = true;
             this.BUT_compassmot.Click += new System.EventHandler(this.BUT_compassmot_Click);
             // 
@@ -68,6 +70,7 @@
             this.lbl_start.Size = new System.Drawing.Size(29, 13);
             this.lbl_start.TabIndex = 2;
             this.lbl_start.Text = "Start";
+            resources.ApplyResources(this.lbl_start, "lbl_start");
             this.lbl_start.Visible = false;
             // 
             // lbl_finish
@@ -78,6 +81,7 @@
             this.lbl_finish.Size = new System.Drawing.Size(34, 13);
             this.lbl_finish.TabIndex = 3;
             this.lbl_finish.Text = "Finish";
+            resources.ApplyResources(this.lbl_finish, "lbl_finish");
             this.lbl_finish.Visible = false;
             // 
             // lbl_status
@@ -88,6 +92,7 @@
             this.lbl_status.Size = new System.Drawing.Size(132, 13);
             this.lbl_status.TabIndex = 4;
             this.lbl_status.Text = "Compass Motor Calibration";
+            resources.ApplyResources(this.lbl_status, "lbl_status");
             // 
             // zedGraphControl1
             // 

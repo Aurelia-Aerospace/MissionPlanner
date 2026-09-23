@@ -10,9 +10,9 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 {
     public partial class ConfigCompassMot : MyUserControl, IActivate, IDeactivate
     {
-        private readonly LineItem current = new LineItem("Current");
+        private readonly LineItem current = new LineItem(Strings.CompassMotCurrent);
         private readonly PointPairList currentlist = new PointPairList();
-        private readonly LineItem interference = new LineItem("Interference");
+        private readonly LineItem interference = new LineItem(Strings.CompassMotInterference);
         private readonly PointPairList interferencelist = new PointPairList();
         private bool incompassmot;
 
@@ -67,7 +67,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Compassmot requires AC 3.2+", Strings.ERROR);
+                    CustomMessageBox.Show(Strings.CompassmotRequiresAc32, Strings.ERROR);
                 }
                 incompassmot = true;
             }
@@ -96,12 +96,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 interferencelist.Sort();
                 currentlist.Sort();
 
-                var msg = "Current: " + status.current.ToString("0.00") + "\nx,y,z " +
+                var msg = Strings.CompassMotCurrent + ": " + status.current.ToString("0.00") + "\nx,y,z " +
                           status.CompensationX.ToString("0.00") + "," +
                           status.CompensationY.ToString("0.00") +
-                          "," + status.CompensationZ.ToString("0.00") + "\nThrottle: " +
+                          "," + status.CompensationZ.ToString("0.00") + "\n" + Strings.CompassMotThrottle + ": " +
                           (status.throttle / 10.0) +
-                          "\nInterference: " + status.interference;
+                          "\n" + Strings.CompassMotInterference + ": " + status.interference;
 
                 this.BeginInvokeIfRequired(() =>
                 {
@@ -121,13 +121,13 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private void setupgraph()
         {
             zedGraphControl1.GraphPane.YAxis.Title.IsVisible = true;
-            zedGraphControl1.GraphPane.YAxis.Title.Text = "Interference %";
+            zedGraphControl1.GraphPane.YAxis.Title.Text = Strings.CompassMotInterference + " %";
             zedGraphControl1.GraphPane.Title.IsVisible = true;
-            zedGraphControl1.GraphPane.Title.Text = "Compass Motor Calibration";
-            zedGraphControl1.GraphPane.XAxis.Title.Text = "Throttle %";
+            zedGraphControl1.GraphPane.Title.Text = Strings.CompassMotorCalibrationTitle;
+            zedGraphControl1.GraphPane.XAxis.Title.Text = Strings.CompassMotThrottle + " %";
 
             zedGraphControl1.GraphPane.Y2Axis.Title.IsVisible = true;
-            zedGraphControl1.GraphPane.Y2Axis.Title.Text = "Amps";
+            zedGraphControl1.GraphPane.Y2Axis.Title.Text = Strings.CompassMotAmps;
             zedGraphControl1.GraphPane.Y2Axis.IsVisible = true;
 
 

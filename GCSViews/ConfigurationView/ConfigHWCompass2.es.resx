@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Establece la prioridad reordenando las brújulas en la tabla de abajo (la más alta arriba)
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Prioridad de Brújula</value>
+  </data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve">
+    <value>Calibración de Compás a Bordo</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Relajar ajuste si falla la calibración</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ajuste</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Mag 3</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Mag 2</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Mag 1</value>
+  </data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>¿Desactivar alguna de las 3 primeras brújulas?</value>
+  </data>
+  <data name="but_largemagcal.Text" xml:space="preserve">
+    <value>MagCal Vehíc. Grande</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Se requiere una calibración para aplicar estos cambios.</value>
+  </data>
+  <data name="but_reboot.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Se requiere reiniciar para ajustar el orden.
+</value>
+  </data>
+  <data name="mavlinkCheckBoxUseCompass3.Text" xml:space="preserve">
+    <value>Usar Brújula 3</value>
+  </data>
+  <data name="mavlinkCheckBoxUseCompass2.Text" xml:space="preserve">
+    <value>Usar Brújula 2</value>
+  </data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve">
+    <value>Autoaprender offsets</value>
+  </data>
+  <data name="mavlinkCheckBoxUseCompass1.Text" xml:space="preserve">
+    <value>Usar Brújula 1</value>
+  </data>
+  <data name="but_missing.Text" xml:space="preserve">
+    <value>Quitar Faltantes</value>
+  </data>
+  <data name="Priority.HeaderText" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="busTypeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Tipo de bus</value>
+  </data>
+  <data name="addressDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="devTypeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Tipo de disp.</value>
+  </data>
+  <data name="Missing.HeaderText" xml:space="preserve">
+    <value>Faltante</value>
+  </data>
+  <data name="External.HeaderText" xml:space="preserve">
+    <value>Externo</value>
+  </data>
+  <data name="Orientation.HeaderText" xml:space="preserve">
+    <value>Orientación</value>
+  </data>
+  <data name="Up.HeaderText" xml:space="preserve">
+    <value>Arriba</value>
+  </data>
+  <data name="Down.HeaderText" xml:space="preserve">
+    <value>Abajo</value>
+  </data>
+</root>
