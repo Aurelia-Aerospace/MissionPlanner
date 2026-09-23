@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label47.Text" xml:space="preserve">
+    <value>Pin de voltaje</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Capacidad de la batería</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pin actual</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>mAh</value>
+  </data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve">
+    <value>Aviso de MP sobre batería baja</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>6. Amperios por voltio:</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>3. Divisor de tensión (Calced):</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>2. Tensión de la batería (Calced):</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>1. Tensión de la batería medida:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>5. Corriente (Calced)</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>4. Corriente medida:</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="mavlinkComboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 68</value>
+  </data>
+  <data name="CHK_speechbattery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 67</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 44</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 44</value>
+  </data>
+  <data name="TXT_battcapacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 41</value>
+  </data>
+</root>

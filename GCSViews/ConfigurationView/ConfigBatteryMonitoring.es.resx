@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label47.Text" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items" xml:space="preserve">
+    <value>0: Otros</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items1" xml:space="preserve">
+    <value>1: AttoPilot 45A</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items2" xml:space="preserve">
+    <value>2: AttoPilot 90A</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items3" xml:space="preserve">
+    <value>3: AttoPilot 180A</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items4" xml:space="preserve">
+    <value>4: Módulo de alimentación 3DR</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items5" xml:space="preserve">
+    <value>5: Controlador de velocidad 3DR 4 en 1</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items6" xml:space="preserve">
+    <value>6: Módulo de alimentación HV de 3DR para APM</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items7" xml:space="preserve">
+    <value>7: Módulo de potencia Cube HV</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items8" xml:space="preserve">
+    <value>8: CUAV HV PM</value>
+  </data>
+  <data name="CMB_batmonsensortype.Items9" xml:space="preserve">
+    <value>9: Módulo de alimentación Holybro</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Capacidad de la batería</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="CMB_batmontype.Items" xml:space="preserve">
+    <value>0: Desactivado</value>
+  </data>
+  <data name="CMB_batmontype.Items1" xml:space="preserve">
+    <value>3: Voltios de la batería</value>
+  </data>
+  <data name="CMB_batmontype.Items2" xml:space="preserve">
+    <value>4: Tensión y corriente</value>
+  </data>
+  <data name="CMB_HWVersion.Items" xml:space="preserve">
+    <value>0: CUAV V5/Pixhawk4 o APM1</value>
+  </data>
+  <data name="CMB_HWVersion.Items1" xml:space="preserve">
+    <value>1: APM2 - 2,5 (no 3DR)</value>
+  </data>
+  <data name="CMB_HWVersion.Items2" xml:space="preserve">
+    <value>2: APM2.5+/ZealotF427 - Módulo de alimentación 3DR</value>
+  </data>
+  <data name="CMB_HWVersion.Items3" xml:space="preserve">
+    <value>3: PX4</value>
+  </data>
+  <data name="CMB_HWVersion.Items4" xml:space="preserve">
+    <value>4: El Cube o el Pixhawk</value>
+  </data>
+  <data name="CMB_HWVersion.Items5" xml:space="preserve">
+    <value>5: VR Brain 4,5 - 5</value>
+  </data>
+  <data name="CMB_HWVersion.Items6" xml:space="preserve">
+    <value>6: VR Micro Brain 5</value>
+  </data>
+  <data name="CMB_HWVersion.Items7" xml:space="preserve">
+    <value>7: VR Brain 4</value>
+  </data>
+  <data name="CMB_HWVersion.Items8" xml:space="preserve">
+    <value>8: Cubo naranja</value>
+  </data>
+  <data name="CMB_HWVersion.Items9" xml:space="preserve">
+    <value>9: Durandal/ZealotH743</value>
+  </data>
+  <data name="CMB_HWVersion.Items10" xml:space="preserve">
+    <value>10: Pixhawk 6C/Pix32 v6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Versión HW</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>mAh</value>
+  </data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve">
+    <value>Aviso de MP sobre batería baja</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>6. Amperios por voltio:</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>3. Divisor de tensión (Calced):</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>2. Tensión de la batería (Calced):</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>1. Tensión de la batería medida:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>5. Corriente (Calced)</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>4. Corriente medida:</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 18</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 12</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 12</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 45</value>
+  </data>
+  <data name="TXT_voltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 35</value>
+  </data>
+  <data name="CMB_HWVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 95</value>
+  </data>
+  <data name="TXT_battcapacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 45</value>
+  </data>
+</root>

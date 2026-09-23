@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Aceleración 0-100 %</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Valor FS</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Mín.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Crucero</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Servo Roll PID</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Límite de intensidad</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>Límite de esfuerzo</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Servo de paso PID</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Límite de la intensidad</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Límite de esfuerzo</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Altura energética</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Gama EH</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Límite de entrada</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Límite de esfuerzo</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Título provisional</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Límite de intensidad</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Límite de esfuerzo</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Velocidad aerodinámica en función del ángulo de inclinación</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Límite de entrada</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Límite de esfuerzo</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>PID de giro del servo</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Límite de velocidad de guiñada</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Trayectoria y órbita</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Radio por defecto</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Orbit Gain</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Ángulo de entrada</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Ganancia de pista</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Ángulos de navegación</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Paso mínimo</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Pitch Max</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Banco Min</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Bank Max</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Ajustes del altímetro</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>en Hg</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Altitud del terreno</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Despegue / Aterrizaje</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Velocidad de aproximación</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Cabeceo mínimo TO</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Velocidad aerodinámica (m/s)</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Velocidad máxima</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Velocidad mínima</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Crucero</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Rodar hasta Elev</value>
+  </data>
+  <data name="BUT_read_flash.Text" xml:space="preserve">
+    <value>Leer Flash</value>
+  </data>
+  <data name="BUT_write_flash.Text" xml:space="preserve">
+    <value>Escribir en Flash</value>
+  </data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve">
+    <value>Actualizar parámetros</value>
+  </data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve">
+    <value>Escribir parámetros</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 16</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 16</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 16</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 16</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 16</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 16</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="PITCH_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 101</value>
+  </data>
+  <data name="LOITER_RD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 101</value>
+  </data>
+  <data name="ENTRY_ANGLE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 44</value>
+  </data>
+  <data name="ARSPD_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 44</value>
+  </data>
+  <data name="HDG_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 131</value>
+  </data>
+  <data name="T_OFF_PITCH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 16</value>
+  </data>
+  <data name="PITCH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 131</value>
+  </data>
+  <data name="ROLL_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 131</value>
+  </data>
+  <data name="FLD_ELEV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="LND_APCH_SPD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 44</value>
+  </data>
+  <data name="EH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 131</value>
+  </data>
+  <data name="YAW_RATE_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 44</value>
+  </data>
+  <data name="XTRACK_GAIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 16</value>
+  </data>
+  <data name="ARSPD_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 131</value>
+  </data>
+</root>

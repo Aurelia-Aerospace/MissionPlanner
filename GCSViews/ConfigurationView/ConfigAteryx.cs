@@ -295,7 +295,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
                 if ((MainV2.comPort.MAV.cs.airspeed > 7.0) || (MainV2.comPort.MAV.cs.groundspeed > 10.0))
                 {
-                    CustomMessageBox.Show("Unable - UAV airborne");
+                    CustomMessageBox.Show(Strings.UnableUavAirborne);
                     ((Button)sender).Enabled = true;
                     return;
                 }
@@ -305,7 +305,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("The Command failed to execute");
+                CustomMessageBox.Show(Strings.CommandFailed);
             }
             ((Button)sender).Enabled = true;
         }
@@ -314,7 +314,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             try
             {
-                var dr = CustomMessageBox.Show("Reset Flash to Factory Defaults?", "Continue", MessageBoxButtons.YesNo);
+                var dr = CustomMessageBox.Show(Strings.ResetFlashToFactoryDefaults, "Continue", MessageBoxButtons.YesNo);
                 if (dr == (int)DialogResult.Yes)
                 {
                     if ((MainV2.comPort.MAV.cs.airspeed > 7.0) || (MainV2.comPort.MAV.cs.groundspeed > 7.0))

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nivela el piloto automático para configurar los ajustes predeterminados del acelerómetro (ajustes de 1 eje/AHRS).
+Para ello, debes colocar el piloto automático en posición horizontal y nivelado.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Nivela tu piloto automático para configurar los valores mínimos y máximos predeterminados del acelerómetro (3 ejes).
+Para ello, se te pedirá que coloques el piloto automático sobre cada uno de sus bordes.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nivela el piloto automático para establecer los factores de escala predeterminados del acelerómetro para el vuelo en horizontal (1 eje).
+Para ello, debes colocar el piloto automático en posición horizontal y nivelado.</value>
+  </data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve">
+    <value>Calibrar el acelerómetro</value>
+  </data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve">
+    <value>Calibración simple de aceleración</value>
+  </data>
+  <data name="BUT_level.Text" xml:space="preserve">
+    <value>Calibrar el nivel</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Calibración del acelerómetro</value>
+  </data>
+</root>

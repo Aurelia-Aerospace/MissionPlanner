@@ -84,7 +84,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT2_CAPACITY Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBatt2CapacityFailed, Strings.ERROR);
             }
         }
 
@@ -114,7 +114,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT2_VOLT_MULT Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBatt2VoltMultFailed, Strings.ERROR);
             }
         }
 
@@ -142,7 +142,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
             catch
             {
-                CustomMessageBox.Show("Set BATT2_AMP_PERVOL Failed", Strings.ERROR);
+                CustomMessageBox.Show(Strings.SetBatt2AmpPervolFailed, Strings.ERROR);
             }
         }
 

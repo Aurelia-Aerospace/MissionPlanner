@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Las siguientes páginas están destinadas exclusivamente a la configuración avanzada. Úsalas con precaución.</value>
+  </data>
+  <data name="but_mavinspector.Text" xml:space="preserve">
+    <value>MAVLink Inspector</value>
+  </data>
+  <data name="but_warningmanager.Text" xml:space="preserve">
+    <value>Gestor de alertas</value>
+  </data>
+  <data name="but_proximity.Text" xml:space="preserve">
+    <value>Proximidad</value>
+  </data>
+  <data name="but_signkey.Text" xml:space="preserve">
+    <value>Firma de Mavlink</value>
+  </data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve">
+    <value>Mavlink Mirror</value>
+  </data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve">
+    <value>NMEA</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Compartir la conexión con un técnico de asistencia</value>
+  </data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve">
+    <value>Proxy de soporte</value>
+  </data>
+  <data name="BUT_spect.Text" xml:space="preserve">
+    <value>Espectrograma</value>
+  </data>
+  <data name="but_fft.Text" xml:space="preserve">
+    <value>FFT</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Mostrar la ubicación del MAV como una cadena NMEA</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Replicación de Mavlink en una ubicación externa. Para supervisión o control</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Activa la firma MAVLink para garantizar la seguridad de la comunicación con el MAV</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ver los datos de un lidar 360</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Activar advertencias personalizadas basadas en una serie de condiciones</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ver los datos MAVLink descodificados que se envían y se reciben</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Codificar las coordenadas de latitud y longitud en «bin» o «tlog»</value>
+  </data>
+  <data name="BUT_follow_me.Text" xml:space="preserve">
+    <value>Sígueme</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Utiliza un GPS NMEA externo y envía puntos de ruta en modo guiado al MAV basándote en esa ubicación.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Regenerar la información de parámetros utilizada en mp</value>
+  </data>
+  <data name="BUT_paramgen.Text" xml:space="preserve">
+    <value>Param gen</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Mostrar un icono adicional en el mapa que indique tu ubicación actual.</value>
+  </data>
+  <data name="BUT_movingbase.Text" xml:space="preserve">
+    <value>Base móvil</value>
+  </data>
+  <data name="but_anonlog.Text" xml:space="preserve">
+    <value>Registro anónimo</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Trazar una FFT a partir de un registro</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Trazar una FFT a partir de un registro</value>
+  </data>
+</root>
