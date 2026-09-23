@@ -196,7 +196,7 @@ namespace MissionPlanner.Log
                 }
                 catch
                 {
-                    CustomMessageBox.Show("Line Doesn't Exist");
+                    CustomMessageBox.Show(Strings.LineDoesnTExist);
                 }
 
                 return true;
@@ -1081,7 +1081,7 @@ namespace MissionPlanner.Log
 
             if (col == 0)
             {
-                CustomMessageBox.Show("Please pick another column, Highlight the cell you wish to graph",
+                CustomMessageBox.Show(Strings.PleasePickAnotherColumnHighlightThe,
                     Strings.ERROR);
                 return;
             }
@@ -1561,7 +1561,7 @@ main()
                         log.Info("Bad Data : " + type + " " + col + " " + a);
                         if (error >= 500)
                         {
-                            CustomMessageBox.Show("There is to much bad data - failing");
+                            CustomMessageBox.Show(Strings.ThereIsToMuchBadData);
                             break;
                         }
                     }

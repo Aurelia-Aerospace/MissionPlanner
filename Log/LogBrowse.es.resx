@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="exportVisibleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exportar visible</value>
+  </data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exportar archivos</value>
+  </data>
+  <data name="BUT_Graphit.Text" xml:space="preserve">
+    <value>Gráfico de la izquierda</value>
+  </data>
+  <data name="BUT_cleargraph.Text" xml:space="preserve">
+    <value>Borrar gráfico</value>
+  </data>
+  <data name="BUT_loadlog.Text" xml:space="preserve">
+    <value>Cargar un registro</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>GPSB</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>GPS2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="chk_params.Text" xml:space="preserve">
+    <value>Mostrar parámetros</value>
+  </data>
+  <data name="chk_events.Text" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="chk_datagrid.Text" xml:space="preserve">
+    <value>Tabla de datos</value>
+  </data>
+  <data name="chk_msg.Text" xml:space="preserve">
+    <value>MSG</value>
+  </data>
+  <data name="chk_errors.Text" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="chk_mode.Text" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+  <data name="BUT_Graphit_R.Text" xml:space="preserve">
+    <value>Gráfico a la derecha</value>
+  </data>
+  <data name="chk_time.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="CHK_map.Text" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="BUT_removeitem.Text" xml:space="preserve">
+    <value>Eliminar elemento</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Explorar el registro</value>
+  </data>
+  <data name="chk_params.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="chk_errors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="CHK_map.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="chk_datagrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 8</value>
+  </data>
+  <data name="chk_mode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>939, 7</value>
+  </data>
+  <data name="chk_datagrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 7</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 9</value>
+  </data>
+  <data name="chk_errors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 7</value>
+  </data>
+  <data name="chk_time.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 7</value>
+  </data>
+  <data name="chk_events.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1134, 7</value>
+  </data>
+  <data name="chk_params.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 7</value>
+  </data>
+  <data name="CMB_preselect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>833, 5</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 8</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 8</value>
+  </data>
+  <data name="chk_msg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1078, 7</value>
+  </data>
+</root>

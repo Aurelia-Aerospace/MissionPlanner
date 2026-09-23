@@ -72,7 +72,7 @@ namespace MissionPlanner.Log
                         float temp = 0;
                         if (!float.TryParse(offsetalt, out temp))
                         {
-                            CustomMessageBox.Show("Bad Offset", "Error");
+                            CustomMessageBox.Show(Strings.BadOffset, "Error");
                             return;
                         }
                     }
@@ -90,7 +90,7 @@ namespace MissionPlanner.Log
                             catch (Exception ex)
                             {
                                 log.Debug(ex.ToString());
-                                CustomMessageBox.Show("Log Can not be opened. Are you still connected?");
+                                CustomMessageBox.Show(Strings.LogCanNotBeOpenedAre);
                                 return;
                             }
 
@@ -574,7 +574,7 @@ namespace MissionPlanner.Log
             }
             catch
             {
-                CustomMessageBox.Show("Bad PacketName");
+                CustomMessageBox.Show(Strings.BadPacketname);
                 return;
             }
 
@@ -634,7 +634,7 @@ namespace MissionPlanner.Log
             }
             else
             {
-                CustomMessageBox.Show("Compile Failed");
+                CustomMessageBox.Show(Strings.CompileFailed);
                 return;
             }
 
@@ -1136,11 +1136,11 @@ namespace MissionPlanner.Log
                                 mine.logplaybackfile = null;
                             }
 
-                            CustomMessageBox.Show("File Saved with log file");
+                            CustomMessageBox.Show(Strings.FileSavedWithLogFile);
                         }
                         catch
                         {
-                            CustomMessageBox.Show("Error Extracting params");
+                            CustomMessageBox.Show(Strings.ErrorExtractingParams);
                         }
                     }
                 }
@@ -1278,11 +1278,11 @@ namespace MissionPlanner.Log
                             {
                                 if (wplists == 0)
                                 {
-                                    CustomMessageBox.Show("No Waypoint found in file!");
+                                    CustomMessageBox.Show(Strings.NoWaypointFoundInFile);
                                 }
                                 else
                                 {
-                                    CustomMessageBox.Show("File Saved with log file!");
+                                    CustomMessageBox.Show(Strings.FileSavedWithLogFile2);
                                 }
                             }
                         }
